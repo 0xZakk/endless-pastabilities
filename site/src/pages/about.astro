@@ -1,0 +1,847 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="About — Endless Pastabilities">
+  <section class="about-page">
+    <div class="container">
+      <header class="page-header">
+        <a href="/" class="back-link">&larr; All Shapes</a>
+        <h1>How We Built This</h1>
+        <p class="page-subtitle">
+          A technical deep-dive into the data pipeline behind Endless Pastabilities.
+        </p>
+      </header>
+
+      <div class="about-content">
+
+        <!-- ── Overview ────────────────────────────────────── -->
+
+        <section class="content-section">
+          <p>
+            <strong>Endless Pastabilities</strong> is an encyclopedia of 123 pasta shapes, built by
+            extracting and synthesizing knowledge from 8 of the world's best pasta books.
+            Every description, shaping instruction, and historical note on this site comes
+            directly from the source texts — nothing has been fabricated.
+          </p>
+
+          <p>
+            The project is an intentionally overengineered data science pipeline: we used
+            NLP entity extraction, vector embeddings, semantic search, and multi-source
+            knowledge assembly to turn 4.5 million characters of unstructured pasta literature
+            into a structured, browsable encyclopedia.
+          </p>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Architecture Diagram ────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Architecture Overview</h2>
+
+          <div class="diagram">
+            <pre class="ascii-diagram">{`
+  ┌─────────────────────────────────────────────────────┐
+  │         8 SOURCE BOOKS  (3 PDFs, 5 EPUBs)           │
+  │     4.5 million characters of pasta knowledge        │
+  └──────────────────────┬──────────────────────────────┘
+                         │
+                         ▼
+  ┌──────────────────────────────────────────────────────┐
+  │  ① TEXT EXTRACTION                                    │
+  │  PyMuPDF + pdfplumber (PDF) │ ebooklib + BS4 (EPUB)  │
+  │  Output: structured JSON per book with metadata       │
+  └──────────────────────┬──────────────────────────────┘
+                         │
+                         ▼
+  ┌──────────────────────────────────────────────────────┐
+  │  ② CHUNKING & EMBEDDING                               │
+  │  ~800 char chunks with 150 char overlap               │
+  │  sentence-transformers (all-MiniLM-L6-v2)             │
+  │  → 4,602 vectors in ChromaDB                          │
+  └──────────┬───────────────────────────┬──────────────┘
+             │                           │
+             ▼                           ▼
+  ┌────────────────────┐   ┌─────────────────────────┐
+  │ ③ ENTITY EXTRACT   │   │ ④ ENTITY EXTRACT        │
+  │ Pasta Shapes        │   │ Dough Recipes           │
+  │ Pattern + heuristic │   │ Semantic search +       │
+  │ NLP extraction      │   │ recipe parsing          │
+  │ → 319 candidates    │   │ → 10 canonical doughs   │
+  │ → 123 curated       │   │                         │
+  └──────────┬──────────┘   └────────────┬────────────┘
+             │                           │
+             ▼                           ▼
+  ┌──────────────────────────────────────────────────────┐
+  │  ⑤ KNOWLEDGE ASSEMBLY                                 │
+  │  For each shape: semantic search → gather evidence    │
+  │  → synthesize description, instructions, history      │
+  │  All content grounded in source material              │
+  └──────────────────────┬──────────────────────────────┘
+                         │
+                         ▼
+  ┌──────────────────────────────────────────────────────┐
+  │  ⑥ STATIC SITE GENERATION                             │
+  │  Astro → 136 pages (123 shapes + 10 doughs + 3)      │
+  │  Minimal design, serif typography, warm palette       │
+  └──────────────────────────────────────────────────────┘
+            `}</pre>
+          </div>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Phase 1 ─────────────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Phase 1: Text Extraction</h2>
+
+          <div class="phase-stats">
+            <div class="stat">
+              <span class="stat-value">8</span>
+              <span class="stat-label">Books processed</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">4.5M</span>
+              <span class="stat-label">Characters extracted</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">2</span>
+              <span class="stat-label">Extraction engines</span>
+            </div>
+          </div>
+
+          <p>
+            The pipeline begins with raw book files — 3 PDFs and 5 EPUBs covering everything from
+            Oretta Zanini De Vita's encyclopedic reference (the definitive scholarly work on Italian
+            pasta shapes) to Vicky Bennison's Pasta Grannies with its regional home-cooking traditions.
+          </p>
+
+          <p>
+            <strong>PDF extraction</strong> uses a dual-engine approach: <em>PyMuPDF</em> handles primary
+            text extraction (superior for general text layout), while <em>pdfplumber</em> runs in
+            parallel to capture tabular data and structured layouts that PyMuPDF might flatten.
+            The results are merged — PyMuPDF text with pdfplumber tables — giving us the best of both.
+          </p>
+
+          <p>
+            <strong>EPUB extraction</strong> uses <em>ebooklib</em> to unpack the EPUB container and
+            iterate over document items, then <em>BeautifulSoup</em> to parse each chapter's XHTML
+            into clean text. The HTML cleaner preserves structural hierarchy — headings become
+            markdown-style markers, lists are maintained, and non-content elements (scripts, styles,
+            navigation) are stripped.
+          </p>
+
+          <p>
+            Each book's output is a structured JSON file containing metadata (title, author, year, format)
+            and an array of sections with their text content, page numbers (PDFs) or chapter IDs (EPUBs),
+            and character counts.
+          </p>
+
+          <div class="diagram">
+            <pre class="ascii-diagram">{`
+  Source File                Extraction Engine        Output
+  ─────────────────────     ──────────────────       ──────────────
+  Encyclopedia.pdf     →    PyMuPDF + pdfplumber  →  zanini_encyclopedia.json
+  Pasta By Hand.pdf    →    PyMuPDF + pdfplumber  →  louis_byhand.json
+  A-Z of Pasta.epub    →    ebooklib + BS4        →  roddy_atoz.json
+  Mastering Pasta.epub →    ebooklib + BS4        →  vetri_mastering.json
+  ...                       ...                      ...
+            `}</pre>
+          </div>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Phase 2 ─────────────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Phase 2: Chunking & Embedding</h2>
+
+          <div class="phase-stats">
+            <div class="stat">
+              <span class="stat-value">4,602</span>
+              <span class="stat-label">Semantic chunks</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">384</span>
+              <span class="stat-label">Embedding dimensions</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">~800</span>
+              <span class="stat-label">Chars per chunk</span>
+            </div>
+          </div>
+
+          <p>
+            Raw book text isn't useful for retrieval — a single book might be 800,000+ characters.
+            We need to break it into semantically meaningful chunks small enough for embedding models
+            to handle, but large enough to preserve context.
+          </p>
+
+          <p>
+            <strong>Chunking strategy:</strong> Text is split at paragraph boundaries with a target
+            size of ~800 characters and 150-character overlap between consecutive chunks. The overlap
+            ensures that information spanning a chunk boundary isn't lost. When a single paragraph
+            exceeds the chunk size (common in encyclopedic entries), we fall back to sentence-boundary
+            splitting.
+          </p>
+
+          <p>
+            <strong>Embedding:</strong> Each chunk is embedded using <em>sentence-transformers</em>
+            with the <em>all-MiniLM-L6-v2</em> model — a compact (22M parameter) model that produces
+            384-dimensional vectors optimized for semantic similarity. Despite its small size, it
+            performs remarkably well for this domain.
+          </p>
+
+          <p>
+            <strong>Storage:</strong> Chunks and their embeddings are stored in <em>ChromaDB</em>,
+            a lightweight, file-based vector database. ChromaDB handles the ONNX runtime for the
+            embedding model and provides efficient approximate nearest-neighbor search. The entire
+            database is ~50MB on disk.
+          </p>
+
+          <p>
+            We validated the index with test queries:
+          </p>
+
+          <div class="diagram">
+            <pre class="ascii-diagram">{`
+  Query: "orecchiette from Puglia"
+  ──────────────────────────────────────────────────────────
+  [0.764]  An A-Z of Pasta / Section 12
+           "My friend never wants to go back to her home
+            town in Puglia, but when I went..."
+
+  [0.856]  Pasta / Orecchiette with Duck
+           "Orecchiette with Duck..."
+
+  [0.880]  An A-Z of Pasta / Section 12
+           "Orecchiette — Impara l'arte e mettila da
+            parte, learn the art, and store it..."
+            `}</pre>
+          </div>
+
+          <p class="text-small text-muted">
+            Lower distance = higher relevance. The search correctly finds orecchiette content
+            across multiple books, ranking the most relevant passages first.
+          </p>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Phase 3 ─────────────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Phase 3: Entity Extraction — Pasta Shapes</h2>
+
+          <div class="phase-stats">
+            <div class="stat">
+              <span class="stat-value">983</span>
+              <span class="stat-label">Candidate entities</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">319</span>
+              <span class="stat-label">After dedup</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">123</span>
+              <span class="stat-label">Curated shapes</span>
+            </div>
+          </div>
+
+          <p>
+            The goal here is to answer: <em>what pasta shapes exist in our corpus?</em> We used
+            a hybrid approach combining source-specific extractors with semantic enhancement.
+          </p>
+
+          <p>
+            <strong>Source-specific extractors</strong> were written for each book's structure.
+            Zanini De Vita's Encyclopedia has a consistent entry format (shape name → also known as → description),
+            so we pattern-matched headings. Roddy's A-Z is organized alphabetically with markdown-style
+            headings. The Coastal Kitchen's encyclopedia has recipe-titled sections. Jenn Louis's
+            Pasta By Hand has chapter-level shape names. Each extractor was tuned to its source.
+          </p>
+
+          <p>
+            <strong>Deduplication</strong> normalized names (lowercasing, accent handling, parenthetical removal)
+            and merged entries from different sources. "Orecchiette" from five different books becomes
+            one canonical entry with five source references.
+          </p>
+
+          <p>
+            <strong>Semantic enhancement</strong> used the ChromaDB vector store to find additional
+            mentions of each shape across all books. For each candidate shape, we queried
+            <code>"{'{shape name}'} pasta shape"</code> and tracked which books returned relevant results
+            within a distance threshold of 1.2.
+          </p>
+
+          <p>
+            <strong>Curation</strong> was the critical final step. The raw 319 entities included
+            noise — recipe names ("Lobster Fettuccine"), ingredient measurements, region names,
+            and book metadata. We built a curated registry of 123 real pasta shapes with proper
+            category classifications (hand-shaped, hand-cut, filled, extruded, sheet, dumpling, small).
+          </p>
+
+          <div class="diagram">
+            <pre class="ascii-diagram">{`
+  Extraction Funnel
+  ─────────────────────────────────────────
+  983 candidates  (raw extraction from all sources)
+   │
+   ├─ Deduplication & normalization
+   ▼
+  382 unique names
+   │
+   ├─ Semantic enhancement (cross-reference with vector DB)
+   │
+   ├─ Noise filtering (recipes, ingredients, metadata)
+   │
+   ├─ Category classification
+   ▼
+  123 curated pasta shapes with categories
+            `}</pre>
+          </div>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Phase 4 ─────────────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Phase 4: Entity Extraction — Dough Recipes</h2>
+
+          <div class="phase-stats">
+            <div class="stat">
+              <span class="stat-value">213</span>
+              <span class="stat-label">Dough-related chunks</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">10</span>
+              <span class="stat-label">Canonical dough types</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">8</span>
+              <span class="stat-label">Source books</span>
+            </div>
+          </div>
+
+          <p>
+            Dough extraction used a semantic-search-first approach. We queried the vector store
+            with 17 targeted queries like <code>"basic egg pasta dough recipe flour eggs"</code>,
+            <code>"semolina water dough recipe no eggs"</code>, and <code>"squid ink black pasta dough"</code>,
+            collecting 213 relevant chunks.
+          </p>
+
+          <p>
+            Each chunk was classified into one of 10 canonical dough types using keyword scoring —
+            a text mentioning "semolina" and "water" and "no egg" scores highest for the
+            semolina-water category. The 10 types represent the fundamental dough traditions
+            of Italian pasta making:
+          </p>
+
+          <table class="tech-table">
+            <tbody>
+              <tr><td>Standard Egg Dough</td><td>The northern Italian foundation — flour, eggs, olive oil</td></tr>
+              <tr><td>Rich Egg Yolk Dough</td><td>All yolks for golden, silky pasta like tajarin</td></tr>
+              <tr><td>Semolina & Water</td><td>The eggless southern tradition — firm, rustic texture</td></tr>
+              <tr><td>Flour & Water</td><td>Simplest dough — for pici, umbricelli, and peasant pastas</td></tr>
+              <tr><td>Buckwheat</td><td>Alpine tradition — for pizzoccheri</td></tr>
+              <tr><td>Saffron</td><td>Sardinian tradition — for malloreddus and lorighittas</td></tr>
+              <tr><td>Spinach</td><td>Vibrant green — for lasagne verde and tagliatelle</td></tr>
+              <tr><td>Squid Ink</td><td>Dramatic black — Venetian and coastal tradition</td></tr>
+              <tr><td>Chestnut Flour</td><td>Sweet, delicate — Ligurian mountain tradition</td></tr>
+              <tr><td>Whole Wheat</td><td>Nutty, hearty — rustic variation</td></tr>
+            </tbody>
+          </table>
+
+          <p>
+            Each dough type was then linked to the pasta shapes that traditionally use it,
+            creating a bidirectional relationship: shapes reference their dough, doughs list
+            their shapes.
+          </p>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Phase 5 ─────────────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Phase 5: Knowledge Assembly</h2>
+
+          <div class="phase-stats">
+            <div class="stat">
+              <span class="stat-value">5,272</span>
+              <span class="stat-label">Source chunks gathered</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">~43</span>
+              <span class="stat-label">Chunks per shape (avg)</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">100%</span>
+              <span class="stat-label">Content coverage</span>
+            </div>
+          </div>
+
+          <p>
+            This is where everything comes together. For each of the 123 curated pasta shapes,
+            we ran a multi-query semantic search against the vector store, gathering every relevant
+            passage from every book.
+          </p>
+
+          <p>
+            <strong>Query strategy:</strong> Four queries per shape, each targeting different aspects:
+          </p>
+
+          <ol class="pipeline-steps">
+            <li><code>"{'{shape name}'} pasta"</code> — general information</li>
+            <li><code>"{'{shape name}'} how to make shape dough"</code> — shaping technique</li>
+            <li><code>"{'{shape name}'} history origin region tradition"</code> — cultural context</li>
+            <li><code>"{'{shape name}'} ingredients recipe"</code> — recipe details</li>
+          </ol>
+
+          <p>
+            With a distance threshold of 1.1, this gathered an average of 43 relevant chunks
+            per shape — cross-referencing information from multiple books to build the richest
+            possible picture.
+          </p>
+
+          <p>
+            <strong>Content synthesis</strong> then processed these gathered passages into three
+            structured fields per shape:
+          </p>
+
+          <ul class="sources-list">
+            <li><strong>Description</strong> — What the shape looks like and its character (1-2 sentences)</li>
+            <li><strong>Instructions</strong> — Step-by-step shaping technique, synthesized from the most
+              detailed source accounts (typically 5-8 steps)</li>
+            <li><strong>History</strong> — Origins, etymology, regional traditions, and cultural significance,
+              woven from details across multiple sources into a coherent narrative (2-4 sentences)</li>
+          </ul>
+
+          <p>
+            The result: 123 shapes, each with 100% coverage across description, instructions, and history.
+            Every fact is grounded in the source material.
+          </p>
+
+          <div class="diagram">
+            <pre class="ascii-diagram">{`
+  Example: Orecchiette
+  ──────────────────────────────────────────────────────
+
+  Source evidence from 7 books:
+    Encyclopedia of Pasta  →  Entry #28, etymology, regional spread
+    An A-Z of Pasta        →  Angevin Provence connection, Arco Basso
+    Pasta By Hand          →  Detailed shaping technique, semolina dough
+    Mastering Pasta        →  Finger technique, texture notes
+    Pasta Grannies         →  Street-side making tradition in Bari
+    Pasta (Theo Randall)   →  Recipe with duck sauce
+    Coastal Encyclopedia   →  Additional recipe variations
+
+  Synthesized output:
+    Description  →  "Small, ear-shaped pasta with a thin center
+                     and thicker rim..."
+    Instructions →  7 steps from dough prep to final shape
+    History      →  Angevin origins, Giambattista del Tufo (1500s),
+                     women of Arco Basso in Old Bari
+            `}</pre>
+          </div>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Phase 6 ─────────────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Phase 6: Static Site Generation</h2>
+
+          <div class="phase-stats">
+            <div class="stat">
+              <span class="stat-value">136</span>
+              <span class="stat-label">Pages generated</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">512ms</span>
+              <span class="stat-label">Build time</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">0</span>
+              <span class="stat-label">JavaScript frameworks</span>
+            </div>
+          </div>
+
+          <p>
+            The assembled knowledge base (a single JSON file) is consumed by <em>Astro</em>,
+            a static site generator that produces plain HTML with zero client-side JavaScript
+            by default. The entire site builds in under a second.
+          </p>
+
+          <p>
+            <strong>Design philosophy:</strong> Minimal, elevated, classic, refined. The site uses
+            a warm off-white background (<code>#fafaf8</code>), a restrained palette of ink
+            and muted tones, and serif typography (Iowan Old Style / Palatino) for body text
+            with a clean sans-serif (Gill Sans) for labels and navigation. Generous white space
+            and thin horizontal rules create visual breathing room.
+          </p>
+
+          <p>
+            <strong>Page types:</strong>
+          </p>
+
+          <ul class="sources-list">
+            <li><strong>Homepage</strong> — All 123 shapes organized by category with a grid layout</li>
+            <li><strong>Shape pages</strong> (×123) — Name, category tag, region, dough link, step-by-step
+              instructions with numbered counters, and history with a drop-cap first letter</li>
+            <li><strong>Dough pages</strong> (×10) — Full recipes with ingredient lists, method steps,
+              tips, and links to shapes that use the dough</li>
+            <li><strong>Dough index</strong> — Overview of all 10 dough types</li>
+            <li><strong>This page</strong> — Technical deep-dive</li>
+          </ul>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── By the Numbers ──────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>By the Numbers</h2>
+
+          <table class="tech-table">
+            <tbody>
+              <tr><td>Source Books</td><td>8 (3 PDFs, 5 EPUBs)</td></tr>
+              <tr><td>Raw Text Extracted</td><td>4,498,875 characters</td></tr>
+              <tr><td>Semantic Chunks</td><td>4,602</td></tr>
+              <tr><td>Vector Dimensions</td><td>384 (all-MiniLM-L6-v2)</td></tr>
+              <tr><td>Candidate Entities</td><td>983 pasta shapes identified</td></tr>
+              <tr><td>Curated Shapes</td><td>123 with full content</td></tr>
+              <tr><td>Dough Recipes</td><td>10 canonical types with full recipes</td></tr>
+              <tr><td>Content Coverage</td><td>100% (description + instructions + history)</td></tr>
+              <tr><td>Generated Pages</td><td>136</td></tr>
+              <tr><td>Build Time</td><td>512ms</td></tr>
+              <tr><td>External APIs Used</td><td>0 — entirely local pipeline</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Tech Stack ──────────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Tech Stack</h2>
+
+          <h3 class="stack-heading">Data Pipeline (Python)</h3>
+          <table class="tech-table">
+            <tbody>
+              <tr><td>PDF Extraction</td><td>PyMuPDF (primary text) + pdfplumber (tables)</td></tr>
+              <tr><td>EPUB Extraction</td><td>ebooklib + BeautifulSoup4 + lxml</td></tr>
+              <tr><td>Text Chunking</td><td>Custom paragraph-boundary splitter with overlap</td></tr>
+              <tr><td>Embeddings</td><td>sentence-transformers / all-MiniLM-L6-v2 (via ONNX)</td></tr>
+              <tr><td>Vector Database</td><td>ChromaDB (persistent, file-based)</td></tr>
+              <tr><td>Entity Extraction</td><td>Custom pattern matchers + heuristic classifiers</td></tr>
+              <tr><td>Knowledge Assembly</td><td>Multi-query semantic retrieval + content synthesis</td></tr>
+            </tbody>
+          </table>
+
+          <h3 class="stack-heading">Website</h3>
+          <table class="tech-table">
+            <tbody>
+              <tr><td>Framework</td><td>Astro 6 (static site generation)</td></tr>
+              <tr><td>Styling</td><td>Scoped CSS with CSS custom properties</td></tr>
+              <tr><td>Typography</td><td>System serif stack (Iowan Old Style / Palatino / Georgia)</td></tr>
+              <tr><td>JavaScript</td><td>Zero (static HTML only)</td></tr>
+              <tr><td>Data Format</td><td>Single JSON file consumed at build time</td></tr>
+            </tbody>
+          </table>
+
+          <h3 class="stack-heading">Pipeline Scripts</h3>
+          <table class="tech-table">
+            <tbody>
+              <tr><td>01_extract.py</td><td>Text extraction from PDFs and EPUBs</td></tr>
+              <tr><td>02_chunk_embed.py</td><td>Chunking, embedding, and ChromaDB storage</td></tr>
+              <tr><td>03_extract_shapes.py</td><td>Pasta shape entity extraction and dedup</td></tr>
+              <tr><td>04_extract_doughs.py</td><td>Dough recipe extraction and classification</td></tr>
+              <tr><td>05_assemble.py</td><td>Per-shape knowledge assembly via semantic search</td></tr>
+              <tr><td>06_gather_sources.py</td><td>Source text gathering for content generation</td></tr>
+              <tr><td>07_merge_generated.py</td><td>Final database assembly and site deployment</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <hr class="rule" />
+
+        <!-- ── Sources ─────────────────────────────────────── -->
+
+        <section class="content-section">
+          <h2>Sources</h2>
+
+          <p>
+            All content on this site is derived from these 8 books. We are deeply grateful
+            to these authors for their scholarship and passion for the craft of pasta.
+          </p>
+
+          <ul class="sources-list book-list">
+            <li>
+              <strong>Encyclopedia of Pasta</strong><br />
+              <span class="text-muted">Oretta Zanini De Vita, translated by Maureen B. Fant (2009)</span><br />
+              <span class="text-small text-light">The definitive scholarly reference — 300+ regional pasta shapes documented with historical sources.</span>
+            </li>
+            <li>
+              <strong>An A-Z of Pasta</strong><br />
+              <span class="text-muted">Rachel Roddy (2021)</span><br />
+              <span class="text-small text-light">Alphabetical journey through pasta shapes with personal narrative and Roman kitchen wisdom.</span>
+            </li>
+            <li>
+              <strong>The Encyclopedia of Pasta: Over 350 Recipes</strong><br />
+              <span class="text-muted">The Coastal Kitchen / Cider Mill Press (2023)</span><br />
+              <span class="text-small text-light">Comprehensive recipe collection with dough formulas and detailed technique instructions.</span>
+            </li>
+            <li>
+              <strong>Mastering Pasta</strong><br />
+              <span class="text-muted">Marc Vetri & David Joachim (2015)</span><br />
+              <span class="text-small text-light">A chef's deep-dive into flour science, dough technique, and the craft of handmade pasta.</span>
+            </li>
+            <li>
+              <strong>Pasta Grannies</strong><br />
+              <span class="text-muted">Vicky Bennison (2019)</span><br />
+              <span class="text-small text-light">Regional traditions from Italian grandmothers — the living memory of pasta making.</span>
+            </li>
+            <li>
+              <strong>Pasta By Hand</strong><br />
+              <span class="text-muted">Jenn Louis (2015)</span><br />
+              <span class="text-small text-light">Focused entirely on hand-shaped regional pasta with precise technique instructions.</span>
+            </li>
+            <li>
+              <strong>Pasta and Noodles: A Global History</strong><br />
+              <span class="text-muted">Kantha Shelke (2016)</span><br />
+              <span class="text-small text-light">Historical and cultural context for pasta's evolution across civilizations.</span>
+            </li>
+            <li>
+              <strong>Pasta</strong><br />
+              <span class="text-muted">Theo Randall (2013)</span><br />
+              <span class="text-small text-light">A London chef's love letter to Italian pasta with recipes organized by shape.</span>
+            </li>
+          </ul>
+        </section>
+
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .about-page {
+    padding: var(--space-lg) 0 var(--space-xl);
+  }
+
+  .page-header {
+    margin-bottom: var(--space-lg);
+  }
+
+  .page-header h1 {
+    margin-bottom: var(--space-xs);
+  }
+
+  .page-subtitle {
+    color: var(--color-ink-light);
+    font-size: 1.1rem;
+  }
+
+  .back-link {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: var(--space-lg);
+    transition: color 0.2s;
+  }
+
+  .back-link:hover {
+    color: var(--color-ink);
+  }
+
+  .content-section {
+    padding: var(--space-sm) 0;
+  }
+
+  .about-content h2 {
+    margin-top: var(--space-sm);
+    margin-bottom: var(--space-md);
+    font-size: 1.6rem;
+  }
+
+  .about-content p {
+    color: var(--color-ink-light);
+    line-height: 1.8;
+  }
+
+  .about-content strong {
+    color: var(--color-ink);
+    font-weight: 500;
+  }
+
+  .about-content code {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", monospace;
+    font-size: 0.85em;
+    background: var(--color-paper-warm);
+    padding: 0.1em 0.4em;
+    border-radius: 2px;
+    color: var(--color-ink);
+  }
+
+  /* ── Phase Stats ─────────────────────────────────── */
+
+  .phase-stats {
+    display: flex;
+    gap: var(--space-lg);
+    margin: var(--space-md) 0;
+    padding: var(--space-md) 0;
+    border-top: 1px solid var(--color-rule);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+  }
+
+  .stat-value {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color-ink);
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+  }
+
+  /* ── Diagrams ────────────────────────────────────── */
+
+  .diagram {
+    margin: var(--space-md) 0;
+    overflow-x: auto;
+  }
+
+  .ascii-diagram {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Menlo", monospace;
+    font-size: 0.72rem;
+    line-height: 1.5;
+    color: var(--color-ink-light);
+    background: var(--color-paper-warm);
+    padding: var(--space-md);
+    border-radius: 3px;
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  /* ── Lists ───────────────────────────────────────── */
+
+  .pipeline-steps {
+    padding-left: 1.5em;
+  }
+
+  .pipeline-steps li {
+    padding: 0.5em 0;
+    line-height: 1.7;
+    color: var(--color-ink-light);
+  }
+
+  .pipeline-steps strong {
+    color: var(--color-ink);
+  }
+
+  .pipeline-steps code {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", monospace;
+    font-size: 0.85em;
+    background: var(--color-paper-warm);
+    padding: 0.1em 0.4em;
+    border-radius: 2px;
+  }
+
+  .sources-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sources-list li {
+    padding: 0.4em 0;
+    color: var(--color-ink-light);
+    line-height: 1.6;
+  }
+
+  .book-list li {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .book-list li strong {
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+
+  /* ── Tables ──────────────────────────────────────── */
+
+  .stack-heading {
+    margin-top: var(--space-md) !important;
+    margin-bottom: var(--space-xs) !important;
+  }
+
+  .tech-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--space-xs);
+    margin-bottom: var(--space-md);
+  }
+
+  .tech-table td {
+    padding: 0.5em 0;
+    border-bottom: 1px solid var(--color-rule);
+    font-size: 0.9rem;
+  }
+
+  .tech-table td:first-child {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-ink-muted);
+    width: 40%;
+    vertical-align: top;
+    padding-right: var(--space-sm);
+  }
+
+  .tech-table td:last-child {
+    color: var(--color-ink-light);
+  }
+
+  /* ── Responsive ──────────────────────────────────── */
+
+  @media (max-width: 600px) {
+    .phase-stats {
+      flex-wrap: wrap;
+      gap: var(--space-md);
+    }
+
+    .stat {
+      min-width: 40%;
+    }
+
+    .ascii-diagram {
+      font-size: 0.6rem;
+    }
+  }
+</style>
