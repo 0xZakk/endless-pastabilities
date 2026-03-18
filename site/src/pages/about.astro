@@ -41,52 +41,51 @@ import Base from "../layouts/Base.astro";
           <h2>Architecture Overview</h2>
 
           <div class="diagram">
-            <pre class="ascii-diagram">{`
-  ┌─────────────────────────────────────────────────────┐
-  │         8 SOURCE BOOKS  (3 PDFs, 5 EPUBs)           │
-  │     4.5 million characters of pasta knowledge        │
-  └──────────────────────┬──────────────────────────────┘
-                         │
-                         ▼
-  ┌──────────────────────────────────────────────────────┐
-  │  ① TEXT EXTRACTION                                    │
-  │  PyMuPDF + pdfplumber (PDF) │ ebooklib + BS4 (EPUB)  │
-  │  Output: structured JSON per book with metadata       │
-  └──────────────────────┬──────────────────────────────┘
-                         │
-                         ▼
-  ┌──────────────────────────────────────────────────────┐
-  │  ② CHUNKING & EMBEDDING                               │
-  │  ~800 char chunks with 150 char overlap               │
-  │  sentence-transformers (all-MiniLM-L6-v2)             │
-  │  → 4,602 vectors in ChromaDB                          │
-  └──────────┬───────────────────────────┬──────────────┘
-             │                           │
-             ▼                           ▼
-  ┌────────────────────┐   ┌─────────────────────────┐
-  │ ③ ENTITY EXTRACT   │   │ ④ ENTITY EXTRACT        │
-  │ Pasta Shapes        │   │ Dough Recipes           │
-  │ Pattern + heuristic │   │ Semantic search +       │
-  │ NLP extraction      │   │ recipe parsing          │
-  │ → 319 candidates    │   │ → 10 canonical doughs   │
-  │ → 123 curated       │   │                         │
-  └──────────┬──────────┘   └────────────┬────────────┘
-             │                           │
-             ▼                           ▼
-  ┌──────────────────────────────────────────────────────┐
-  │  ⑤ KNOWLEDGE ASSEMBLY                                 │
-  │  For each shape: semantic search → gather evidence    │
-  │  → synthesize description, instructions, history      │
-  │  All content grounded in source material              │
-  └──────────────────────┬──────────────────────────────┘
-                         │
-                         ▼
-  ┌──────────────────────────────────────────────────────┐
-  │  ⑥ STATIC SITE GENERATION                             │
-  │  Astro → 136 pages (123 shapes + 10 doughs + 3)      │
-  │  Minimal design, serif typography, warm palette       │
-  └──────────────────────────────────────────────────────┘
-            `}</pre>
+            <pre class="ascii-diagram">{`+-------------------------------------------------------+
+|     8 SOURCE BOOKS  (3 PDFs, 5 EPUBs)                 |
+| 4.5 million characters of pasta knowledge             |
++---------------------------+---------------------------+
+                            |
+                            v
++-------------------------------------------------------+
+| (1) TEXT EXTRACTION                                   |
+| PyMuPDF + pdfplumber (PDF)                            |
+| ebooklib + BeautifulSoup (EPUB)                       |
+| Output: structured JSON per book                      |
++---------------------------+---------------------------+
+                            |
+                            v
++-------------------------------------------------------+
+| (2) CHUNKING & EMBEDDING                              |
+| ~800 char chunks with 150 char overlap                |
+| sentence-transformers (all-MiniLM-L6-v2)              |
+| --> 4,602 vectors in ChromaDB                         |
++------------+-----------------------------+------------+
+             |                             |
+             v                             v
++-------------------------+   +-------------------------+
+| (3) ENTITY EXTRACT      |   | (4) ENTITY EXTRACT      |
+| Pasta Shapes            |   | Dough Recipes           |
+| Pattern + heuristic     |   | Semantic search +       |
+| NLP extraction          |   | recipe parsing          |
+| --> 319 candidates      |   | --> 10 canonical        |
+| --> 123 curated         |   |     dough types         |
++------------+------------+   +------------+------------+
+             |                             |
+             v                             v
++-------------------------------------------------------+
+| (5) KNOWLEDGE ASSEMBLY                                |
+| Semantic search --> gather evidence                   |
+| --> synthesize description, instructions              |
+| All content grounded in source material               |
++---------------------------+---------------------------+
+                            |
+                            v
++-------------------------------------------------------+
+| (6) STATIC SITE GENERATION                            |
+| Astro --> 136 pages                                   |
+| Minimal design, serif typography                      |
++-------------------------------------------------------+`}</pre>
           </div>
         </section>
 
@@ -140,15 +139,13 @@ import Base from "../layouts/Base.astro";
           </p>
 
           <div class="diagram">
-            <pre class="ascii-diagram">{`
-  Source File                Extraction Engine        Output
-  ─────────────────────     ──────────────────       ──────────────
-  Encyclopedia.pdf     →    PyMuPDF + pdfplumber  →  zanini_encyclopedia.json
-  Pasta By Hand.pdf    →    PyMuPDF + pdfplumber  →  louis_byhand.json
-  A-Z of Pasta.epub    →    ebooklib + BS4        →  roddy_atoz.json
-  Mastering Pasta.epub →    ebooklib + BS4        →  vetri_mastering.json
-  ...                       ...                      ...
-            `}</pre>
+            <pre class="ascii-diagram">{`Source File                Extraction Engine        Output
+-----------------------    ----------------------   --------------------------
+Encyclopedia.pdf      -->  PyMuPDF + pdfplumber  --> zanini_encyclopedia.json
+Pasta By Hand.pdf     -->  PyMuPDF + pdfplumber  --> louis_byhand.json
+A-Z of Pasta.epub     -->  ebooklib + BS4        --> roddy_atoz.json
+Mastering Pasta.epub  -->  ebooklib + BS4        --> vetri_mastering.json
+...                        ...                       ...`}</pre>
           </div>
         </section>
 
@@ -207,20 +204,18 @@ import Base from "../layouts/Base.astro";
           </p>
 
           <div class="diagram">
-            <pre class="ascii-diagram">{`
-  Query: "orecchiette from Puglia"
-  ──────────────────────────────────────────────────────────
-  [0.764]  An A-Z of Pasta / Section 12
-           "My friend never wants to go back to her home
-            town in Puglia, but when I went..."
+            <pre class="ascii-diagram">{`Query: "orecchiette from Puglia"
+----------------------------------------------------------
+[0.764]  An A-Z of Pasta / Section 12
+         "My friend never wants to go back to her home
+          town in Puglia, but when I went..."
 
-  [0.856]  Pasta / Orecchiette with Duck
-           "Orecchiette with Duck..."
+[0.856]  Pasta / Orecchiette with Duck
+         "Orecchiette with Duck..."
 
-  [0.880]  An A-Z of Pasta / Section 12
-           "Orecchiette — Impara l'arte e mettila da
-            parte, learn the art, and store it..."
-            `}</pre>
+[0.880]  An A-Z of Pasta / Section 12
+         "Orecchiette -- Impara l'arte e mettila da
+          parte, learn the art, and store it..."`}</pre>
           </div>
 
           <p class="text-small text-muted">
@@ -285,23 +280,21 @@ import Base from "../layouts/Base.astro";
           </p>
 
           <div class="diagram">
-            <pre class="ascii-diagram">{`
-  Extraction Funnel
-  ─────────────────────────────────────────
-  983 candidates  (raw extraction from all sources)
-   │
-   ├─ Deduplication & normalization
-   ▼
-  382 unique names
-   │
-   ├─ Semantic enhancement (cross-reference with vector DB)
-   │
-   ├─ Noise filtering (recipes, ingredients, metadata)
-   │
-   ├─ Category classification
-   ▼
-  123 curated pasta shapes with categories
-            `}</pre>
+            <pre class="ascii-diagram">{`Extraction Funnel
+-----------------------------------------
+983 candidates  (raw extraction from all sources)
+ |
+ +-- Deduplication & normalization
+ v
+382 unique names
+ |
+ +-- Semantic enhancement (cross-reference with vector DB)
+ |
+ +-- Noise filtering (recipes, ingredients, metadata)
+ |
+ +-- Category classification
+ v
+123 curated pasta shapes with categories`}</pre>
           </div>
         </section>
 
@@ -427,26 +420,24 @@ import Base from "../layouts/Base.astro";
           </p>
 
           <div class="diagram">
-            <pre class="ascii-diagram">{`
-  Example: Orecchiette
-  ──────────────────────────────────────────────────────
+            <pre class="ascii-diagram">{`Example: Orecchiette
+-----------------------------------------------------
 
-  Source evidence from 7 books:
-    Encyclopedia of Pasta  →  Entry #28, etymology, regional spread
-    An A-Z of Pasta        →  Angevin Provence connection, Arco Basso
-    Pasta By Hand          →  Detailed shaping technique, semolina dough
-    Mastering Pasta        →  Finger technique, texture notes
-    Pasta Grannies         →  Street-side making tradition in Bari
-    Pasta (Theo Randall)   →  Recipe with duck sauce
-    Coastal Encyclopedia   →  Additional recipe variations
+Source evidence from 7 books:
+  Encyclopedia of Pasta  -->  Entry #28, etymology, regional spread
+  An A-Z of Pasta        -->  Angevin Provence connection, Arco Basso
+  Pasta By Hand          -->  Detailed shaping technique, semolina dough
+  Mastering Pasta        -->  Finger technique, texture notes
+  Pasta Grannies         -->  Street-side making tradition in Bari
+  Pasta (Theo Randall)   -->  Recipe with duck sauce
+  Coastal Encyclopedia   -->  Additional recipe variations
 
-  Synthesized output:
-    Description  →  "Small, ear-shaped pasta with a thin center
+Synthesized output:
+  Description  -->  "Small, ear-shaped pasta with a thin center
                      and thicker rim..."
-    Instructions →  7 steps from dough prep to final shape
-    History      →  Angevin origins, Giambattista del Tufo (1500s),
-                     women of Arco Basso in Old Bari
-            `}</pre>
+  Instructions -->  7 steps from dough prep to final shape
+  History      -->  Angevin origins, Giambattista del Tufo (1500s),
+                     women of Arco Basso in Old Bari`}</pre>
           </div>
         </section>
 
@@ -731,20 +722,27 @@ import Base from "../layouts/Base.astro";
   /* ── Diagrams ────────────────────────────────────── */
 
   .diagram {
-    margin: var(--space-md) 0;
+    margin: var(--space-md) calc(-1 * var(--space-xl));
     overflow-x: auto;
   }
 
   .ascii-diagram {
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Menlo", monospace;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Menlo", "Courier New", monospace;
     font-size: 0.72rem;
-    line-height: 1.5;
+    line-height: 1.6;
     color: var(--color-ink-light);
     background: var(--color-paper-warm);
-    padding: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
     border-radius: 3px;
     white-space: pre;
     overflow-x: auto;
+  }
+
+  @media (max-width: 600px) {
+    .diagram {
+      margin-left: calc(-1 * var(--space-md));
+      margin-right: calc(-1 * var(--space-md));
+    }
   }
 
   /* ── Lists ───────────────────────────────────────── */
