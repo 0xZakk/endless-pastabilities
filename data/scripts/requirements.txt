@@ -1,0 +1,20 @@
+# Phase 1: Text Extraction
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+EbookLib>=0.18
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Phase 2: Chunking & Embedding
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Phase 3-4: Entity Extraction
+spacy>=3.7.0
+
+# Phase 5: Knowledge Assembly
+anthropic>=0.39.0
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.66.0
