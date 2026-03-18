@@ -2,5 +2,5 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://endlesspastabilities.com',
+  site: 'https://endlesspastabilities.cc',
 });

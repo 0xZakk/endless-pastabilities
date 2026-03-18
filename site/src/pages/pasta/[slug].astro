@@ -65,6 +65,26 @@ const categoryLabels: Record<string, string> = {
         </section>
       )}
 
+      {shape.history && (
+        <section class="section">
+          <h3>History & Tradition</h3>
+          <div class="narrative">
+            <p>{shape.history}</p>
+          </div>
+        </section>
+      )}
+
+      {!shape.history && shape.narrative?.length > 0 && (
+        <section class="section">
+          <h3>History & Tradition</h3>
+          <div class="narrative">
+            {shape.narrative.map((passage: string) => (
+              <p>{passage}</p>
+            ))}
+          </div>
+        </section>
+      )}
+
       {shape.dough_recipes?.length > 0 && (
         <section class="section">
           <h3>Dough</h3>
@@ -86,26 +106,6 @@ const categoryLabels: Record<string, string> = {
               <li>{step}</li>
             ))}
           </ol>
-        </section>
-      )}
-
-      {shape.history && (
-        <section class="section">
-          <h3>History & Tradition</h3>
-          <div class="narrative">
-            <p>{shape.history}</p>
-          </div>
-        </section>
-      )}
-
-      {!shape.history && shape.narrative?.length > 0 && (
-        <section class="section">
-          <h3>History & Tradition</h3>
-          <div class="narrative">
-            {shape.narrative.map((passage: string) => (
-              <p>{passage}</p>
-            ))}
-          </div>
         </section>
       )}
 
