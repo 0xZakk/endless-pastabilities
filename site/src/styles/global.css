@@ -1,0 +1,184 @@
+/* ── Endless Pastabilities — Global Styles ─────────────────────── */
+/* Minimal, elevated, classic, refined. */
+
+/* ── Reset & Base ──────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-ink: #1a1a1a;
+  --color-ink-light: #4a4a4a;
+  --color-ink-muted: #8a8a8a;
+  --color-paper: #fafaf8;
+  --color-paper-warm: #f5f3ef;
+  --color-rule: #e0ddd6;
+  --color-accent: #8b6f4e;
+  --color-accent-light: #b8a088;
+
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+    "Times New Roman", serif;
+  --font-sans: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --font-italic: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+
+  --max-width: 680px;
+  --max-width-wide: 960px;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+  --space-2xl: 10rem;
+}
+
+html {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-serif);
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+/* ── Typography ────────────────────────────────────────────────── */
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: var(--space-sm);
+  color: var(--color-ink);
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  margin-bottom: var(--space-xs);
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: var(--color-ink);
+  text-decoration-color: var(--color-rule);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+
+a:hover {
+  text-decoration-color: var(--color-accent);
+}
+
+em,
+i {
+  font-family: var(--font-italic);
+  font-style: italic;
+}
+
+/* ── Layout ────────────────────────────────────────────────────── */
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.container--wide {
+  max-width: var(--max-width-wide);
+}
+
+.section {
+  padding: var(--space-lg) 0;
+}
+
+.section + .section {
+  border-top: 1px solid var(--color-rule);
+}
+
+/* ── Components ────────────────────────────────────────────────── */
+
+.label {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.65rem;
+  color: var(--color-ink-muted);
+}
+
+.tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  border: 1px solid var(--color-rule);
+  padding: 0.2em 0.6em;
+  border-radius: 2px;
+}
+
+.rule {
+  border: none;
+  border-top: 1px solid var(--color-rule);
+  margin: var(--space-lg) 0;
+}
+
+.rule--thin {
+  margin: var(--space-md) 0;
+}
+
+/* ── Utility ───────────────────────────────────────────────────── */
+
+.text-muted {
+  color: var(--color-ink-muted);
+}
+
+.text-light {
+  color: var(--color-ink-light);
+}
+
+.text-small {
+  font-size: 0.85rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-sm { margin-top: var(--space-sm); }
+.mt-md { margin-top: var(--space-md); }
+.mt-lg { margin-top: var(--space-lg); }
+.mb-sm { margin-bottom: var(--space-sm); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
