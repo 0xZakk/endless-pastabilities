@@ -1,0 +1,18 @@
+{
+  "slug": "maltagliati",
+  "name": "Maltagliati",
+  "category": "hand-cut",
+  "description": "Maltagliati are irregularly cut pasta pieces, whose name means 'badly cut' in Italian. They come in varied shapes including rhombuses, triangles, and rough rectangles, embracing imperfection as part of their rustic charm.",
+  "instructions": [
+    "Make a pasta dough with flour (durum-wheat or all-purpose) and eggs or water, kneading until firm and smooth.",
+    "Cover the dough and let it rest for at least 30 minutes.",
+    "Roll the dough out into a thin sheet on a flour-dusted work surface.",
+    "Using a knife or pasta cutter, cut the sheet into irregular shapes: rhombuses, triangles, or rough rectangles of varying sizes.",
+    "Place the pieces on a parchment-lined baking sheet and let them dry, turning them over once.",
+    "Boil in plenty of salted water until al dente, 5 to 7 minutes."
+  ],
+  "history": "Maltagliati, meaning 'badly cut,' are a traditional pasta shape found throughout Italy, particularly in Emilia-Romagna and central Italy. They originated as a thrifty use of pasta scraps left over from cutting more precise shapes like tagliatelle or lasagne, and their irregular forms were embraced rather than discarded. In Lazio, around Subiaco, the term sagne 'mpezze is used for a sort of rhombus-shaped maltagliato. The shape appears in many regional traditions: they are commonly served in bean soups in Emilia-Romagna and with legume-based dishes throughout central Italy, making them one of the quintessential peasant pastas.",
+  "regions": ["Emilia-Romagna", "Lazio", "Veneto", "Tuscany"],
+  "dough_recipes": ["egg-dough", "semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta"]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "flour-water",
+  "name": "Flour & Water Dough",
+  "description": "A simple, rustic dough made with soft wheat flour (00 or all-purpose) and water — no eggs, and sometimes a touch of olive oil. This is the dough of necessity, born in times when eggs were a luxury reserved for the boss, not for the pasta. It produces a pleasantly chewy, slightly elastic pasta perfect for thick hand-rolled shapes like pici, the fat Tuscan noodles.",
+  "yield": "About 1 pound (454g)",
+  "time": "Active: 20 min / Total: 50 min (including rest)",
+  "ingredients": [
+    {"item": "all-purpose flour or 00 flour", "amount": "350g", "note": "about 2 1/2 cups; a small percentage of semolina can be added for strength"},
+    {"item": "lukewarm water (90°F)", "amount": "170g", "note": "about 2/3 cup, plus more as needed"},
+    {"item": "extra-virgin olive oil", "amount": "2 tablespoons", "note": "30ml"},
+    {"item": "fine sea salt", "amount": "1 pinch"}
+  ],
+  "instructions": [
+    "Place the flour on a clean work surface and form a well in the center. Add the salt to the flour.",
+    "Pour the lukewarm water and olive oil into the well. Using a fork, gradually draw the flour into the liquid, working from the inside of the well outward.",
+    "When the dough becomes too thick for a fork, use your hands to bring it together. Add more water a teaspoon at a time if the dough is too hard and crumbly to come together.",
+    "Knead the dough for 6 to 8 minutes until smooth and elastic. As Vetri notes, this dough can be kneaded for slightly less time than egg doughs — just 6 to 7 minutes.",
+    "Pat the dough into a disk, wrap tightly in plastic wrap, and rest at room temperature for 30 minutes.",
+    "After resting, pull off small pieces and roll them into ropes or roll the dough into a sheet and cut into strips, depending on the shape you are making."
+  ],
+  "tips": [
+    "As Rosa at La Chiusa restaurant told Marc Vetri: 'When no one had anything, the eggs were for the boss, not for the pasta.' This dough is proof that great pasta needs very little.",
+    "An A-Z of Pasta notes that while pici are normally made with plain 00 flour, a percentage of semolina flour gives strength to the dough.",
+    "The Encyclopedia of Pasta's pici recipe uses 15.8 oz all-purpose flour to 9.5 oz lukewarm water — roughly a 5:3 ratio by weight.",
+    "This dough benefits from a long rest. Some recipes in The Encyclopedia of Pasta call for up to 3 hours total resting time for the best texture.",
+    "The olive oil adds a little fat for pliability but is optional — the most austere versions use only flour, water, and salt."
+  ],
+  "used_for": ["pici", "strangozzi", "umbricelli", "ciriole", "lagane", "orecchiette"],
+  "source_books": ["Mastering Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta By Hand", "Pasta Grannies"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "ravioli-di-ricotta",
+  "name": "Ravioli Di Ricotta",
+  "category": "filled",
+  "description": "Classic ricotta-filled ravioli, one of the simplest and most beloved forms of filled pasta. The creamy, mild ricotta filling is often enhanced with parsley or spinach, pecorino, or other local cheeses, and cut into half-moons or rounds.",
+  "instructions": [
+    "Make an egg pasta dough, kneading until firm and smooth. Cover and rest.",
+    "Roll the dough into a thin sheet by hand or with a pasta machine.",
+    "Cut long strips about 4 inches wide from the sheet.",
+    "Place small piles of ricotta filling (ricotta mixed with egg, Parmesan, salt, pepper, and optionally spinach or parsley) at intervals on half of each strip.",
+    "Fold the strip over and press the pasta around the filling to seal.",
+    "Cut into half-moons about 2 inches in diameter using a wheel-type pasta cutter or inverted glass, or punch out rounds with a fluted cutter.",
+    "Place on a floured baking sheet. Cook in boiling salted water until they float and are al dente, 2 to 5 minutes. Do not freeze plain ricotta ravioli, as the filling will become grainy."
+  ],
+  "history": "Ricotta-filled ravioli are found almost everywhere in central and southern Italy, but what distinguishes each regional version is what else is added to the filling. In Abruzzo, local pecorino di Pizzoli is included. In Campania, the ricotta-filled raviolo is called coronetta for its toothed half-moon form, said to honor Princess Costanza, daughter of Federico of Montefeltro. The Sicilian version, called cassatedde, alludes to the island's famous sweet cassate. Ravioli with ricotta filling are also classic on the Hanukkah table, reflecting the deep roots of this shape in Italian Jewish cuisine.",
+  "regions": ["Abruzzo", "Marche", "Campania", "Puglia", "Basilicata", "Sicily", "Lazio", "Tuscany"],
+  "dough_recipes": ["egg-dough", "egg-yolk-rich"],
+  "source_books": ["Mastering Pasta", "Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta", "Pasta Grannies"]
+}

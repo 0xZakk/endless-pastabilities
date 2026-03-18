@@ -1,0 +1,20 @@
+{
+  "slug": "testaroli",
+  "name": "Testaroli",
+  "category": "sheet",
+  "description": "An ancient pasta made from a thin batter that is cooked like a crepe in a hot pan, then cut into pieces and briefly simmered in water before saucing. Some Italians consider testaroli to be the country's oldest pasta.",
+  "instructions": [
+    "Whisk together durum flour, semolina, and salt in a bowl, then whisk in water to form a very thin batter like crepe batter.",
+    "Warm a nonstick skillet over medium-low heat and brush with olive oil.",
+    "Pour a scant 1/4 cup of batter into the pan and tilt to distribute evenly. The batter should immediately blister and form bubble holes.",
+    "Cook for about 30 seconds until the bottom is browned, then flip and cook 15 to 20 seconds more.",
+    "Transfer to a wire rack to cool. Do not stack the cooked testaroli.",
+    "Cut the cooled testaroli into rhombi or squares.",
+    "To serve, bring salted water to a boil, turn off the heat, add the testaroli pieces, and leave for 2 to 3 minutes.",
+    "Drain and sauce, traditionally with pesto alla genovese."
+  ],
+  "history": "Testaroli come from the Lunigiana, an area partly in Tuscany and partly in Liguria, and have early origins that some trace to Biblical times. The name comes from the traditional testo, a glazed terra-cotta pan (later cast iron) in which they were baked. The Roman historian Varro called a similar preparation testuacium, a focaccia baked on brick. The peoples of Lunigiana made testaroli at home in the gradili, rooms used for drying chestnuts, where the fire was lit on the floor and the testo heated on the embers. Today, testaroli are a monument of gastronomic archaeology sought out by gourmets and tourists in the Lunigiana.",
+  "regions": ["Tuscany", "Liguria"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "Mastering Pasta", "An A-Z of Pasta", "Pasta By Hand", "Pasta Grannies"]
+}

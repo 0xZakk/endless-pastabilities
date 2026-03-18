@@ -1,0 +1,20 @@
+{
+  "slug": "cappelletti",
+  "name": "Cappelletti",
+  "category": "filled",
+  "description": "Small, hat-shaped filled pasta resembling tortellini but larger, with more filling. Made by cutting squares of thin egg dough, filling them, folding into triangles, and then wrapping the two pointed corners around a finger to form a shape resembling a little hat.",
+  "instructions": [
+    "Sift flour onto a wooden board and knead vigorously with eggs until a firm, smooth dough forms.",
+    "Let the dough rest for at least an hour, or ideally overnight.",
+    "Roll out the dough into a thin sheet.",
+    "Cut 2-inch (5 cm) squares from the sheet, keeping the rest covered with a tea towel to prevent drying.",
+    "Place a small amount of filling in the center of each square.",
+    "Fold the square diagonally to form a triangle, pressing the edges firmly to seal.",
+    "Bring the two smaller-angled corners together around your finger to create a 'hat' shape and press them together firmly.",
+    "Cook gently in simmering broth in batches for about 5 minutes."
+  ],
+  "history": "Cappelletti, meaning 'little hats,' have been made since medieval times and were traditionally a Christmas Day treat, though now enjoyed year-round. Fillings vary across Emilia-Romagna: in Faenza it is a mixture of cheeses, while in other areas it combines mixed meats and spices. In Cesena, candied citron is added to both meat and meatless fillings. The synonymy between cappelletti, tortellini, and anolini has long been a source of lively debate among Italian food scholars and home cooks alike, with each town fiercely defending its own version.",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Mastering Pasta", "Pasta", "Pasta Grannies", "Encyclopedia of Pasta"]
+}

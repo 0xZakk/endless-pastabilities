@@ -1,0 +1,19 @@
+{
+  "slug": "pansotti",
+  "name": "Pansotti",
+  "category": "filled",
+  "description": "Pot-bellied triangular filled pasta from Liguria, made with a flour, water, and white wine dough and traditionally stuffed with preboggion (a mixture of wild herbs), ricotta, and Parmigiano. An alternate spelling of pansoti.",
+  "instructions": [
+    "Make a dough from flour, eggs, white wine, water, and a pinch of salt, kneading vigorously until smooth and elastic. Form into a ball, cover, and refrigerate.",
+    "Roll the dough on a flour-dusted work surface into a thin sheet.",
+    "Using a pastry wheel, cut the sheet into 2- to 3-inch squares or disks.",
+    "Place a teaspoon of filling (preboggion or mixed greens with ricotta and Parmigiano) in the center of each piece.",
+    "Fold into a triangle or half-moon, or cover with a second piece to make a square. Press edges firmly to seal.",
+    "Join the two ends of the base of the triangle together and gently press to seal, creating the pot-bellied shape.",
+    "Place pansotti on flour-dusted baking sheets. Cook in boiling salted water until al dente, about 8 minutes."
+  ],
+  "history": "Pansotti, meaning \"pot-bellied,\" are a classic filled pasta of Liguria traditionally stuffed with preboggion, a mixture of wild herbs and greens foraged from the hills, combined with ricotta and Parmigiano. The Encyclopedia of Pasta notes that the dough is made with wheat flour, water, and white wine, making it distinctive among filled pastas. They are classically served with walnut sauce (salsa di noci), a pairing deeply rooted in the Ligurian culinary tradition.",
+  "regions": ["Liguria"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta", "Pasta and Noodles: A Global History"]
+}

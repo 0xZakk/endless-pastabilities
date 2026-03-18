@@ -1,0 +1,19 @@
+{
+  "slug": "culingionis",
+  "name": "Culingionis",
+  "category": "filled",
+  "description": "A Sardinian variant spelling of culurgiones, these are filled pasta shaped as half-moons or elaborately pleated bundles. The shape varies from area to area, ranging from small squares to forms with ridges recalling fishbones or flattened figs.",
+  "instructions": [
+    "Make a dough of semolina flour, kneading long and vigorously until firm and smooth.",
+    "Let the dough rest, then roll out into a thin sheet.",
+    "Top half of the sheet with walnut-sized balls of filling arranged 2 inches (5 cm) apart.",
+    "Fold the uncovered half of the sheet over the filling.",
+    "Seal the dough firmly around the filling with fingers.",
+    "Cut the ravioli apart in the shape of half-moons.",
+    "Boil in salted water, a few at a time, until cooked through."
+  ],
+  "history": "Culingionis (also written culurgiones, culurzones, and kulurjones among many other spellings) are one of Sardinia's most iconic pastas. The shape varies from area to area: they can be small squares, have ridges that recall fishbones, look like a flattened fig, or around Ogliastra be fashioned into a little bundle and tied with a small sheaf of wheat. Some cooks pierce the bundle twice with a needle to prevent it from swelling too much during cooking. The many variant spellings reflect the rich local dialects across Sardinia's diverse communities.",
+  "regions": ["Sardegna"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

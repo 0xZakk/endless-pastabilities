@@ -1,0 +1,20 @@
+{
+  "slug": "mafaldine",
+  "name": "Mafaldine",
+  "category": "hand-cut",
+  "description": "Mafaldine are narrow ribbon pasta with ruffled edges on both sides, a smaller version of mafalde. They are elegant, playful, and excellent at catching and holding sauce in their wavy ridges.",
+  "instructions": [
+    "Sift flour onto a work surface and make a well in the center. Add eggs and a pinch of salt.",
+    "Using fingertips or a fork, work the flour and eggs together until a craggy dough forms.",
+    "Knead the dough energetically, using the heel of your hand, until smooth and firm, about 10 minutes.",
+    "Cover the dough and let it rest for at least 30 minutes.",
+    "Roll the dough out into a thin sheet on a flour-dusted work surface.",
+    "Using a fluted pastry wheel, cut the sheet into long, narrow ribbons to create the characteristic ruffled edges.",
+    "Place the mafaldine on flour-dusted baking sheets.",
+    "Boil in plenty of salted water until al dente."
+  ],
+  "history": "Mafaldine are a narrower version of mafalde, also known as reginette (little queens), named after Princess Mafalda of Savoy. The naming of pasta shapes after royalty, military conquests, and historical events was a common practice in Italy: tripolini were named after the Italian colony in Libya, while assabesi marked the purchase of the port of Assab in Eritrea. Princess Mafalda's story is a tragic one; she was killed in a concentration camp in 1944 at the age of 41, adding a somber layer to this otherwise playful shape. Mafaldine are widely available as both a factory-made and artisan product.",
+  "regions": ["Campania", "Lazio"],
+  "dough_recipes": ["egg-dough", "semolina-water"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "Pasta and Noodles: A Global History"]
+}

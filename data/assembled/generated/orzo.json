@@ -1,0 +1,15 @@
+{
+  "slug": "orzo",
+  "name": "Orzo",
+  "category": "small",
+  "description": "A tiny, rice-shaped pasta made from durum wheat and water, resembling a closed eye or a needle of rosemary. It is a versatile pastina that shares rice's nature, absorbing liquid and flavors when cooked alla risottata.",
+  "instructions": [
+    "Orzo is a factory-made dried pasta shape extruded from durum wheat flour and water.",
+    "It is not typically made by hand at home.",
+    "To cook, it can be boiled in salted water or stock, or cooked alla risottata by stirring it into a flavored liquid much like risotto, until tender and creamy (usually 8-10 minutes)."
+  ],
+  "history": "Orzo is rarely called orzo in Italy because the word means pearl barley; instead it is known as rosmarino or rosamarino for its resemblance to a rosemary needle, or risoni for its resemblance to rice. It is a durum wheat and water factory-made dried shape and a classic pastina. Its nature suits cooking alla risottata, where liquid and flavors are absorbed during cooking, resulting in dense, creamy dishes. A traditional Neapolitan recipe pairs it with tomato and basil (ca' pummarola).",
+  "regions": ["Campania"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "ziti",
+  "name": "Ziti",
+  "category": "extruded",
+  "description": "Very long, hollow tubes of dried pasta, from 23 to 39 inches depending on the maker. Ziti are part of the long, pierced dried pasta family, with a tube so hollow it resembles a sculpture. They are typically broken into shorter lengths before cooking.",
+  "instructions": [
+    "Ziti are a factory-made dried pasta, not typically made at home.",
+    "Break the long tubes into 2-inch lengths before cooking.",
+    "Bring a large pot of well-salted water to a rolling boil.",
+    "Add the ziti pieces and cook until al dente.",
+    "Drain and mix with sauce, or use in baked preparations like timballo."
+  ],
+  "history": "Originating in Sicily, ziti are the longest dried pasta shape, taking up to 6 days to dry in the hands of careful makers. The name derives from maccheroni della zita, a dish traditionally prepared by the zita (bride in Neapolitan dialect) and served as part of a lavish wedding feast. They belong to the long, pierced dried pasta tribe that began with busiate, but their piercing is so extreme they are actually hollow tubes. Classic preparations include ziti with genovese (Neapolitan onion and beef sauce) and timballo di ziti, a baked dish with roasted peppers and provola.",
+  "regions": ["Sicily", "Campania"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta"]
+}

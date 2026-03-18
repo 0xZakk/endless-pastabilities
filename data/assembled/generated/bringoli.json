@@ -1,0 +1,19 @@
+{
+  "slug": "bringoli",
+  "name": "Bringoli",
+  "category": "hand-cut",
+  "description": "A thick, hand-rolled pasta resembling irregular spaghettoni, made from a simple flour-and-water dough without eggs. The strands are long and rustic, with a satisfying chewy texture typical of peasant pastas from central Italy.",
+  "instructions": [
+    "Sift flour (traditionally a mixture of wheat and corn flours around Arezzo) onto a wooden board.",
+    "Knead long and vigorously with water until the dough is firm and smooth.",
+    "Leave the dough to rest.",
+    "Roll out the dough with a rolling pin into a sheet about 1/8 inch (3mm) thick.",
+    "Roll the sheet up into a cylinder and cut crosswise into strips about 1/8 inch (3mm) wide.",
+    "Roll each strip with hands on the wooden board to make long, irregular spaghettoni.",
+    "Boil in abundant salted water."
+  ],
+  "history": "Bringoli are a peasant food typical of the Tiber valley, in the area where Tuscany, the Marche, and Umbria meet. Flour-and-water pastas were the rule in the rural world of the poor, as eggs were a precious commodity of exchange in an economy where cash was rarely seen. The housewife's imagination and skilled hands made up for the poverty of the dough, creating shapes so regular they seemed machine-made. The intramural rivalries in Arezzo maintain that this pasta was copied by the Sienese to create pici.",
+  "regions": ["Toscana", "Umbria", "Marche"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

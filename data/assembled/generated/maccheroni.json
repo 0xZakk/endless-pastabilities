@@ -1,0 +1,22 @@
+{
+  "slug": "maccheroni",
+  "name": "Maccheroni",
+  "category": "extruded",
+  "description": "Maccheroni is both a specific tubular pasta shape and the historic generic name for pasta itself in Italy. As a shape, maccheroni al ferretto are short, hollow tubes formed by wrapping dough around a thin iron rod, giving them a rustic, hand-formed character.",
+  "instructions": [
+    "Place finely ground semolina flour, water, and a pinch of salt in a large bowl and work until the mixture starts to come together as a dough.",
+    "Transfer the dough to a flour-dusted work surface and knead energetically until smooth and homogeneous, about 10 minutes.",
+    "Cover the dough with plastic wrap and let it rest at room temperature for 30 minutes.",
+    "Pull off a piece of dough and roll it into a rope about 1 cm (1/3 inch) in diameter.",
+    "Cut the rope into 2-3 cm (about 1-inch) lengths.",
+    "Coat a long, thin metal rod (ferro) or wooden skewer with flour.",
+    "Working with one piece at a time, press the ferro into the center of the dough piece, creating a hollow. Roll the implement back and forth until the pasta closes around it.",
+    "Gently remove the maccheroni from the rod, taking care not to unfold it.",
+    "Transfer to a flour-dusted baking sheet and let them dry.",
+    "Boil in plenty of salted water until they float to the surface, then cook for another 5 minutes."
+  ],
+  "history": "The story of maccherone on the Italian peninsula has followed tortuous paths that have not yet been fully charted. The word first appears in a document dated 1041 from Cava dei Tirreni in Campania, and its etymology is uncertain, with theories ranging from the Greek macarios meaning 'blessed' to the Latin ammaccare meaning 'to strike with force.' In the south, maccheroni is used for many types of fresh pasta and as a generic term for any dry pasta, while in the north it refers to a specific tubular shape. The famous 1279 inventory of Ponzio Bastone records 'una barixella plena de macharoni' (a barrel full of macaroni), and Boccaccio's Decameron describes people making maccheroni and ravioli on a mountain of grated Parmesan cheese.",
+  "regions": ["Campania", "Calabria", "Basilicata", "Puglia", "Sicily", "Abruzzo", "Lazio"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies", "Mastering Pasta", "Pasta and Noodles: A Global History"]
+}

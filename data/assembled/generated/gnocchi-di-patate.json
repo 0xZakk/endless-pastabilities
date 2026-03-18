@@ -1,0 +1,22 @@
+{
+  "slug": "gnocchi-di-patate",
+  "name": "Gnocchi Di Patate",
+  "category": "dumpling",
+  "description": "Gnocchi di patate are the classic Italian potato dumplings, small pillowy morsels made from riced potatoes and flour. Ridged with a fork or gnocchi board, they are tender and light when properly made, with a texture that soaks up butter, pesto, and ragu alike.",
+  "instructions": [
+    "Boil russet or Yukon Gold potatoes in their skins until completely tender.",
+    "Peel the potatoes while still warm and pass them through a ricer or food mill onto a clean work surface.",
+    "Let the riced potatoes cool slightly, then add flour (and optionally an egg yolk), salt, and any desired seasonings.",
+    "Gently knead just until the dough comes together; do not overwork or the gnocchi will be tough.",
+    "Divide the dough into portions and roll each into a rope about 1/2 inch in diameter.",
+    "Cut the ropes into 1-inch pieces using a floured bench scraper or knife.",
+    "Roll each piece on a floured gnocchi board or the tines of a fork, pressing gently to create ridges.",
+    "Place the shaped gnocchi on a semolina-dusted baking sheet.",
+    "Cook in gently simmering salted water until they float to the surface, then cook for about 1 more minute.",
+    "Remove with a slotted spoon and finish with your chosen sauce."
+  ],
+  "history": "Potato gnocchi became widespread in Italy only after the potato arrived from the Americas, gradually replacing earlier flour-and-water gnocchi. In Emilia-Romagna, Parmigiano-Reggiano is often added to the dough and they are served with fonduta and aged balsamic vinegar. In Campania, gnocchi alla sorrentina combines the dumplings with tomato sauce, mozzarella, and basil in a baked preparation typical of the coastal village of Sorrento. Romans traditionally eat gnocchi on Thursdays, a custom reflected in the proverb \"Ridi, ridi! Che la mamma ha fatto gli gnocchi!\" (Smile, smile! Mom made gnocchi!).",
+  "regions": ["Lazio", "Campania", "Emilia-Romagna", "Veneto", "Piedmont", "Throughout Italy"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Pasta By Hand", "Mastering Pasta", "Encyclopedia of Pasta"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "ravioli-alla-genovese",
+  "name": "Ravioli Alla Genovese",
+  "category": "filled",
+  "description": "Ligurian-style ravioli made with an egg and water dough, traditionally filled with a rich mixture of sow's udder, brains, veal, vegetables, and spices, cut into rectangles with a wheel-type pasta cutter.",
+  "instructions": [
+    "Make a dough from flour, eggs, and a little water, kneading vigorously until firm and smooth. Cover and rest.",
+    "Roll out the dough with a rolling pin into a thin sheet.",
+    "Place small balls of filling, spaced 1 to 1 1/2 inches apart, on half of the sheet.",
+    "Fold the other half over and press firmly with fingers around the filling to seal.",
+    "Cut the ravioli into rectangles with a wheel-type pasta cutter.",
+    "Place on a floured dish towel to dry briefly.",
+    "Boil a few at a time in abundant salted water until cooked through."
+  ],
+  "history": "The raviolo alla genovese is traditionally served with il tocco di carne, a meat-and-mushroom sauce, much reduced and long cooked with wine, odori, and tomato. At one time, these ravioli were the Ligurian food for feasts and gourmands, but only after being religiously cooked in capon broth. Mushrooms are almost omnipresent in Ligurian recipes, their presence guaranteed by the wealth of the wooded valleys climbing from the sea toward the Apuan Alps. The 1880 manual Cucina di strettissimo magro by Father Gaspare Dellepiane even includes fish-based Ligurian ravioli, one filled with caviar and another with oysters.",
+  "regions": ["Liguria"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "Pasta Grannies", "An A-Z of Pasta"]
+}

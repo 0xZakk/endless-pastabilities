@@ -1,0 +1,19 @@
+{
+  "slug": "strascinati",
+  "name": "Strascinati",
+  "category": "hand-shaped",
+  "description": "Small, dragged pasta shapes made by drawing pieces of dough across a wooden board with fingers or a tool called a sferre. The shapes vary by region and technique, from simple cavatelli-like forms to wider leaf-shaped pieces.",
+  "instructions": [
+    "Sift durum wheat flour onto a wooden board and knead long and vigorously with water until a firm, smooth dough forms.",
+    "Cover and let the dough rest.",
+    "Pinch off pieces of dough and roll them into cylinders of variable diameter.",
+    "Cut the cylinders into short lengths of variable size.",
+    "Draw each piece across the wooden board with your fingers or a sferre, dragging it to create an indented, open shape.",
+    "The specific shape depends on how many fingers are used and the gesture with which the dough is rolled.",
+    "Boil in abundant salted water until cooked."
+  ],
+  "history": "It is practically impossible to make sense of the babel of strascinati in southern Italy. The dough, usually of durum wheat, can also contain semolone, whole wheat, barley, or grano arso. Strascinati can be rolled with one finger (simple cavatelli), two fingers (cecatelli), or three, four, or even eight fingers, each producing a different shape with a different name. In Campania, palmatielli are rolled on the palm of the hand; in Puglia, they are rolled with a sferre. Calabrian strascinati were often made with flours other than wheat, since the rural population there was among the poorest in Italy.",
+  "regions": ["Campania", "Puglia", "Basilicata", "Calabria", "Umbria"],
+  "dough_recipes": ["semolina-water", "whole-wheat"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Pasta By Hand"]
+}

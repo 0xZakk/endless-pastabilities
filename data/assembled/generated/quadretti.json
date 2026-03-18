@@ -1,0 +1,19 @@
+{
+  "slug": "quadretti",
+  "name": "Quadretti",
+  "category": "hand-cut",
+  "description": "Tiny squares of egg pasta, a classic pastina traditionally made from scraps left over after cutting fettuccine, lasagne, or other sheet pastas. Their small proportions make them ideal for serving in broth and minestra.",
+  "instructions": [
+    "Make a standard egg pasta dough (pasta all'uovo). Knead until smooth, cover, and rest for 30 minutes.",
+    "Divide the dough into pieces. Roll each piece into a thin sheet on a flour-dusted surface (or use a pasta machine).",
+    "Cut the sheets into 24-inch-long rectangles and let dry for 15 minutes.",
+    "Working with one rectangle at a time, fold it in half lengthwise three times.",
+    "Cut the folded roll into 1/8-inch-thick strips, then cut those strips into 1/8-inch squares.",
+    "Dust the pasta squares with flour and transfer to a parchment-lined baking sheet.",
+    "Let the quadretti dry for 2 days before storing. To cook, add to a nearly finished soup and cook until al dente, 2 to 4 minutes."
+  ],
+  "history": "Quadretti, meaning \"little squares,\" are a classic pasta di recupero, a way to use up scraps of fresh egg pasta left after making fettuccine, lasagne, or ravioli. They are known by many regional names: quadrellini, quadrotti, quaternei in Emilia, quadrelli pelosi and patacchelle in the Marche, squadruccetti in Umbria, and cicerchiole in Lazio. In Rome, quadrucci (the closely related variant) are essential for the famous minestra di quadrucci e piselli. In Umbria, they were traditionally served as the opening course at communion, confirmation, and wedding luncheons.",
+  "regions": ["Lazio", "Emilia-Romagna", "Marche", "Umbria"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta"]
+}

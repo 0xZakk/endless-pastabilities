@@ -1,0 +1,19 @@
+{
+  "slug": "busiata",
+  "name": "Busiata",
+  "category": "hand-shaped",
+  "description": "A long, hollow pasta from Sicily made by rolling a rope of dough around a thin metal rod (ferretto) to create a thick spaghettone with a hole running down its length. The result is a rustic, hand-formed tube with an irregular surface.",
+  "instructions": [
+    "Sift durum-wheat flour onto a wooden board and knead for a long time with salt and water until a firm, smooth dough forms.",
+    "Cover and let the dough rest for half an hour.",
+    "Pinch walnut-sized pieces from the dough.",
+    "Roll each piece into a rope 4 to 5 inches (10 to 13 cm) long or longer.",
+    "Lay the rope on a ferretto (thin metal rod) and roll the ferretto on a wooden board to make a thick spaghettone with a hole down its length.",
+    "Slide the pasta off the needle with a sharp rap of the hand.",
+    "Boil in abundant salted water."
+  ],
+  "history": "Busiata is rooted in Sicily's Arab-influenced pasta traditions. Martino da Como, writing around the middle of the 1400s, described 'maccaroni siciliani' made by placing a thin iron rod on top of dough and rolling with both hands to form a hollow tube. He specified that if dried well with the August moon, this pasta could last two or three years. This long shelf life made busiata extremely valuable and explains its rapid diffusion around the entire Mediterranean area, significantly changing sailors' diets since they could now eat starches other than moistened bread.",
+  "regions": ["Sicilia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

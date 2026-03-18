@@ -1,0 +1,19 @@
+{
+  "slug": "pizzoccheri",
+  "name": "Pizzoccheri",
+  "category": "hand-cut",
+  "description": "Short, flat noodles made primarily from buckwheat flour, giving them a distinctive dark color, earthy flavor, and crumbly texture unlike standard wheat pasta. They are cut into thick, stubby strips about 2 inches wide and 3/8 inch across.",
+  "instructions": [
+    "Make a mountain of buckwheat flour (about 200g) and a small amount of 00 flour (about 50g) on a board.",
+    "Create a well in the center and add water. Work the water into the flour to form a consistent and firm dough, adding water slowly as the line between dry and slimy is fine.",
+    "Knead gently and briefly. The dough will crumble unlike normal pasta dough; aim for a firm, neat ball.",
+    "Rest for 30 minutes.",
+    "Working carefully, roll the dough into a round about 1/16 inch thick, watching the edges and preventing sticking.",
+    "Cut the sheet crosswise into strips about 2 inches wide, then cut the strips into 3/8-inch sticks.",
+    "Spread the pizzoccheri out so they do not stick together."
+  ],
+  "history": "Pizzoccheri are the signature pasta of the Valtellina valley in Lombardy, particularly the area between Sondalo and Bormio in the province of Sondrio. Made predominantly with buckwheat flour, they reflect the mountain agriculture of this Alpine region where buckwheat thrived in the challenging climate. The traditional preparation, pizzoccheri con patate, verza e formaggio, pairs them with potatoes, cabbage, and local Valtellina Casera cheese, a semi-skimmed cow's milk cheese. Pizzoccheri della Valtellina now holds IGP (Protected Geographical Indication) status as both a fresh and dried pasta shape.",
+  "regions": ["Lombardy"],
+  "dough_recipes": ["buckwheat"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "impanadas",
+  "name": "Impanadas",
+  "category": "filled",
+  "description": "Impanadas are Sardinian filled pasta turnovers, shaped as half-moons or round parcels enclosing a savory filling. They are a robust, hearty pasta traditionally associated with festive occasions on the island.",
+  "instructions": [
+    "Sift durum-wheat flour onto a wooden board and knead with water, salt, and sometimes a little oil until a firm, smooth dough forms.",
+    "Cover the dough and let it rest for at least 30 minutes.",
+    "Roll the dough out into a thin sheet on a flour-dusted work surface.",
+    "Cut the dough into rounds using a cutter or inverted glass.",
+    "Place a spoonful of filling in the center of each round.",
+    "Fold the dough over the filling to form half-moons, pressing the edges to seal carefully.",
+    "Boil the impanadas in plenty of salted water, or bake them depending on the regional tradition."
+  ],
+  "history": "Impanadas are a traditional filled pasta from Sardinia, listed in the Encyclopedia of Pasta under Sardinian specialties. The name is related to the Spanish empanada, reflecting centuries of Spanish influence on Sardinian cuisine. They are a festive pasta, distinguished by fillings that call for typical local products, and are traditionally associated with feast days and holidays on the island.",
+  "regions": ["Sardinia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

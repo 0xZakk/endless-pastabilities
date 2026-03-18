@@ -1,0 +1,17 @@
+{
+  "slug": "stelline",
+  "name": "Stelline",
+  "category": "small",
+  "description": "Tiny star-shaped pastina, one of the smallest factory-made pasta formats. Stelline belong to the vast family of pastine minute, miniature pasta shapes designed primarily for soups and broths.",
+  "instructions": [
+    "Stelline are a factory-made pasta shape produced by extrusion through star-shaped dies.",
+    "They are not typically made at home.",
+    "To cook, bring broth or salted water to a boil.",
+    "Add the stelline and cook until tender, usually 5 to 7 minutes.",
+    "Serve in broth or light soups."
+  ],
+  "history": "Stelline, meaning 'little stars,' are part of Italy's enormous family of pastine minute, the tiny factory-made shapes that populate the Italian pasta universe. These miniature shapes were given fanciful names by the popular imagination, including stars (stelle, stellette, stelline, stelloni), weather phenomena like tempestine (little storms) and grandinine (little hailstones), and countless other whimsical forms. Stelline are used primarily in broths and light soups, particularly for children and the elderly.",
+  "regions": [],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Pasta By Hand", "Mastering Pasta", "Pasta Grannies"]
+}

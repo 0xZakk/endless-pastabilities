@@ -1,0 +1,16 @@
+{
+  "slug": "candele",
+  "name": "Candele",
+  "category": "extruded",
+  "description": "Very long, hollow tubes of factory-made dried pasta, made from durum wheat and water, with a hole measuring from 1/8 to 3/8 inch in diameter. Their dramatic yard-long length makes them one of the most striking pasta shapes.",
+  "instructions": [
+    "Candele are factory-made dried pasta and do not require hand-shaping.",
+    "Snap the long tubes into shorter lengths before or after cooking, as desired.",
+    "Boil in abundant salted water until al dente.",
+    "Drain and toss with sauce."
+  ],
+  "history": "The name 'candele' means literally 'candles,' referring to the long, thin candles used in liturgical processions. In small towns, especially in the south, such processions during feasts like Corpus Domini or celebrations of the Madonna featured long, white lit candles whose profile and color resemble the pasta once sold unpackaged in groceries. Candele are closely associated with Campania, particularly the pasta-making town of Gragnano near Naples. They are traditionally snapped into short lengths and used for dishes like Genovese, a deeply savory Neapolitan onion and beef sauce.",
+  "regions": ["Campania", "Lazio", "Marche"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta"]
+}

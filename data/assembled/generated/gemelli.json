@@ -1,0 +1,16 @@
+{
+  "slug": "gemelli",
+  "name": "Gemelli",
+  "category": "hand-shaped",
+  "description": "Gemelli, meaning \"twins,\" are short, twisted pasta shapes that appear to be two strands intertwined. In their factory-made form, they are actually a single piece of pasta twisted into an S-shape, creating a compact spiral that catches sauce in its grooves.",
+  "instructions": [
+    "Gemelli are primarily a factory-made pasta shape, extruded from durum-wheat flour and water dough.",
+    "The dough is forced through a die that creates the characteristic twisted, double-helix shape.",
+    "The extruded pasta is cut to uniform lengths and dried.",
+    "To cook, boil in plenty of salted water until al dente."
+  ],
+  "history": "Gemelli are listed among the factory-made variations of fusilli in Italian pasta encyclopedias, alongside shapes like riccioli, spirali, and tortiglioni. The name means \"twins\" and refers to the appearance of two strands twisted together, though in practice it is a single piece of dough formed into a spiral. Like other short, twisted factory shapes, gemelli evolved from the handmade fusilli tradition of southern Italy and are now common throughout the country.",
+  "regions": ["Throughout Italy"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

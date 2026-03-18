@@ -1,0 +1,31 @@
+{
+  "slug": "semolina-water",
+  "name": "Semolina & Water Dough",
+  "description": "An eggless dough made from durum wheat semolina and water, the foundation of southern Italian pasta making. As Pasta Grannies explains, this dough doesn't include eggs because durum wheat already has enough bite. The resulting pasta is sturdy, chewy, and slightly rough-textured — ideal for shaped pastas like orecchiette, cavatelli, and busiate that need to grip robust sauces.",
+  "yield": "About 1 pound (serves 4-6)",
+  "time": "Active: 20 min / Total: 50 min (including rest)",
+  "ingredients": [
+    {"item": "finely ground semolina flour (semola rimacinata)", "amount": "200g", "note": "about 1 cup + 3 tablespoons"},
+    {"item": "00 flour or all-purpose flour", "amount": "200g", "note": "about 1 1/2 cups + 1 tablespoon"},
+    {"item": "warm water", "amount": "200g", "note": "about 3/4 cup + 1 1/2 tablespoons"},
+    {"item": "fine sea salt", "amount": "1 teaspoon"}
+  ],
+  "instructions": [
+    "Combine the semolina flour and 00 flour on a clean work surface and mix together. Form a well in the center.",
+    "Pour the warm water into the well and add the salt. Using a fork, gradually incorporate the flour from the inner walls into the water.",
+    "When the dough becomes too stiff for a fork, bring it together with your hands. The dough will feel drier and more crumbly than an egg dough — this is normal for semolina-based doughs.",
+    "Knead vigorously for 8 to 10 minutes. Because there are no eggs to add tenderness, the dough needs thorough kneading to develop the gluten properly. It should become smooth and firm. If it feels too hard and crumbly, add water a teaspoon at a time; if too sticky, dust with semolina.",
+    "Shape the dough into a ball, cover with an upturned bowl or wrap in plastic, and rest for 30 minutes at room temperature.",
+    "After resting, divide the dough into portions and shape according to your recipe. This dough is typically hand-shaped rather than rolled into thin sheets."
+  ],
+  "tips": [
+    "The general rule from An A-Z of Pasta is equal parts by weight: 200g semolina, 200g 00 flour, and 200g warm water. But because all flour is different and conditions vary, you may need to adjust.",
+    "For a sturdier, more traditional southern Italian dough, use a higher proportion of semolina to 00 flour, or use all semolina.",
+    "Pasta By Hand uses a 50/50 blend of semolina and all-purpose flour with kosher salt and warm water — a very reliable combination for beginners.",
+    "This dough can also be made in a stand mixer with the dough hook attachment — knead on medium speed for about 6 minutes.",
+    "A small amount of olive oil (1 tablespoon) can be added for a slightly more pliable dough, as in some Pasta By Hand recipes.",
+    "Unlike egg doughs, this dough is almost never rolled paper-thin. It is typically used for shaped pastas that retain some thickness."
+  ],
+  "used_for": ["orecchiette", "cavatelli", "busiate", "malloreddus", "trofie", "pici", "lagane", "strascinati", "foglie d'ulivo"],
+  "source_books": ["Pasta Grannies", "An A-Z of Pasta", "Pasta By Hand", "Mastering Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

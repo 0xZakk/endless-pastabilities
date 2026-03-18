@@ -1,0 +1,18 @@
+{
+  "slug": "tagliolini",
+  "name": "Tagliolini",
+  "category": "hand-cut",
+  "description": "Very thin, delicate egg noodles, narrower than tagliatelle. They are cut from a nearly transparent sheet of egg dough and are among the finest hand-cut pasta shapes in the Italian tradition.",
+  "instructions": [
+    "Make an egg dough by kneading flour with eggs until firm and smooth.",
+    "Cover and let rest for at least 30 minutes.",
+    "Roll the dough out into a very thin, almost translucent sheet.",
+    "Dust the sheet with flour and fold it in thirds, as you would a letter.",
+    "Using a very sharp knife, slice the folded dough into very thin noodles.",
+    "Unroll the noodles, dust with flour, and let dry briefly before cooking."
+  ],
+  "history": "Tagliolini are the thinner siblings of tagliatelle and are found throughout central and northern Italy. In Piedmont, the local version is called tajarin, made with an exceptionally rich egg yolk dough. The name derives from tagliare, to cut, like tagliatelle. They are traditionally served in broth or with delicate sauces such as butter and sage, truffles, or light meat ragus. In some regions, tagliolini are also known as tagliarini or taddarini.",
+  "regions": ["Emilia-Romagna", "Piedmont", "Lazio"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Mastering Pasta", "Pasta By Hand", "Pasta Grannies", "Pasta"]
+}

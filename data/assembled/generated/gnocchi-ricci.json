@@ -1,0 +1,21 @@
+{
+  "slug": "gnocchi-ricci",
+  "name": "Gnocchi Ricci",
+  "category": "dumpling",
+  "description": "Gnocchi ricci, meaning \"curly gnocchi,\" are small dumplings with distinctively curled-up edges and an indented center, made from a unique double dough method combining an egg dough with a boiling water dough. Their rustic, hearty texture is deeply regional.",
+  "instructions": [
+    "Prepare two separate doughs: one from flour and eggs, the other from flour, boiling water, and salt.",
+    "Knead each dough separately until firm and smooth, then let both rest.",
+    "Combine the two doughs and knead them together until well blended.",
+    "Cut off a chunk of dough and roll it into a log about 1/2 inch in diameter on a semolina-dusted surface.",
+    "Cut the log into 1/2-inch pieces.",
+    "Using your index and middle fingers, drag each piece across the work surface, creating an indentation in the center.",
+    "With your hands, gently stretch out the piece to create a slightly larger and flatter surface with curly edges.",
+    "The finished gnocchi should be about 1.5 inches in size, slightly curly around the edges, and flatter in the center.",
+    "Cook in simmering salted water until they float, then simmer 2 to 3 minutes more until al dente."
+  ],
+  "history": "Gnocchi ricci are a specialty of Amatrice in the province of Rieti, in northeastern Lazio. This was the typical dish served on feast days and Sundays to noble families, but it was not widely known even among people in nearby villages. The tradition of making this dumpling was nearly lost entirely, until only two elderly women remained who knew the technique. The town of Amatrice decided to offer a training course in 2004 for thirty participants, and it was a great success. Since then, the village has dedicated a spring festival to gnocchi ricci, and the shape is now widely made locally and even produced by small artisanal pasta makers.",
+  "regions": ["Lazio"],
+  "dough_recipes": ["egg-dough", "flour-water"],
+  "source_books": ["Pasta By Hand", "Encyclopedia of Pasta"]
+}

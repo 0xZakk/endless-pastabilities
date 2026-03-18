@@ -1,0 +1,15 @@
+{
+  "slug": "anelli",
+  "name": "Anelli",
+  "category": "small",
+  "description": "A factory-made dried pastina in the shape of tiny rings, made from durum wheat and water. They come in various sizes and are small enough to press up against the side of a bag like eager faces at a window.",
+  "instructions": [
+    "Anelli are factory-made and do not require hand-shaping.",
+    "To serve in broth: bring broth to a boil, add anelli, and cook until al dente.",
+    "To make timballo: parboil the anelli, dress with tomato sauce and fried eggplant, layer with cheese in a buttered mold, and bake until golden."
+  ],
+  "history": "Anelli are most typical of Sicily and Puglia, where they hold deep personal and collective culinary history. The name means 'little rings,' and they come in various sizes under names including anelli, anelletti, anellini, and anelloni d'Africa. While typically served in broth, they are perhaps most celebrated in Sicily's baked timballo, dressed with tomato sauce and fried eggplant and layered with cheese, a dish long associated with Ferragosto (August 15) celebrations and beach outings.",
+  "regions": ["Sicilia", "Puglia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta"]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "tortelli-romagnoli",
+  "name": "Tortelli Romagnoli",
+  "category": "filled",
+  "description": "Triangular filled pasta from Romagna, made with a thin egg dough and filled with field greens, ricotta, and nutmeg. The dough must be rolled to an almost transparent thinness, requiring both skill and strong arms.",
+  "instructions": [
+    "Knead flour energetically with eggs for a long time until the dough is firm and smooth.",
+    "Let the dough rest, then roll out into a very thin, almost transparent sheet.",
+    "Cut the sheet into 2-inch (5 cm) squares.",
+    "Place a spoonful of filling (field greens, ricotta, and nutmeg) on each square.",
+    "Fold each square into a triangle and carefully seal the edges.",
+    "Boil a few at a time in plenty of salted water."
+  ],
+  "history": "In Romagna as in Emilia, homemade pasta made with wheat flour and eggs is a well-established tradition requiring strong arms, since the dough (known locally as spassell) must be kneaded with both skill and force. The sheet, under the staciadur (rolling pin), must be rolled to a rare and difficult thinness. Also known as cappelletti romagnoli, these tortelli are sometimes served with strigoli, wild greens abundant in the pine forests around Ravenna that give the pasta filling a characteristic flavor. A particular variant called tortello di erbette uses a filling of chard and ricotta.",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Pasta Grannies"]
+}

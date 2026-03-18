@@ -1,0 +1,19 @@
+{
+  "slug": "pisarei",
+  "name": "Pisarei",
+  "category": "hand-shaped",
+  "description": "Small, shell-shaped dumplings made from a dough of fine dry bread crumbs, flour, and warm water. Each tiny piece is given a shallow indentation with the thumb, creating a concave shape that catches sauce beautifully.",
+  "instructions": [
+    "Pulse dry bread crumbs in a food processor until very finely ground. Transfer to a large bowl and add flour and salt. Mix well.",
+    "Incorporate boiling water a little at a time, stirring to incorporate each addition.",
+    "When cool enough to handle, knead the dough until it stops feeling granular and starts feeling silky, 5 to 6 minutes. Cover and rest for 30 minutes.",
+    "Tear off a chunk of dough, keeping the rest covered. Roll into a long, 3/4-inch-thick rope on an unfloured surface.",
+    "Cut the rope into 1/4-inch-wide pieces.",
+    "Place the side of your thumb on each piece and roll it along the work surface while flicking your thumb up slightly, creating a shallow indentation.",
+    "Place pisarei on a parchment-lined baking sheet. Cook in boiling salted water until al dente, about 5 minutes."
+  ],
+  "history": "Pisarei are a traditional pasta of Piacenza in Emilia-Romagna, classically paired with beans in the dish pisarei e faso. They were historically made with pista 'd grass (lardo minced with garlic and parsley) for both fat and flavor. The pairing of pasta with beans provided protein for peasant tables where meat was too costly. There was a curious custom around Piacenza: when a young man presented his prospective fiancee to his family, his mother checked the girl's right thumb for calluses, which indicated she was an experienced maker of pisarei and thus a suitable bride.",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Pasta By Hand"]
+}

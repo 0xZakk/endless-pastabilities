@@ -1,0 +1,20 @@
+{
+  "slug": "casonsei",
+  "name": "Casonsei",
+  "category": "filled",
+  "description": "A crescent-shaped filled pasta from the area around Brescia and the alpine valleys of Lombardy and the Veneto. Made from egg dough, they feature a characteristic depression in the center created by pressing with the thumb after sealing.",
+  "instructions": [
+    "Sift wheat flour onto a wooden board and knead with eggs, salt, and sometimes a little olive oil until smooth.",
+    "Let the dough rest, then roll out into thin sheets.",
+    "Cut the sheets into rounds or squares.",
+    "Place a spoonful of filling on one half of each piece.",
+    "Moisten the edge of the dough with water.",
+    "Fold the dough over the filling and press down on the edge to seal.",
+    "Place the casonsei seam side down and press your thumb in the center, making a slight depression and forming them into crescents.",
+    "Boil in salted water for about 6 minutes."
+  ],
+  "history": "Casonsei are a filled pasta traditional to the area around Brescia in Lombardy and into the alpine valleys of the Veneto. Fillings vary significantly by location: housewives in Brescia use various meats flavored with nutmeg, those in the Val Camonica combine potatoes with garlicky salami, sausage, spinach, and local cheese, the ciaroncié of Moena are filled with wild spinach, and around Cortina d'Ampezzo they are usually filled with beets. This diversity of fillings reflects the pasta's spread across very different geographic and culinary zones, from the plains of Lombardy to the Dolomite valleys.",
+  "regions": ["Lombardia", "Veneto", "Trentino-Alto Adige"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies"]
+}

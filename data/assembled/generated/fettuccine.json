@@ -1,0 +1,19 @@
+{
+  "slug": "fettuccine",
+  "name": "Fettuccine",
+  "category": "hand-cut",
+  "description": "Fettuccine are flat, ribbon-shaped egg noodles about 3/8 inch wide, a hallmark of Roman and central Italian cooking. Their broad, silky surface clings beautifully to rich butter sauces and hearty meat ragu.",
+  "instructions": [
+    "Make a classic egg dough by sifting flour with a pinch of salt and kneading vigorously with eggs until the dough is firm and smooth.",
+    "Cover the dough and let it rest for at least 30 minutes.",
+    "Roll the dough out by hand or with a machine into a sheet; thickness depends on the sauce (thicker for meat ragu, thinner for butter and Parmesan).",
+    "Cut the rolled dough into 12-inch lengths and rub with semolina flour.",
+    "Fold both ends of each length over so they meet in the middle, then fold again to form an envelope shape.",
+    "With a sharp knife, cut the folded dough into 3/8-inch-wide ribbons.",
+    "Unfurl the ribbons and boil briefly in plenty of salted water, adding them a few at a time so the water returns quickly to a boil."
+  ],
+  "history": "The name fettuccine means \"little ribbons\" and they are a feather in the cap of Roman and Lazio gastronomy, with roots in a very old tradition of egg noodles. The most famous preparation is fettuccine Alfredo, created by the legendary Roman restaurateur Alfredo who tossed them with a generous amount of butter using a gold fork and spoon given to him by Mary Pickford and Douglas Fairbanks during their 1927 visit. In the countryside and small towns, making fettuccine at home, especially on Sundays, remains a cherished custom. Roman fettuccine are traditionally thicker than their Bolognese sisters (tagliatelle).",
+  "regions": ["Lazio", "Central Italy", "Southern Italy"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta"]
+}

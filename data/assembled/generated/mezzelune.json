@@ -1,0 +1,21 @@
+{
+  "slug": "mezzelune",
+  "name": "Mezzelune",
+  "category": "filled",
+  "description": "Mezzelune are elegant half-moon shaped filled pasta, made by folding a round of thin dough over a flavorful filling and sealing the curved edge. Their crescent shape makes them one of the most graceful forms of filled pasta.",
+  "instructions": [
+    "Make an egg pasta dough with flour and eggs (or egg yolks for a richer dough), knead until smooth and elastic, and let it rest for 30 minutes.",
+    "Roll the dough out into very thin sheets, about 1/32 to 1/8 inch thick, using a rolling pin or pasta machine.",
+    "Using a round cutter about 3-4 inches in diameter, cut the dough into circles.",
+    "Place a small amount of filling (such as ricotta and spinach, cheese, or potato) in the center of each round.",
+    "Fold the dough over the filling to form a half-moon shape.",
+    "Press the edges firmly to seal, ensuring no air pockets remain.",
+    "Place the mezzelune on a flour-dusted baking sheet.",
+    "Boil in plenty of salted water until they float and the edges are tender, about 3-5 minutes.",
+    "Serve with melted butter, sage, and grated cheese, or with a light sauce."
+  ],
+  "history": "Mezzelune, meaning 'half-moons,' are a filled pasta shape found particularly in the alpine regions of northern Italy, especially Alto Adige and Trentino, where they reflect the convergence of Italian and Austrian culinary traditions. They are closely related to the schultzkrapfen of the Val Pusteria, where rye flour doughs are filled with spinach, ricotta, and potatoes. The half-moon shape is one of the oldest and most intuitive forms of filled pasta, created simply by folding a round of dough in half over a filling. In the Alto Adige tradition, they are typically served with melted butter and local cheese, especially the so-called gray cheese, Graukase.",
+  "regions": ["Trentino-Alto Adige"],
+  "dough_recipes": ["egg-dough", "egg-yolk-rich"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "Encyclopedia of Pasta"]
+}

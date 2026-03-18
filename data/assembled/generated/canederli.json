@@ -1,0 +1,20 @@
+{
+  "slug": "canederli",
+  "name": "Canederli",
+  "category": "dumpling",
+  "description": "Large bread dumplings the size of oranges, from the alpine regions of northern Italy. Made from stale bread mixed with milk, eggs, and various additions like speck or cheese, canederli reflect the region's Austrian culinary heritage.",
+  "instructions": [
+    "Cut stale bread into small cubes and place in a bowl.",
+    "Add warm milk and let the bread soak until softened.",
+    "Mix in beaten eggs, diced speck or pancetta, grated cheese, chopped parsley, and seasonings.",
+    "Stir until the ingredients bind together. If too dry, add more milk. Let rest for 15 minutes.",
+    "Wet your hands, scoop out a small handful of mixture, press hard to bind, and roll between palms into a ball the size of a clementine.",
+    "Bring a large pan of salted water to the boil, deep enough to cover the canederli by three-quarters.",
+    "Cook in batches, simmering gently until cooked through.",
+    "Serve in broth, or with melted butter and grated Parmigiano Reggiano."
+  ],
+  "history": "Canederli are bread dumplings from the Dolomites, in an area that was for many years part of Austria. They come from an era when a loaf of bread had to last several weeks, and all the ingredients were scraps left over from a better meal. Each household has its own take on the base recipe of combining bread with various additions and simmering the balls in water or stock. Some add cheese, and there is even a version with brains. Bread-based dumplings like canederli and strangolapreti are traditionally from alpine regions where winter weather caused isolation and stale bread was stretched with seasonal ingredients.",
+  "regions": ["Trentino-Alto Adige"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["Pasta Grannies", "Pasta By Hand", "The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Mastering Pasta"]
+}

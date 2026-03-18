@@ -1,0 +1,22 @@
+{
+  "slug": "gnocchi-di-semolino",
+  "name": "Gnocchi Di Semolino",
+  "category": "dumpling",
+  "description": "Gnocchi di semolino, also known as gnocchi alla romana, are flat rounds of firm semolina porridge that are cut into discs and baked with butter and Parmesan until golden and bubbly. Unlike most gnocchi, they are baked rather than boiled.",
+  "instructions": [
+    "Heat milk in a saucepan until simmering.",
+    "Gradually pour in semolina flour while whisking continuously to avoid lumps, similar to making polenta.",
+    "Cook the mixture, stirring constantly, until it is very thick and pulls away from the sides of the pan.",
+    "Remove from heat and stir in butter, egg yolks, and grated Parmigiano-Reggiano.",
+    "Spread the hot semolina mixture onto a parchment-lined surface or oiled baking sheet to a thickness of about 1/2 inch.",
+    "Let the mixture cool completely until firm.",
+    "Using a round cookie cutter or glass (about 2 inches in diameter), punch out rounds from the cooled semolina.",
+    "Arrange the rounds, slightly overlapping, in a buttered baking dish.",
+    "Dot with butter and sprinkle generously with Parmigiano-Reggiano.",
+    "Bake in a hot oven until golden brown and bubbly on top."
+  ],
+  "history": "Gnocchi di semolino, commonly called gnocchi alla romana, originated in Rome but have become popular throughout Italy. Unlike most gnocchi that are simmered in water, these are made by cooking semolina in milk to form a thick porridge, which is then cooled, cut into rounds, and baked with butter and Parmesan. Modern, health-conscious Italians sometimes use olive oil instead of butter for finishing. The preparation is related to the broader family of semolina-based pastas found across central Italy, reflecting Rome's historical preference for semolina over potatoes in its gnocchi tradition.",
+  "regions": ["Lazio"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Pasta By Hand", "Mastering Pasta", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

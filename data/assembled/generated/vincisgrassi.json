@@ -1,0 +1,20 @@
+{
+  "slug": "vincisgrassi",
+  "name": "Vincisgrassi",
+  "category": "sheet",
+  "description": "The Marche region's answer to lasagne, a rich layered pasta dish made with thin sheets of egg dough, typically layered with a ragu of chicken giblets, mushrooms, and bechamel. The pasta sheets are thinner and more delicate than standard lasagne.",
+  "instructions": [
+    "Make an egg dough, kneading flour with eggs until elastic and smooth.",
+    "Let rest for 30 minutes.",
+    "Roll the dough into very thin sheets, about 1/8 inch thick.",
+    "Cut the sheets to fit your baking dish.",
+    "Briefly blanch the pasta sheets in salted boiling water, then cool.",
+    "Layer the sheets in a buttered baking dish with ragu, bechamel, and grated Parmesan.",
+    "Repeat layers, ending with bechamel and Parmesan on top.",
+    "Bake until golden and bubbling."
+  ],
+  "history": "Vincisgrassi is the signature layered pasta dish of the Marche region. The name is popularly attributed to the Austrian general Windischgratz, who was stationed in Ancona during the Napoleonic wars, though food historians note the dish predates his arrival. The traditional filling features a rich ragu of chicken giblets, sweetbreads, and porcini mushrooms, layered with bechamel and Parmigiano. It represents the Marche's distinctive take on layered baked pasta, differing from Bolognese lasagne in both its filling and the thinness of its pasta sheets.",
+  "regions": ["Marche"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Mastering Pasta", "Pasta Grannies", "Pasta By Hand", "Pasta"]
+}

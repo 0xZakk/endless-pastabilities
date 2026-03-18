@@ -1,0 +1,20 @@
+{
+  "slug": "casoncelli",
+  "name": "Casoncelli",
+  "category": "filled",
+  "description": "A filled pasta from Lombardy whose shape varies by town: in Barbariga they are untwisted sweet-wrapper style parcels, while 25 kilometers away in Brescia they are clog-shoe shaped. Made from egg dough and typically filled with a mixture of meats.",
+  "instructions": [
+    "Make an egg pasta dough, knead until smooth, and let rest.",
+    "Roll out the dough into thin sheets.",
+    "Cut the sheets into 7 cm (2 3/4 inch) squares using a ruler and knife or pastry cutter.",
+    "Place a green olive-sized piece of filling in the center of each square.",
+    "Orient each square as a diamond and take the point closest to you, rolling it over and around the filling.",
+    "Ensure the pasta point furthest from you stays underneath on the board.",
+    "Press down firmly on either side of the filling to seal.",
+    "Cook in batches in boiling salted water for around 5 minutes."
+  ],
+  "history": "Casoncelli have been made since the sixteenth century in Lombardy, and the mixture of meats in the filling tells you this pasta was originally a way of using up leftovers. The same name can refer to quite different shapes depending on location: in Barbariga, a village south of Lake Iseo, they are untwisted and sweet-wrapper shaped, while in nearby Brescia they take on a clog-shoe form. Casoncelli di Barbariga now have an official recipe, reflecting their importance to the local culinary identity.",
+  "regions": ["Lombardia"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Pasta Grannies"]
+}

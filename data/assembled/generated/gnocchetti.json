@@ -1,0 +1,19 @@
+{
+  "slug": "gnocchetti",
+  "name": "Gnocchetti",
+  "category": "hand-shaped",
+  "description": "Gnocchetti are small, shell-like dumplings shaped by pressing and flicking bits of dough against a gnocchi board or fork tines, creating a curled shape with an indentation on one side and ridges on the other. They are the diminutive of gnocchi and encompass a wide family of similar small pasta shapes found throughout Italy.",
+  "instructions": [
+    "Make a dough from flour (and optionally ricotta, potato, or other ingredients depending on the regional recipe) and knead until soft.",
+    "Cut off a chunk of dough and roll it into a log about 1/4 to 1/2 inch in diameter.",
+    "Cut the log into 1/2-inch pieces.",
+    "With the side of your thumb, gently push each piece against a gnocchi board or the back of the tines of a fork.",
+    "Roll and flick the dough to make a curled shape with an indentation on one side and a ridged surface on the other.",
+    "Place the gnocchetti on a prepared baking sheet dusted with semolina flour, making sure they do not touch.",
+    "Cook in simmering salted water until they float to the surface, about 1 to 3 minutes."
+  ],
+  "history": "Gnocchetti is a diminutive of the term gnocco and encompasses innumerable different but similar small pastas found throughout Italy. According to the Inchiesta napoleonica (1805-15), in Romagna when a child was born, if the baby was a boy, gnocchi (called maccheroni) cooked in milk had to be served; if a girl, lasagne. These small flour-and-water gnocchi were considered ritual dishes, served for New Year's luncheon with dried grapes as a propitiatory meal for future well-being and wealth, and also made for the last day of Carnival. Regional variations are vast: in the Marche, gnocchetti alla dispreta (\"desperate woman's gnocchetti\") were made from leftover polenta and flour, testimony to rural poverty.",
+  "regions": ["Throughout Italy", "Lazio", "Abruzzo", "Marche", "Romagna", "Sardinia", "Campania", "Sicily"],
+  "dough_recipes": ["flour-water", "semolina-water"],
+  "source_books": ["Pasta By Hand", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

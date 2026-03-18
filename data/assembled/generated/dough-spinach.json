@@ -1,0 +1,30 @@
+{
+  "slug": "spinach",
+  "name": "Spinach Dough",
+  "description": "A vibrant green pasta dough made by incorporating blanched, squeezed, and finely chopped spinach into a standard egg dough. Known in Italian as pasta all'uovo verde, this dough is a classic of Emilia-Romagna and is famously used in the 'straw and hay' (paglia e fieno) combination with plain egg pasta. The spinach adds color and a subtle vegetal sweetness without making the pasta taste strongly of spinach.",
+  "yield": "About 1 pound (serves 4)",
+  "time": "Active: 30 min / Total: 1 hour (including rest)",
+  "ingredients": [
+    {"item": "fresh spinach", "amount": "155g", "note": "about 5 1/2 oz; yields roughly 100g cooked"},
+    {"item": "all-purpose flour or 00 flour", "amount": "400g", "note": "about 14 oz, plus more as needed"},
+    {"item": "medium eggs", "amount": "3"},
+    {"item": "fine sea salt", "amount": "1 pinch"}
+  ],
+  "instructions": [
+    "Place the spinach in a large skillet with just the water clinging to its leaves (or blanch in a pot of boiling water for 1 to 2 minutes). Cook until fully wilted.",
+    "Drain the spinach in a colander and rinse under cold water to stop the cooking. Place the spinach in a clean kitchen towel and wring it out thoroughly, squeezing out as much moisture as possible. You should end up with about 100g of cooked spinach.",
+    "Finely chop the spinach. As Rosa from Pasta Grannies advises, you can blend the spinach with the eggs in a food processor to make a liquid — this produces a more uniform green dough.",
+    "Mound the flour on a work surface and make a well. Crack the eggs into the well, add the spinach and salt, and beat together with a fork while gradually drawing in flour.",
+    "Bring the dough together and knead for 8 to 10 minutes until smooth and evenly green. Check the consistency — depending on the moisture in the spinach, egg size, and flour strength, you may need to add more flour if the dough feels too wet, or a few drops of water if too dry.",
+    "Wrap the dough in plastic wrap and rest for 30 minutes before rolling out and cutting into the desired shape."
+  ],
+  "tips": [
+    "The most important step is squeezing the spinach very dry. Excess moisture will make the dough too wet and sticky, requiring so much extra flour that you lose the green color.",
+    "Adding spinach makes the dough more fragile, so handle it more gently when rolling. It may not stretch as thin as plain egg dough.",
+    "For paglia e fieno (straw and hay), make a batch of plain egg dough and a batch of spinach dough, then cut both into tagliatelle and combine.",
+    "Pasta Grannies' recipe for the 'hay' portion uses 300g flour, 2 eggs, and 100g cooked spinach — slightly less egg than plain dough because the spinach adds moisture.",
+    "You can substitute other greens like nettles, basil, or kale, though each will produce a slightly different color and flavor."
+  ],
+  "used_for": ["paglia e fieno", "lasagne verdi", "tagliatelle verdi", "garganelli verdi", "rotolo ripieno", "cannelloni"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies", "An A-Z of Pasta", "Pasta By Hand"]
+}

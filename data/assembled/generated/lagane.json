@@ -1,0 +1,21 @@
+{
+  "slug": "lagane",
+  "name": "Lagane",
+  "category": "hand-cut",
+  "description": "Lagane are wide, flat noodles or irregular ribbon-shaped pasta, cut from a sheet that is rolled out not too thin. Their width and length vary from place to place, making them a rustic and variable shape.",
+  "instructions": [
+    "Combine finely ground semolina flour and all-purpose flour in a large bowl with water and a pinch of salt, and work until the mixture starts to come together as a dough.",
+    "Transfer the dough to a flour-dusted work surface and knead energetically until smooth and homogeneous, about 10 minutes.",
+    "Cover the dough with plastic wrap and let it rest at room temperature for 30 minutes.",
+    "Divide the dough into 2 pieces. Cover one piece and place the other on a flour-dusted work surface.",
+    "Roll the dough out into a sheet about 1/8-inch thick.",
+    "Roll the dough up around the rolling pin, gently slide it off, and cut it into 1-inch-thick strips.",
+    "Unroll the strips and place them on a flour-dusted baking sheet.",
+    "Dust the lagane with flour, cover with kitchen towels, and let them rest for 2 to 3 hours before cooking.",
+    "Boil in plenty of salted water until al dente, about 5 minutes."
+  ],
+  "history": "Lagane are among the most ancient pasta shapes, with roots in Greek and Roman antiquity. The word derives from the Greek laganon and Latin laganum, and even then the pasta was accompanied by legumes. The poet Horace, born in Venosa in 65 BC, wrote in his Satires about going home to eat his simple soup of leeks, chickpeas, and lagane. An echo of these ancient dishes survives today in the Salentine dish ciceri e tria, in which half the flat noodles are boiled and the other half are fried in oil, preserving a custom that dates back to antiquity.",
+  "regions": ["Lazio", "Campania", "Puglia", "Basilicata", "Calabria"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta"]
+}

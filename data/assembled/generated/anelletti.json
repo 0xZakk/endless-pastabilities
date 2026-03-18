@@ -1,0 +1,18 @@
+{
+  "slug": "anelletti",
+  "name": "Anelletti",
+  "category": "small",
+  "description": "Factory-made dried pasta in the shape of small rings, made from durum wheat and water. In Sicily, the rings are thinner and round in cross-section rather than square, distinguishing them from other regional variants.",
+  "instructions": [
+    "Anelletti are factory-made and do not require hand-shaping.",
+    "For anelletti al forno (baked timballo): brown ground pork and beef with onion, deglaze with red wine, add crushed tomatoes and peas, and simmer into a ragù.",
+    "Separately fry cubed eggplant in olive oil until golden.",
+    "Parboil the anelletti in salted water, then combine with the ragù.",
+    "Layer in a greased baking dish with caciocavallo cheese, sliced hard-boiled eggs, grated pecorino, and fried eggplant.",
+    "Top with breadcrumbs and bake until golden and set. Let rest 10 minutes before serving."
+  ],
+  "history": "Anelletti, meaning 'little rings,' are found throughout Italy but are especially important in Puglia and Sicily. In Sicily, the classic preparation is anelletti al forno, a baked timballo that was traditionally made for Ferragosto (Assumption Day, August 15) because it could be prepared in advance and served at room temperature. For a long time this pasta dish was taken to the beach, and around the port of Siracusa it is called 'pasta ro bagnu,' or 'pasta for the baths.' Southern pasta makers historically produced various sizes, from tiny anellini for broth to larger anelletti for baking.",
+  "regions": ["Sicilia", "Puglia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

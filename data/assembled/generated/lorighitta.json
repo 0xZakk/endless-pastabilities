@@ -1,0 +1,20 @@
+{
+  "slug": "lorighitta",
+  "name": "Lorighitta",
+  "category": "hand-shaped",
+  "description": "Lorighittas are intricate ring-shaped pasta made from two loops of thin spaghetti-like dough twisted together to form a braided ring. They are one of the most distinctive and labor-intensive handmade pasta shapes in all of Italy.",
+  "instructions": [
+    "Sift durum-wheat flour with a pinch of salt onto a wooden board and knead with water for a long time until a smooth, firm dough forms.",
+    "Cover the dough and let it rest for at least 30 minutes.",
+    "Pinch off pieces of dough and roll each into a long, thin rope no thicker than 1/6 inch.",
+    "Wrap the rope of dough twice around three or four fingers of one hand, forming two loops.",
+    "Break the string of dough off, letting the loops fall to the work surface.",
+    "Using your thumb and index finger, twirl the two loops around each other with a rapid movement similar to winding a watch, forming a braided, twisted ring.",
+    "Place the lorighittas on flour-dusted baking sheets or large flat baskets to dry for at least 1 day, up to 3 days, turning them over halfway through.",
+    "Boil in plenty of salted water for 8 to 25 minutes depending on how dry they are."
+  ],
+  "history": "Lorighittas are exclusive to the small village of Morgongiori on the western side of central Sardinia, the only place in all of Italy where they are made. They were traditionally prepared for All Saints' Day on November 1st, with production beginning after the feast of Santa Sofia in mid-October. Making lorighittas was an opportunity for women to gather, gossip, and sing, and even today no one has found a way to mechanize the process. The name refers to the shape of a long ring known as loriga in Sardinian, from the Latin lorum, the leather ring placed under the yoke of oxen. This unusual pasta is listed in Italy's national registry of traditional food products.",
+  "regions": ["Sardinia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "Pasta Grannies", "Pasta By Hand"]
+}

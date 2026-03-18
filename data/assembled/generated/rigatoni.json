@@ -1,0 +1,15 @@
+{
+  "slug": "rigatoni",
+  "name": "Rigatoni",
+  "category": "extruded",
+  "description": "Short, wide tubes of dried pasta defined by their prominent ridges (rigature), about 1 1/2 inches long. The ridges and wide opening make rigatoni especially suited to catching and holding thick, hearty sauces.",
+  "instructions": [
+    "Rigatoni are a factory-made dried pasta shape, extruded from durum wheat flour and water through a ridged die.",
+    "They are not typically made by hand at home.",
+    "To cook, boil in abundant salted water until al dente. They pair especially well with finishing in the sauce pan with a splash of pasta water."
+  ],
+  "history": "Rigatoni are one of the most beloved pasta shapes in Rome, where they appear on virtually every trattoria menu. The name comes from rigato, meaning ridged or lined, referring to the distinctive grooves that run along the outside of each tube. In Rome, they are the preferred shape for carbonara, coda alla vaccinara (oxtail stew), and pajata. Along with paccheri, rigatoni are one of the best shapes for understanding the quality difference between good and mediocre dried pasta, as their porous surface, substance, and bite reveal the character of the wheat and the drying process.",
+  "regions": ["Lazio", "Campania"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta", "Encyclopedia of Pasta"]
+}

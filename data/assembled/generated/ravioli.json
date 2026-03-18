@@ -1,0 +1,19 @@
+{
+  "slug": "ravioli",
+  "name": "Ravioli",
+  "category": "filled",
+  "description": "The iconic filled pasta, consisting of a thin sheet of egg dough enclosing a filling, shaped into half-moons, rounds, squares, or triangles. Ravioli can be filled with meat, fish, cheese, vegetables, or combinations thereof, with edges straight or crimped.",
+  "instructions": [
+    "Make an egg pasta dough (00 flour, egg yolks, olive oil, salt). Knead until elastic and smooth, about 10 minutes. Cover and rest for 30 minutes.",
+    "Divide the dough into 2 pieces. Roll each piece into a very thin sheet (about 1/32 to 1/16 inch thick) on a flour-dusted surface or with a pasta machine.",
+    "Place teaspoons or tablespoons of filling at regular intervals (about 2 1/2 inches apart) on one sheet of dough.",
+    "Brush or mist the dough around the filling with water or egg wash to help seal.",
+    "Lay the second sheet over the first, or fold the sheet over. Press firmly around each mound of filling to seal, pushing out any trapped air.",
+    "Cut the ravioli apart using a pastry wheel, knife, or round cutter into the desired shape (squares, rounds, or half-moons).",
+    "Place finished ravioli on a flour-dusted baking sheet. Cook in boiling salted water until al dente, 2 to 4 minutes."
+  ],
+  "history": "Historians suggest the first written source of something like ravioli was in the Liber de Coquina, dated around 1285-1304, whose appendix includes a study of Arab gastronomy from 1100 noting a sambusaj, a triangle of pasta filled with ground meat. The Latin translation for sambusaj was raviolus. In the thirteenth century, the Franciscan friar Salimbene da Parma referred to raviolis sine crusta de pasta (ravioli without a crust of pasta). From the nineteenth century, the raviolo gained popularity as a form filled with meat, fish, cheese, or vegetables, shaped in half-moons, rounds, squares, or triangles, with edges straight or crimped.",
+  "regions": ["Liguria", "Tuscany", "Lazio", "Campania", "Emilia-Romagna"],
+  "dough_recipes": ["egg-dough", "egg-yolk-rich"],
+  "source_books": ["Mastering Pasta", "Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta", "Pasta Grannies", "Pasta and Noodles: A Global History"]
+}

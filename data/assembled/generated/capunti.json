@@ -1,0 +1,19 @@
+{
+  "slug": "capunti",
+  "name": "Capunti",
+  "category": "hand-shaped",
+  "description": "Small, elongated pasta shaped by pressing and dragging pieces of dough with the fingers, creating an indented, open shell-like form. They are closely related to cavatelli and are sometimes made three or four at a time on a ferretto.",
+  "instructions": [
+    "Sift semolina flour onto a wooden board and knead with water until a firm dough forms.",
+    "Let the dough rest.",
+    "Cut off a chunk of dough and roll it into a log about 3/4 inch in diameter.",
+    "Cut the log into small pieces.",
+    "Press down on each piece with your thumb, pushing away from you and twisting slightly to form an indented shape.",
+    "Alternatively, roll small pieces of dough on a ferretto (thin metal rod) to create small coiled shapes, sliding them off with a sharp rap of the hand.",
+    "Let dry on a dish towel, then boil in plenty of salted water."
+  ],
+  "history": "Capunti are traditional to Puglia and Basilicata, especially around Matera, where Lucanian housewives are renowned for their skill in shaping them, sometimes making three or four at a time on the same ferretto. The typical sauce is always a ragu with local pecorino and chili, as is customary for all Lucanian homemade pastas. Capunti go by many regional names including ferricieddi, fusilli, and minurich, reflecting the rich local dialect traditions of southern Italy.",
+  "regions": ["Puglia", "Basilicata"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

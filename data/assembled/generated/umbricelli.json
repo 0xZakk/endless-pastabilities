@@ -1,0 +1,19 @@
+{
+  "slug": "umbricelli",
+  "name": "Umbricelli",
+  "category": "hand-cut",
+  "description": "Thick, rustic hand-rolled noodles from Umbria made from a simple flour and water dough. The strands are rolled into 9-inch ropes with tapered ends, giving them a chunky, irregular character that holds robust sauces.",
+  "instructions": [
+    "Combine all-purpose flour, salt, and lukewarm water in a bowl and work into a dough.",
+    "Knead energetically until smooth and homogeneous, about 10 minutes.",
+    "Cover with plastic wrap and let rest for 30 minutes.",
+    "Divide the dough into 3 pieces and roll each into a 1/4-inch-thick sheet. Let dry for 15 minutes.",
+    "Cut each sheet into 1/2-inch-thick strips.",
+    "Working with your hands, gently roll each strip into a 9-inch-long rope with tapered ends.",
+    "Generously dust with semolina and place on baking sheets."
+  ],
+  "history": "Umbricelli are one of several names for the thick, hand-rolled noodles traditional to Umbria and parts of Lazio. They are also known as ciriole, strangozzi, stringozzi, and strigliozzi, and are often called strozzapreti. The name umbricelli may derive from the same root as lombrichelli (earthworms), evoking the worm-like shape. In Umbria and Lazio, similar rope-like pastas are a staple of the cucina povera, traditionally paired with robust sauces of garlic, tomato, truffles, or porcini mushrooms.",
+  "regions": ["Umbria", "Lazio"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Mastering Pasta", "Pasta By Hand", "Pasta Grannies"]
+}

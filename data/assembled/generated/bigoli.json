@@ -1,0 +1,18 @@
+{
+  "slug": "bigoli",
+  "name": "Bigoli",
+  "category": "extruded",
+  "description": "Long, thick spaghetti-like strands with a rough, porous, sauce-catching texture, made by pressing dough through a torchio (hand-cranked press). Thicker and more substantial than spaghetti, bigoli are traditionally dark in color from the use of whole-wheat flour.",
+  "instructions": [
+    "Sift whole-wheat flour (or a mix of hard and soft flours) onto a wooden board and knead with water and a pinch of salt until a very hard and uniform dough forms.",
+    "Allow the dough to rest.",
+    "Cut the dough into pieces and feed each piece into a torchio da bigoli (bigolaro), a hand-cranked press clamped to a table.",
+    "Turn the handle to extrude long, thick spaghettoni through the die at the bottom.",
+    "Cut the strands to a length of about 12 inches (30 cm).",
+    "Boil in plenty of salted water until al dente."
+  ],
+  "history": "First mentioned in a twelfth-century rhyme, bigoli were originally a long pasta made from a mix of hard and soft flours, often with a proportion of whole grain, which is why they were sometimes called a poor man's pasta. In 1604, a pasta maker named Bartolomio Veronese registered his invention of the torcio bigolaro, a press that produced long, rough-textured strings. The dialect word 'bigolo' alludes to a resemblance to worms, and the Latin root 'bombyculus' (cockroach) suggests poor, humble food. Today bigoli are the most common local pasta in Venice and the Veneto, traditionally served with 'bigoli in salsa,' a sauce of slowly cooked onions and anchovies.",
+  "regions": ["Veneto", "Friuli-Venezia Giulia"],
+  "dough_recipes": ["whole-wheat", "flour-water", "egg-dough"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta"]
+}

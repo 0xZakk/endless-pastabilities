@@ -1,0 +1,20 @@
+{
+  "slug": "pici",
+  "name": "Pici",
+  "category": "hand-cut",
+  "description": "Thick, hand-rolled strands of pasta resembling fat, irregular spaghetti, made from flour, water, olive oil, and salt. Each strand is individually rolled and stretched by hand, giving pici a rustic, uneven character.",
+  "instructions": [
+    "Combine all-purpose flour, lukewarm water, a pinch of salt, and olive oil in a bowl. Work into a dough.",
+    "Transfer to a floured surface and knead energetically until smooth and homogeneous, about 10 minutes.",
+    "Cover with plastic wrap and rest at room temperature for 30 minutes.",
+    "Roll the dough into a sheet about 2/5 inch thick on a floured surface.",
+    "Roll the sheet up around the rolling pin, gently slide it off, and cut into strips about 2/5 inch thick.",
+    "Working with a few strands at a time, hold each end and pull in opposite directions to elongate the pici, taking care not to break them.",
+    "Dust with semolina, place on a baking sheet, and let dry for about 3 hours before cooking.",
+    "Cook in boiling salted water until al dente, 6 to 8 minutes."
+  ],
+  "history": "Pici are one of the most ancient pasta shapes of Tuscany, particularly associated with the area around Siena and the Val d'Orcia. Some local historians have tried to trace pici back to the Etruscans, citing murals on the walls of a tomb in Cerveteri as evidence. The name varies across the region: in Umbria and parts of Lazio, similar rope-like pastas are called lombrichelli (earthworms) or umbricelli. Pici are traditionally served with hearty sauces such as aglione (garlic and tomato), duck ragu, or breadcrumb-based sauces.",
+  "regions": ["Tuscany", "Umbria", "Lazio"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta By Hand", "Mastering Pasta"]
+}

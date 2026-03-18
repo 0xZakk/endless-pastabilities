@@ -1,0 +1,17 @@
+{
+  "slug": "bavette",
+  "name": "Bavette",
+  "category": "hand-cut",
+  "description": "A long, flat, narrow ribbon pasta that belongs to a family of noodles ranging from the thinnest bavettine to wider trenette and fettuccine. Bavette are typically made from durum wheat and water as a factory-made dried pasta, though fresh versions also exist.",
+  "instructions": [
+    "Bavette are primarily factory-made dried pasta.",
+    "For fresh versions: sift flour onto a wooden board and knead with water or eggs to form a smooth dough.",
+    "Roll the dough out into thin sheets.",
+    "Cut the sheets into long, narrow ribbons.",
+    "Boil in abundant salted water until al dente."
+  ],
+  "history": "Bavetta is an early pasta term, possibly from the French, attested already in the thirteenth century as a derivative of 'baba' or 'bava,' meaning 'drool.' Fanfani's 1863 dictionary contains a reference to the name, describing it as 'a sort of pasta for soup that comes in long, thin threads,' also called baverine. The thinnest versions are known as bavettine or linguine ('small tongues'), while wider examples include trenette, fettuccine, and pappardelle. This type of pasta is traditionally served with herb-based sauces such as pesto alla genovese, and in the Sicilian archipelago with tuna and capers.",
+  "regions": ["Liguria", "Sicilia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

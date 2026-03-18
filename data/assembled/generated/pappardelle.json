@@ -1,0 +1,18 @@
+{
+  "slug": "pappardelle",
+  "name": "Pappardelle",
+  "category": "hand-cut",
+  "description": "Wide, flat ribbons of fresh egg pasta, ranging from a scant 1 inch to over 2 inches wide. It is the way they pleat and fold that makes them so satisfying, first on the plate and then in your mouth.",
+  "instructions": [
+    "Make an egg pasta dough by combining flour and eggs, kneading until firm and smooth. Cover and rest for 30 minutes.",
+    "Roll out the dough with a rolling pin or pasta machine to about 1/8 inch thick (setting 2 or 3 on a KitchenAid attachment).",
+    "Lightly dust the sheet with flour and fold it loosely.",
+    "Using a sharp knife, cut the folded dough into wide ribbons, anywhere from 1 to 2 inches wide.",
+    "Unfurl the ribbons and dust lightly with flour. Place on a baking sheet or hang to dry briefly before cooking.",
+    "Cook in plenty of well-salted boiling water until al dente."
+  ],
+  "history": "Pappardelle are typical of all the central and central-northern Italian regions, each boasting a slightly different width. The Tuscans gave the shape its name, derived from pappare, the colloquial word meaning \"to eat.\" Fresh egg pasta cut into wide ribbons, pappardelle goes with many sauces, but the most traditional are rich, meaty ones, especially game such as hare, wild boar, rabbit, and duck. In Tuscany, the classic pairing of pappardelle all'ocio (with duck) is a beloved regional dish.",
+  "regions": ["Tuscany", "Emilia-Romagna", "Lazio", "Veneto"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "Mastering Pasta", "Pasta"]
+}

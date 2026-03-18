@@ -1,0 +1,20 @@
+{
+  "slug": "sagne",
+  "name": "Sagne",
+  "category": "hand-cut",
+  "description": "Flat noodles of variable width and length, cut from a rolled-out sheet of dough and often twisted into spirals. The term sagne is used across central Italy to indicate fresh pasta of different shapes depending on the locality.",
+  "instructions": [
+    "Sift semolina flour onto a wooden board and make a well in the center.",
+    "Add warm water and salt, and knead long and vigorously until a solid, smooth dough forms.",
+    "Cover the dough and let it rest for at least 10 minutes.",
+    "Roll out the dough until it is about 2-3 mm thick.",
+    "Cut the sheet into ribbons about 2 cm (3/4 inch) wide.",
+    "Hold one end of a ribbon down on the board and roll it twice with the palm of your other hand to make a long spiral.",
+    "If the ribbon is very long, turn it around and give the other end a twist as well.",
+    "Fold the twisted ribbon in half and place it on a tea towel-covered tray to dry."
+  ],
+  "history": "The term sagne is used in different localities across central Italy and usually indicates fresh pasta of various shapes. In Abruzzo, a typical soup of sagne with cicerchie is traditional, and the noodles are also served with wild asparagus gathered by women known as sagnarelle. In northern Lazio and Abruzzo, flour milled from emmer, the pride of local hill agriculture, was traditionally used. Antonio de Magistris da Introdaqua recounted in 1794 how sagne were once prescribed as a medicinal food in the town of Fontavignone.",
+  "regions": ["Abruzzo", "Marche", "Molise", "Lazio", "Puglia", "Friuli-Venezia Giulia"],
+  "dough_recipes": ["semolina-water", "egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies", "An A-Z of Pasta", "Pasta By Hand", "Mastering Pasta"]
+}

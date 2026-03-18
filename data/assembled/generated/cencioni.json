@@ -1,0 +1,18 @@
+{
+  "slug": "cencioni",
+  "name": "Cencioni",
+  "category": "hand-shaped",
+  "description": "Short, thick pasta pieces made from a blend of wheat flour and fava bean flour with eggs. Cut into thick strips or small squares from a rolled sheet, they have a rustic, rag-like appearance that gives them their name.",
+  "instructions": [
+    "Sift wheat flour and fava bean flour together onto a wooden board.",
+    "Knead vigorously with eggs for a long time until the dough is firm and well blended.",
+    "Leave the dough to rest.",
+    "Roll out with a rolling pin into a sheet, not too thin.",
+    "Cut the sheet into short, thick strips or into 1 1/2 to 2-inch (4 to 5 cm) squares.",
+    "Boil in plenty of salted water."
+  ],
+  "history": "Cencioni di fave, meaning literally 'fava rags,' take their name from 'cencio' (rag), referring to their rustic, irregular shape. The pasta is traditional to the Marche, particularly the provinces of Pesaro and Macerata, where it is also known as cioncioni and concioni. It is typically served with a sausage-based sauce or a sugo finto, and is also used in soup with beans, particularly in the area around Pergola.",
+  "regions": ["Marche"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "tajarin",
+  "name": "Tajarin",
+  "category": "hand-cut",
+  "description": "Extremely thin, golden egg noodles from Piedmont, made with a remarkably egg-yolk-rich dough. The tajarin of Piedmont are traditionally made with up to forty egg yolks per kilogram of flour, giving them a brilliant yellow color.",
+  "instructions": [
+    "Make an egg yolk-rich dough using pasta all'uovo.",
+    "Divide the dough into 3 pieces and cover 2 with plastic wrap.",
+    "Roll each piece into a very thin sheet on a flour-dusted surface.",
+    "Cut the sheets into 8-inch-long pieces.",
+    "Working with one sheet at a time, roll the dough up around a rolling pin.",
+    "Gently slide it off and cut into very thin strips.",
+    "Unroll the strips and place on a flour-dusted baking sheet to dry.",
+    "Cook in boiling salted water until al dente, 2 to 4 minutes."
+  ],
+  "history": "Tajarin is the Piedmont version of tagliolini, distinguished by its extraordinarily rich egg yolk dough that gives the noodles a brilliant golden color. The tajarin of Piedmont are made with forty egg yolks per kilogram of flour, and those noodles glow as yellow as the sunrise. Traditionally dressed with roast meat pan juices, chicken or rabbit offal, or white truffles, tajarin reflect the French culinary influence on Piedmontese cooking. Ida, a pasta granny from Piedmont, learned to make tajarin from her mother-in-law, as it was the primary way to feed a family pasta.",
+  "regions": ["Piedmont"],
+  "dough_recipes": ["egg-yolk-rich"],
+  "source_books": ["Pasta Grannies", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "Pasta By Hand", "An A-Z of Pasta", "Encyclopedia of Pasta", "Pasta"]
+}

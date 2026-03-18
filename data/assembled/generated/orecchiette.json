@@ -1,0 +1,19 @@
+{
+  "slug": "orecchiette",
+  "name": "Orecchiette",
+  "category": "hand-shaped",
+  "description": "Small, ear-shaped pasta with a thin center and thicker rim, created by pressing and dragging small pieces of dough with the thumb. Their concave shape and slightly rough texture make them ideal for catching chunky sauces.",
+  "instructions": [
+    "Make a dough of semolina flour and water, kneading until stiff but rollable. Shape into a disk, cover, and rest for at least 30 minutes.",
+    "Cut off a chunk of dough about the width of two fingers and cover the rest with plastic wrap.",
+    "On an unfloured work surface, roll the chunk into a log about 3/4 inch in diameter.",
+    "Cut the log into 1/4-inch pieces.",
+    "Lightly dust the work surface with semolina. Press down on each piece of dough with your thumb, pushing away from you and twisting slightly to form an indented disk.",
+    "Place the disk on the tip of your finger and invert it, creating the characteristic ear shape with a thinner center and thicker rim.",
+    "Place finished orecchiette on a floured baking sheet, making sure they do not touch."
+  ],
+  "history": "Orecchiette, meaning \"little ears,\" are among the most iconic pastas of southern Italy, particularly Puglia and the city of Bari. Some sources attribute their arrival in Puglia to the thirteenth-century Angevin domination, noting their resemblance to the crosets of Provence. The first mentions appear in the mid-sixteenth century from the Neapolitan Giambattista del Tufo, who described them as \"hollowed strascinate and maccheroni of Bari.\" Today, they remain the pride of Puglia's gastronomy, traditionally served with turnip greens (cime di rapa), and women who make them can still be seen working at tables on the streets of Old Bari's Arco Basso.",
+  "regions": ["Puglia", "Basilicata", "Abruzzo", "Molise"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Mastering Pasta", "Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta By Hand", "Pasta Grannies", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

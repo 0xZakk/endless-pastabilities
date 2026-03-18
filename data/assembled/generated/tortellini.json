@@ -1,0 +1,20 @@
+{
+  "slug": "tortellini",
+  "name": "Tortellini",
+  "category": "filled",
+  "description": "Tiny ring-shaped filled pasta, the pride of Bolognese gastronomy. Each tortellino starts as a small square of very thin egg dough, is filled, folded into a triangle, and wrapped around a fingertip to form its distinctive navel-like shape.",
+  "instructions": [
+    "Make an egg dough, roll it into a very thin, almost transparent sheet.",
+    "Cut the sheet into 1.25-inch squares (or rounds).",
+    "Place a pea-sized dot of filling in the center of each square.",
+    "Fold in half diagonally to form a triangle and press edges to seal.",
+    "With the point facing up, wrap the triangle around the tip of your index finger to form a ring.",
+    "Pinch the two corners together firmly to seal.",
+    "Dust with semolina flour and let dry for 2 hours.",
+    "Cook in meat broth until they float, 2 to 4 minutes."
+  ],
+  "history": "The pride of Emilian gastronomy, tortellini stand with lasagne and tagliatelle in the famous triad that defines Bolognese cooking. Bologna and Modena have long disputed the origin of the recipe. On December 7, 1974, the Accademia Italiana della Cucina and the Confraternita del Tortellino registered the 'true and authentic' recipe with a notarial act deposited with the Bologna Chamber of Commerce. Legend derives tortellini from the navel of Aphrodite, observed by a cross-eyed Bolognese innkeeper. The earliest reference traces to Bartolomeo Scappi's Opera of 1570, describing 'tortelletti with pork belly, called annolini in the vernacular.'",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "fregola",
+  "name": "Fregola",
+  "category": "hand-shaped",
+  "description": "Fregola (the Italianized spelling of Sardinian fregula) consists of small, irregular balls of semolina pasta that are toasted in the oven, giving them a nutty flavor and golden color. Their porous, roughly spherical surface readily absorbs broths and sauces.",
+  "instructions": [
+    "Steep saffron in lukewarm water for 30 minutes.",
+    "Place a couple tablespoons of coarse semolina flour in a wide, shallow terracotta dish or ceramic bowl.",
+    "Add a tablespoon of the saffron water to the flour.",
+    "Using your fingertips, rub the moistened flour continuously against the bottom of the dish in a circular motion until tiny balls form, roughly 1/6 inch in size.",
+    "Transfer the formed fregola to a baking sheet and repeat until all the flour has been used.",
+    "Preheat the oven to 390 degrees F and toast the fregola until lightly browned, about 20 minutes.",
+    "The toasted fregola can then be cooked in broth, treated like risotto, or boiled and sauced."
+  ],
+  "history": "Fregola is native to Sardinia and was first documented in the fourteenth century. The name derives from the Latin ferculum, commonly fregolo, meaning \"crumb,\" indicating its tiny size. It is made using the same technique as North African couscous, with water sprinkled over semolina flour in a wide-bottomed bowl called a scivedda, then rubbed in a rotary movement to form small balls. However, unlike couscous, fregola is then dried and toasted, and cooked by boiling rather than steaming. Its most famous pairing is with clams (arselle) in a brothy soup, and it is also served with sausage and saffron in a risotto-like preparation.",
+  "regions": ["Sardinia"],
+  "dough_recipes": ["semolina-water", "saffron"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta Grannies"]
+}

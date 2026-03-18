@@ -1,0 +1,33 @@
+{
+  "slug": "saffron",
+  "name": "Saffron Dough",
+  "description": "A beautifully golden dough perfumed with saffron, deeply rooted in the pasta traditions of Sardinia where it has been used for centuries to color and flavor flour-and-water doughs. The practice of coloring pasta with saffron is very old, and it produces pasta with a warm, floral aroma and striking golden hue. This dough is used for Sardinian specialties like malloreddus and ciciones.",
+  "yield": "About 1 pound",
+  "time": "Active: 15 min / Total: 1 hour (including blooming and rest)",
+  "ingredients": [
+    {"item": "boiling water", "amount": "3 tablespoons", "note": "for blooming the saffron"},
+    {"item": "saffron threads", "amount": "1 teaspoon"},
+    {"item": "00 flour", "amount": "160g", "note": "about 1 cup + 3 tablespoons"},
+    {"item": "finely ground semolina flour", "amount": "65g", "note": "about 7 tablespoons"},
+    {"item": "fine sea salt", "amount": "1 1/2 teaspoons"},
+    {"item": "large egg yolks", "amount": "8"},
+    {"item": "extra-virgin olive oil", "amount": "1 tablespoon", "note": "optional"}
+  ],
+  "instructions": [
+    "Place the saffron threads in a small bowl and pour the boiling water over them. Let steep for at least 10 minutes until the liquid is deeply golden and fragrant.",
+    "Combine the 00 flour, semolina flour, and salt on a clean work surface. Mix together and form a well in the center.",
+    "Add the egg yolks and the saffron liquid (threads and all) to the well. Using a fork, beat the yolks and saffron together, then gradually incorporate the flour from the inner walls.",
+    "When the mixture becomes too thick for a fork, use your hands to bring the dough together. Knead for 8 to 10 minutes until the dough is smooth, evenly colored a deep gold, and slightly tacky.",
+    "Wrap the ball of dough tightly in plastic wrap and let it rest for 30 minutes before rolling it out or shaping.",
+    "For malloreddus, pinch off small pieces and press against a gnocchi board or the tines of a fork. For other shapes, roll out and cut as desired."
+  ],
+  "tips": [
+    "Always bloom the saffron in hot water first — this draws out the color and flavor far more effectively than adding dry saffron directly to the flour.",
+    "Pasta By Hand offers a semolina-only saffron dough for malloreddus: 800g semolina, 8 eggs, 55g water with 1 tsp saffron threads, 2 tsp olive oil, and 1 tsp salt — a richer egg-based variation.",
+    "For a simpler eggless version (closer to traditional Sardinian malloreddus), use 450g semolina flour, 200g warm water with 1/2 tsp saffron bloomed in it, and 2 tsp salt.",
+    "The color will dull slightly when the pasta is boiled, but the saffron flavor remains.",
+    "Good saffron makes all the difference. Use real saffron threads, not powder, for the best flavor and color."
+  ],
+  "used_for": ["malloreddus", "ciciones", "fregola", "saffron tagliatelle", "saffron and potato gnocchi"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Pasta By Hand", "Encyclopedia of Pasta", "An A-Z of Pasta"]
+}

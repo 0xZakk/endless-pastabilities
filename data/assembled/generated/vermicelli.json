@@ -1,0 +1,16 @@
+{
+  "slug": "vermicelli",
+  "name": "Vermicelli",
+  "category": "extruded",
+  "description": "Long, thin dried pasta strands, historically the original name for what we now call spaghetti. Vermicelli means 'little worms' and was for centuries the standard term for string-shaped pasta before spaghetti entered common usage.",
+  "instructions": [
+    "Vermicelli are a factory-made dried pasta, produced by extruding durum wheat dough through dies.",
+    "To cook, bring a large pot of well-salted water to a rolling boil.",
+    "Add the vermicelli and cook until al dente.",
+    "Drain or lift directly into the sauce using tongs or a spider sieve."
+  ],
+  "history": "For hundreds of years, vermicelli was the name for strings of pasta until, in the mid-nineteenth century, spaghetti entered the Italian language. In 1579, Naples distinguished between maccheroni and vermicelli, and the vermicellari launched their official guild statute in 1699, establishing a chapel in the church of Carmine Maggiore. The church of Santa Maria dell'Orto in Rome, built between 1489 and 1567, included the vermicellari (pasta makers) among its 13 food-supply guilds. Some southern Italian recipe books still prefer the name vermicelli, particularly for dishes like vermicelli alle vongole and puttanesca.",
+  "regions": ["Campania", "Sicily"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "Pasta By Hand", "Pasta Grannies"]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "gramigna",
+  "name": "Gramigna",
+  "category": "extruded",
+  "description": "Gramigna are short, curled tubes of pasta that resemble small worms or blades of weed grass. Originally a homemade shape, they are now widely available in factory-made versions and are particularly associated with the cuisine of Emilia-Romagna.",
+  "instructions": [
+    "For homemade gramigna, make a soft dough from flour and water (or eggs).",
+    "Press the soft dough through the large holes of a flat grater, a food mill, or a similar tool to extrude short, curled pieces.",
+    "The soft dough emerging from the holes curls naturally into short, worm-like tubes.",
+    "Let the pieces dry slightly on a floured surface.",
+    "Boil in abundant salted water until al dente.",
+    "For the factory-made version, simply cook the dried pasta according to package directions."
+  ],
+  "history": "The name gramigna comes from the small seed of a weed grass that probably suggested the shape of this pasta, which at one time must have been very tiny. Common in Emilia-Romagna but also found in border areas such as the Marche and Friuli-Venezia Giulia, gramigna may be an interpretation of couscous, imitated in many Italian regions because the correct North African preparation was unknown. The peculiar shape, recalling tiny worms, probably derives from what resulted when homemade dough was too soft and what emerged from the grater looked like small worms. Its most traditional pairing is with a flavorful sausage sauce, finished with a dusting of Parmigiano-Reggiano.",
+  "regions": ["Emilia-Romagna", "Marche", "Friuli-Venezia Giulia"],
+  "dough_recipes": ["semolina-water", "flour-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta"]
+}

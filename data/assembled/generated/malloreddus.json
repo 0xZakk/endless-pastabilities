@@ -1,0 +1,20 @@
+{
+  "slug": "malloreddus",
+  "name": "Malloreddus",
+  "category": "hand-shaped",
+  "description": "Malloreddus are small, ridged, shell-shaped pasta from Sardinia, formed by pressing and flicking dough against a gnocchi board or fork tines to create a curled shape with an indentation on one side and a ridged surface on the other. They are sometimes tinted golden with saffron.",
+  "instructions": [
+    "Combine semolina flour with warm water (and optionally a pinch of saffron dissolved in the water) and knead until a firm, smooth dough forms.",
+    "Cover the dough and let it rest for 30 minutes.",
+    "Cut off a chunk of dough about the width of two fingers and cover the rest with plastic wrap.",
+    "Roll the chunk in semolina to lightly coat, then use your hands to roll it into a log about 1/4 inch in diameter.",
+    "Cut the log into 1/2-inch pieces.",
+    "With the side of your thumb, gently push each piece against a gnocchi board or the back of the tines of a fork, rolling and flicking the dough to make a curled shape with an indentation on one side and a ridged surface on the other.",
+    "Place the malloreddus on parchment-lined baking sheets dusted with semolina, making sure they do not touch.",
+    "Bring salted water to a simmer, add the malloreddus, and cook until they float to the surface, 1 to 3 minutes, then simmer for 1 to 2 minutes more until slightly al dente."
+  ],
+  "history": "Malloreddus are the most iconic pasta of Sardinia, sometimes called gnocchetti sardi on the Italian mainland. The name is thought to derive from the Latin mallolus, meaning a morsel or small lump. Traditionally, malloreddus are tinted golden with saffron, one of Sardinia's prized products. They are paired with tomato sauce, lamb ragu, or beef ragu, and are a staple of Sardinian feast-day cooking. The ridged surface, created by pressing the dough against a special board or fork tines, is essential for catching and holding the rich sauces they are served with.",
+  "regions": ["Sardinia"],
+  "dough_recipes": ["semolina-water", "saffron"],
+  "source_books": ["Pasta By Hand", "Encyclopedia of Pasta", "Mastering Pasta"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "corzetti",
+  "name": "Corzetti",
+  "category": "hand-shaped",
+  "description": "Flat, round medallions of pasta stamped with decorative patterns using a carved wooden press, creating a beautiful embossed design on both sides. The stamps are traditionally made from olive or walnut wood and historically bore family crests.",
+  "instructions": [
+    "Make a dough of flour, eggs, and a little olive oil (the Piedmontese way), kneading until soft and velvety.",
+    "Let the dough rest.",
+    "Roll out the dough into sheets about 1/8 inch (3mm) thick.",
+    "Cut the sheets into rounds using a ring mold or the corzetti stamp's cutter.",
+    "Press each round firmly with the corzetti stamp to imprint the decorative design on both sides. If you do not have a stamp, press the tines of a fork into them.",
+    "Dust the finished corzetti with flour and use within 1 hour, or refrigerate for up to 4 hours.",
+    "Boil in salted water until tender but still a little chewy, about 3 minutes."
+  ],
+  "history": "Corzetti are typical of Liguria, where the stamps and the resulting pasta have been in existence since the Renaissance, when aristocratic families had their coats of arms engraved on them. Years ago, Italian royalty had the family crest carved into corzetti stamps made from olive or walnut wood. Nowadays, gourmet stores in Italy sell all kinds of inexpensive stamps, but occasionally beautiful antique ones can be found for sale in Chiavari, a little town in Liguria. The flat medallions are typically served with creamy sauces like Liguria's classic basil pesto or with pine nuts and marjoram.",
+  "regions": ["Liguria", "Piemonte"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Mastering Pasta", "Pasta Grannies"]
+}

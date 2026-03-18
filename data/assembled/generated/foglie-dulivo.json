@@ -1,0 +1,18 @@
+{
+  "slug": "foglie-dulivo",
+  "name": "Foglie D'Ulivo",
+  "category": "hand-shaped",
+  "description": "Foglie d'ulivo, meaning \"olive leaves,\" are small, elongated pasta shapes that mimic the tapered form of olive tree leaves. Their gentle curves and slightly concave surface make them excellent at catching and holding sauces.",
+  "instructions": [
+    "Make a dough from semolina flour and water (or a blend of semolina and regular flour), kneading until smooth and firm.",
+    "Let the dough rest, covered, for about 30 minutes.",
+    "Pinch off small pieces of dough and roll each one between your palms or against the work surface into a tapered, leaf-like shape approximately 1 to 2 inches long.",
+    "Press gently with your thumb or finger to create a slight concavity along the center, mimicking the curve of an olive leaf.",
+    "Place the shaped pasta on a flour-dusted baking sheet to dry slightly before cooking.",
+    "Boil in plenty of salted water until al dente."
+  ],
+  "history": "Foglie d'ulivo take their name and shape from the olive leaves that are ubiquitous across the landscapes of Puglia and southern Italy, where olive cultivation has been central to life for centuries. This hand-shaped pasta is a celebration of the region's deep connection to the olive tree. The shape is closely related to other strascinati-type pastas of southern Italy, formed by dragging or pressing small pieces of dough against a board.",
+  "regions": ["Puglia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta"]
+}

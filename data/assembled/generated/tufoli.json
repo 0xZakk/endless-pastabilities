@@ -1,0 +1,16 @@
+{
+  "slug": "tufoli",
+  "name": "Tufoli",
+  "category": "extruded",
+  "description": "Factory-made tubes of varying diameter, both smooth and ridged. Tufoli are part of a vast family of tubular pastas with an enormous range of alternative names depending on size and region.",
+  "instructions": [
+    "Tufoli are a factory-made pasta produced by extrusion.",
+    "They are not typically made at home, though old handmade tufoli were formed by rolling dough across a small board with incised designs.",
+    "To cook, boil in abundant salted water or broth until al dente.",
+    "Large sizes are served as pastasciutta; smaller ones in broth or soups."
+  ],
+  "history": "The vast terminology of tufoli varies depending on where the pasta is made. The Neapolitan term cannerone refers to the animal gullet, which the pasta resembles in the popular imagination. Alternative names include cannaroni, cannaruncielli, and cannerozzi for the standard size; cannelli, diavoletti, and tubetti for small sizes; and cannelloni da ripieno, maniche, and schiaffettoni for larger sizes. Old Sicilian terminology included napoleoni and cavour among similar shapes. The old handmade tufoli were formed by rolling dough across a small board on which designs or lines were incised.",
+  "regions": ["Campania", "Sicily"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Mastering Pasta", "Pasta By Hand", "Pasta Grannies"]
+}

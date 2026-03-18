@@ -1,0 +1,15 @@
+{
+  "slug": "bucatini",
+  "name": "Bucatini",
+  "category": "extruded",
+  "description": "A long, thick, spaghetti-like pasta with a narrow hole running through its entire length, made from durum wheat and water. When cooked al dente, bucatini retains its shape well but has a reputation for flicking back at the eater when wound around a fork.",
+  "instructions": [
+    "Bucatini are factory-made dried pasta and do not require hand-shaping.",
+    "Boil in abundant salted water until al dente.",
+    "Drain and toss with the chosen sauce."
+  ],
+  "history": "The name comes from 'bucato,' meaning pierced, which describes the hole running down the pasta's length. The ancestors of bucatini are the early fresh pierced pastas, while its modern form is a factory-made dried shape. Bucatini are typical of Lazio, famously associated with Amatrice, and are popular throughout central and southern Italy, including Sicily. Tradition demands they be paired with certain sauces: in Abruzzo they are dressed with mackerel sauce, in the Marche with red mullet, and in Rome most iconically as bucatini all'amatriciana. The ingegno, an early pasta-making device, made it possible to produce a perfectly centered hole, which is quite difficult by hand.",
+  "regions": ["Lazio", "Campania", "Sicilia", "Abruzzo", "Marche"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

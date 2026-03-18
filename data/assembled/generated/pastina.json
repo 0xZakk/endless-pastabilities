@@ -1,0 +1,15 @@
+{
+  "slug": "pastina",
+  "name": "Pastina",
+  "category": "small",
+  "description": "A catch-all term for the tiniest factory-made pasta shapes, including stars (stelle, stelline), rings, and other miniature forms, all made from durum wheat and water. They are the quintessential comfort food, traditionally served in broth.",
+  "instructions": [
+    "Pastina is factory-made from durum wheat flour and water, extruded through tiny dies into various miniature shapes.",
+    "It is not typically made by hand at home.",
+    "To cook, add to simmering broth or boiling salted water and cook until tender, usually just a few minutes."
+  ],
+  "history": "Pastina, meaning \"tiny pasta,\" encompasses a wide family of miniature factory-made shapes designed to be cooked in broth or soup. The category includes dozens of shapes with evocative names like stelle (stars), semi d'orzo (barley seeds), occhi di pernice (partridge eyes), and punti d'ago (needle points). In Italian households, pastina in brodo is one of the first foods given to children, and it remains a staple comfort food throughout life, often served to the sick or as a simple, warming meal.",
+  "regions": [],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta By Hand"]
+}

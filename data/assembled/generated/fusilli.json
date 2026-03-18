@@ -1,0 +1,21 @@
+{
+  "slug": "fusilli",
+  "name": "Fusilli",
+  "category": "hand-shaped",
+  "description": "Fusilli are spiral-shaped pasta traditionally made by wrapping small pieces of dough around a thin metal rod or wooden skewer to form a corkscrew. The handmade version produces long scrolls, while the factory form features tight, uniform spirals designed to catch sauce.",
+  "instructions": [
+    "Make a dough from finely ground semolina flour and water with a pinch of salt, kneading energetically until smooth and homogeneous, about 10 minutes.",
+    "Cover the dough with plastic wrap and let it rest at room temperature for 30 minutes.",
+    "Tear the dough into small pieces and form them into logs about 1/5 inch thick.",
+    "Cut the logs into 3-inch-long pieces.",
+    "Coat a long, thin metal rod (ferretto) or wooden skewer with flour.",
+    "Working with one piece at a time, wrap the dough around the rod to form a spiral shape.",
+    "Gently remove the fusilli from the rod, taking care not to undo the spiral.",
+    "Transfer to a flour-dusted baking sheet and let them dry.",
+    "Boil in salted water until they float to the surface, then cook for another 3 minutes."
+  ],
+  "history": "Fusilli are of Arab derivation, known as busiata in Sicily and busa in Sardinia, the two regions where Muslim civilization first penetrated Italy. The name comes from the Arabic bus, the thin reed around which dough was traditionally wound. The technique spread throughout southern and central Italy, with each region developing its own variation using knitting needles, plant stalks, bicycle spokes, or wooden rods. The Neapolitan dialect term fusillo refers to the spindle-shaped iron rod (fuso) used for shaping. It was two Italian brothers living in New York, Guido and Aurelio Tanzi, who in 1924 perfected a machine capable of making fusilli of uniform size, and today factory-made fusilli are the third most popular shape in Italy. Traditionally a feast-day pasta, fusilli were customarily eaten during Carnival with rich ragu and cacioricotta in Basilicata.",
+  "regions": ["Campania", "Puglia", "Basilicata", "Calabria", "Sicily", "Sardinia", "Molise", "Abruzzo", "Lazio"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta"]
+}

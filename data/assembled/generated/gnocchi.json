@@ -1,0 +1,21 @@
+{
+  "slug": "gnocchi",
+  "name": "Gnocchi",
+  "category": "dumpling",
+  "description": "Gnocchi are soft, pillowy Italian dumplings that can be made from potatoes, flour, ricotta, semolina, or other ingredients. Typically small and oval with ridged surfaces from being rolled on a fork or gnocchi board, they range from dense and chewy to light and airy depending on the recipe and region.",
+  "instructions": [
+    "For potato gnocchi: boil potatoes until tender, peel, and rice them while still warm.",
+    "Spread the riced potato on a work surface and let it cool slightly.",
+    "Add flour (and optionally egg) and gently work together until a soft dough forms, being careful not to overwork.",
+    "Cut the dough into pieces and roll each into a long log about 1/2 to 3/5 inch thick.",
+    "Cut the logs into 1-inch pieces.",
+    "Dust a fork or gnocchi board with flour and roll each piece over it, gently pressing down to create ridges on one side and an indentation on the other.",
+    "Place shaped gnocchi on a flour-dusted baking sheet.",
+    "Cook in simmering salted water until they float to the surface, then cook for another minute.",
+    "Remove with a slotted spoon and toss with your chosen sauce."
+  ],
+  "history": "According to pasta historian Oretta Zanini De Vita, \"the gnocco is the ancestor of almost all the Italian pastas,\" giving rise to descendants like cavatelli, orecchiette, and strozzapreti. The word gnocco originally covered an infinity of handmade pasta shapes, both round dumplings and elongated forms. Romans traditionally eat gnocchi on Thursdays, Ligurians on Saturdays, and in Campania they are served on Sundays. Each region has its own style: in Rome, gnocchi alla romana are made from semolina and baked with butter and Parmesan; in Campania, gnocchi alla sorrentina are baked with tomato sauce and mozzarella. The gnocco has evolved over centuries from simple flour-and-water dumplings to the potato-based version that became widespread after the introduction of potatoes from the Americas.",
+  "regions": ["Lazio", "Campania", "Emilia-Romagna", "Veneto", "Piedmont", "Lombardy", "Tuscany", "Umbria", "Throughout Italy"],
+  "dough_recipes": ["flour-water", "egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Pasta By Hand", "Encyclopedia of Pasta", "Mastering Pasta"]
+}

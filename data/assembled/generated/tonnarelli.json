@@ -1,0 +1,19 @@
+{
+  "slug": "tonnarelli",
+  "name": "Tonnarelli",
+  "category": "hand-cut",
+  "description": "Thick, square-cross-section noodles made from a blend of semolina and all-purpose flour with eggs. Similar to spaghetti alla chitarra but typically associated with Rome and Lazio, where they are the classic pasta for cacio e pepe.",
+  "instructions": [
+    "Combine semolina flour, all-purpose flour, eggs, and salt in a bowl and work into a dough.",
+    "Transfer to a flour-dusted surface and knead energetically until smooth, about 10 minutes.",
+    "Cover with plastic wrap and let rest at room temperature for 30 minutes.",
+    "Roll the dough into a thin sheet about 1/10 inch thick.",
+    "Roll the dough up around the rolling pin, gently slide it off.",
+    "Cut into strips about 1/10 inch thick.",
+    "Unroll the strips and place on a flour-dusted baking sheet."
+  ],
+  "history": "Tonnarelli are the Roman version of spaghetti alla chitarra, sharing the characteristic square cross-section but typically made with a richer egg dough. They are the traditional pasta for the iconic Roman dish cacio e pepe (cheese and pepper). While spaghetti alla chitarra are associated with Abruzzo, tonnarelli belong firmly to the tradition of Lazio and Rome, where they are cut using the same type of chitarra instrument.",
+  "regions": ["Lazio"],
+  "dough_recipes": ["egg-dough", "semolina-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Mastering Pasta", "Pasta By Hand", "Pasta Grannies"]
+}

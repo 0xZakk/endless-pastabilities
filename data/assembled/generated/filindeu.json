@@ -1,0 +1,19 @@
+{
+  "slug": "filindeu",
+  "name": "Filindeu",
+  "category": "hand-shaped",
+  "description": "Filindeu, meaning \"threads of God\" in Sardinian dialect, is an extraordinarily rare and delicate pasta made of impossibly thin strands of dough layered in a crisscross pattern over a circular frame, then dried in the sun.",
+  "instructions": [
+    "Make a dough from durum-wheat semolina flour and salted water, kneading until very smooth and elastic.",
+    "Pull and stretch the dough repeatedly by hand, folding it back on itself each time, until it forms a bundle of extremely thin threads (256 strands).",
+    "Lay the thin threads across a circular frame (traditionally woven from asphodels) in one direction.",
+    "Pull another set of threads and lay them across the frame in a different direction, creating a crisscross lattice pattern.",
+    "Repeat once more for a third layer at yet another angle.",
+    "Dry the layered pasta in the sun until brittle.",
+    "Break the dried filindeu into pieces and cook in sheep broth, traditionally with fresh sheep's cheese."
+  ],
+  "history": "Filindeu is one of the rarest and most difficult pasta shapes in the world, native to the Nuoro province in Sardinia. Its name derives from the Sardinian for \"threads of God.\" It is traditionally prepared by just a handful of women for the biannual feast of San Francesco at the sanctuary of Lula, where pilgrims walk through the night to reach the church. The prior of the sanctuary would offer the faithful su filindeu cooked in mutton broth alongside su zurrette (blood pudding). The technique of pulling the semolina dough into hundreds of gossamer-thin threads is so difficult that it has resisted all attempts at mechanization.",
+  "regions": ["Sardinia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "Pasta By Hand", "An A-Z of Pasta", "Pasta Grannies"]
+}

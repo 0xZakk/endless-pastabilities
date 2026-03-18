@@ -1,0 +1,16 @@
+{
+  "slug": "ditalini",
+  "name": "Ditalini",
+  "category": "extruded",
+  "description": "Ditalini are tiny, short tube-shaped pasta resembling small thimbles. Their compact, hollow form makes them ideal for soups and broths, where they mingle easily with beans and vegetables.",
+  "instructions": [
+    "Ditalini are a factory-made (extruded) pasta shape made from durum-wheat flour and water.",
+    "The dough is forced through a die to create small, short tubes.",
+    "The extruded tubes are cut into uniform, bite-sized pieces.",
+    "The pasta is dried and then boiled in plenty of salted water until al dente."
+  ],
+  "history": "Ditalini, whose name means \"little thimbles,\" are a classic small factory-made pasta shape found throughout Italy. They are traditionally used in soups, particularly with legumes such as chickpeas and lentils, and are a staple of pasta e fagioli. Ditalini are also paired with pumpkin in a simple dish where the squash is cooked until nearly a puree, creating a comforting, rustic preparation.",
+  "regions": ["Campania", "Throughout Italy"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

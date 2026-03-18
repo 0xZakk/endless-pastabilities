@@ -1,0 +1,20 @@
+{
+  "slug": "tagliatelle",
+  "name": "Tagliatelle",
+  "category": "hand-cut",
+  "description": "Long, flat egg noodles about 1/3 inch wide, rolled out thin and cut from a folded sheet of dough. Tagliatelle are one of the defining pastas of Bolognese gastronomy, standing alongside tortellini and lasagne in the famous triad.",
+  "instructions": [
+    "Sift flour onto a wooden board, make a well, and add eggs.",
+    "Knead long and vigorously until the dough is firm, elastic, and smooth, about 10 minutes.",
+    "Wrap tightly in plastic wrap and let rest for 30 minutes.",
+    "Divide the dough into pieces and roll each into a very thin sheet on a semolina-dusted surface.",
+    "Hang the sheets on a wooden drying rack and let dry for 30 minutes, turning over twice.",
+    "Lightly dust each sheet with semolina flour and gently roll it up.",
+    "Gently slice the roll across into 1/3-inch-wide ribbons, taking care not to compress the roll.",
+    "Unroll the ribbons, dust with semolina, and place on parchment-lined baking sheets."
+  ],
+  "history": "Tagliatelle are a feather in the cap of the gastronomy of Emilia-Romagna, particularly Bologna, where egg fettuccine of very old tradition are made in every small town. The name means 'little cuts' from the Italian tagliare, to cut. Together with tortellini and lasagne, tagliatelle form the famous triad that defines Bolognese cooking. The classic pairing is with ragu alla Bolognese, a slow-cooked meat sauce of beef, pork, pancetta, vegetables, and wine.",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Mastering Pasta", "Pasta Grannies", "Pasta By Hand"]
+}

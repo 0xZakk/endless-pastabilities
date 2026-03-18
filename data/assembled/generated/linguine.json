@@ -1,0 +1,19 @@
+{
+  "slug": "linguine",
+  "name": "Linguine",
+  "category": "extruded",
+  "description": "Linguine are long, flat strands of pasta with an oval cross-section, resembling little tongues. They are slightly wider than spaghetti but narrower than fettuccine, making them an ideal match for seafood and herb-based sauces.",
+  "instructions": [
+    "Combine semolina flour and water in an industrial mixer to form a churning mass of dough.",
+    "Compress the dough into cylinders inside the extruder.",
+    "Push the dough through a bronze die shaped like an enormous shower head, producing strands with an oval cross-section.",
+    "Cut the extruded linguine into standard lengths.",
+    "Portion the strands and hoop them over rods for drying.",
+    "Dry carefully at controlled temperature and humidity to prevent cracking or mold.",
+    "To cook, boil in plenty of salted water for 8 to 10 minutes until al dente."
+  ],
+  "history": "Linguine, also known as bavette or trenette, take their name from the Italian lingua meaning tongue, a reference to the oval cross-section of each strand. The term bavetta is an early name, possibly from the French, attested already in the thirteenth century as a derivative of baba or bava, meaning drool. Found throughout Italy, bavette and trenette are used especially in Liguria, while wider cuts are more common in central and southern Italy. This type of pasta is best served with herb-based sauces such as the famous pesto alla genovese, but today is also commonly paired with fish-based sauces, including the classic linguine alle vongole.",
+  "regions": ["Liguria", "Campania", "Sicily"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta", "Mastering Pasta", "Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta"]
+}

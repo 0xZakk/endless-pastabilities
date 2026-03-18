@@ -1,0 +1,19 @@
+{
+  "slug": "mafalde",
+  "name": "Mafalde",
+  "category": "hand-cut",
+  "description": "Mafalde are wide, flat ribbon pasta about 1 inch wide with distinctive ruffled or wavy edges on both sides. They are a playful and excellent shape that holds sauce brilliantly.",
+  "instructions": [
+    "Combine semolina flour and rye flour (or all-purpose flour) with eggs, salt, and water in a large bowl and work until the mixture starts to come together as a dough.",
+    "Transfer the dough to a flour-dusted work surface and knead energetically until smooth and homogeneous, about 10 minutes.",
+    "Cover the dough with plastic wrap and let it rest at room temperature for 30 minutes.",
+    "Divide the dough into pieces. Roll each piece into a thin sheet on a flour-dusted work surface.",
+    "Using a fluted pastry wheel or toothed cutter, cut the sheet into long ribbons about 1 inch wide, creating the characteristic ruffled edges.",
+    "Place the mafalde on flour-dusted baking sheets.",
+    "Boil in plenty of salted water until al dente."
+  ],
+  "history": "Mafalde, also known as mafaldine and reginette (meaning 'little queens'), were named after Princess Mafalda of Savoy, a member of the Italian royal family. They are a popular shape that holds sauce brilliantly thanks to their wide surface and ruffled edges. The shape carries a somber history alongside its regal name: in 1944, at the age of 41, Princess Mafalda was one of the millions killed in concentration camps during World War II. The naming of pasta after royalty and historical events was common in Italy, with shapes like tripolini named after the Italian colony in Libya.",
+  "regions": ["Campania", "Lazio"],
+  "dough_recipes": ["semolina-water", "egg-dough"],
+  "source_books": ["An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "Pasta and Noodles: A Global History"]
+}

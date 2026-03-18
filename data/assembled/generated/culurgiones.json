@@ -1,0 +1,20 @@
+{
+  "slug": "culurgiones",
+  "name": "Culurgiones",
+  "category": "filled",
+  "description": "Elaborate stuffed pasta from Sardinia shaped like teardrops with a distinctive braided or pleated seal running over the top, traditionally filled with potatoes, pecorino, and mint. They look like small sculpted bundles and are among Italy's most visually striking filled pastas.",
+  "instructions": [
+    "Make a dough of finely ground semolina flour and all-purpose flour, kneaded with lukewarm water, olive oil, and salt.",
+    "Let the dough rest.",
+    "Roll the dough into a very thin sheet on a flour-dusted work surface.",
+    "Cut the dough into 5-inch rounds.",
+    "Form tablespoons of filling (mashed potato with garlic-infused olive oil, fresh mint, and grated pecorino) into patties and place in the center of each round.",
+    "Fold the dough over the filling to form half-moons.",
+    "Seal with a decorative braided pleat: fold in one end, then fold one side over the other, making pleats as you go to seal in the filling.",
+    "Boil in salted water for about 6 minutes."
+  ],
+  "history": "Culurgiones come from Sardinia, where local cooks sculpt dough into elaborate shapes for celebrations, reflecting a broader tradition of decorative bread-making for weddings and festivals. The filling is prepared by steeping garlic in olive oil overnight before combining with mashed potatoes, fresh mint, and pecorino. The shape can vary from area to area: they may have ridges recalling fishbones, look like a flattened fig, or around Ogliastra be fashioned into a little bundle tied with a small sheaf of wheat. Some cooks pierce the bundle with a needle to keep it from swelling during cooking.",
+  "regions": ["Sardegna"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Mastering Pasta", "Pasta Grannies", "The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta"]
+}

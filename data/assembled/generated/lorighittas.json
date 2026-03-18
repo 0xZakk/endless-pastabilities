@@ -1,0 +1,20 @@
+{
+  "slug": "lorighittas",
+  "name": "Lorighittas",
+  "category": "hand-shaped",
+  "description": "Lorighittas are double-hooped, twisted strands of thin spaghetti-shaped pasta formed into braided rings. They are among the most unique and time-consuming handmade pasta shapes in Italian cuisine, exclusive to one small Sardinian village.",
+  "instructions": [
+    "Sift durum-wheat flour with a pinch of salt onto a wooden board and knead with water for a long time until a smooth, firm dough forms.",
+    "Cover the dough and let it rest for at least 30 minutes.",
+    "Pinch off pieces of dough and roll each into a long, thin rope no thicker than 1/6 inch, like thin spaghetti.",
+    "Flour your hands. Loosely wrap a piece of the spaghetti-like dough twice around two or three fingers.",
+    "The ends of the dough should meet with two rounds of dough around your fingers. Pinch the two ends together.",
+    "Remove your fingers and gently roll the double rounds together between your fingertips to create a twisted rope shape, forming a braided ring that resembles the loop of a noose.",
+    "Lay the lorighittas on a fine-mesh drying screen or large flat baskets to dry for at least 1 day, up to 2-3 days.",
+    "Boil in plenty of salted water for 8 to 25 minutes depending on dryness."
+  ],
+  "history": "Lorighittas are made exclusively in Morgongiori, a little village on the western side of central Sardinia. These double-hooped, twisted strands of pasta are traditionally made for eating on All Saints' Day, November 1st. In the days before modern communication, making lorighittas was an opportunity for women to get together to gossip and sing, starting production after the feast of Santa Sofia in mid-October. The name comes from loriga in Sardinian, derived from the Latin lorum, the leather ring placed under the yoke of oxen. Listed in Italy's national registry of traditional food products, production remains very limited because the preparation is extremely time-consuming.",
+  "regions": ["Sardinia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "Pasta Grannies", "Pasta By Hand"]
+}

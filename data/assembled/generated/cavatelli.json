@@ -1,0 +1,20 @@
+{
+  "slug": "cavatelli",
+  "name": "Cavatelli",
+  "category": "hand-shaped",
+  "description": "Small, elongated dumplings with an indentation on one side and a ridged surface on the other, created by rolling and flicking pieces of dough against a grooved board or the tines of a fork. Their hollowed shape catches sauce beautifully.",
+  "instructions": [
+    "Make a dough of semolina flour and water (or ricotta-based for a softer version), kneading until smooth.",
+    "Let the dough rest.",
+    "Cut off a chunk of dough and roll it into a log about 3/4 inch in diameter.",
+    "Cut the log into small pieces.",
+    "Lightly dust the work surface with semolina.",
+    "Press each piece against a gnocchi board or the back of the tines of a fork, rolling and flicking the dough to make a curled shape with an indentation on one side and a ridged surface on the other.",
+    "Place finished cavatelli on baking sheets, making sure they do not touch or they will stick together.",
+    "Simmer in generously salted water until they float to the surface, 1 to 3 minutes, then 1 to 2 minutes more until al dente."
+  ],
+  "history": "Cavatelli are commonly found across the southern regions of Campania, Puglia, Sicily, Calabria, and Basilicata. These little dumplings go by many different names reflecting regional dialects and significance: orecchie di prete ('priest's ears') in Basilicata, cavateddri in Calabria, and cavatello in Puglia. Consider cavatelli a generic name for dumplings made by rolling small pieces of dough over a grooved surface like a board called a cavarola in Basilicata or a crivu (a specific basket) in Calabria. The types of flour used create distinct versions, from sturdy semolina cavatelli to softer ricotta-based versions.",
+  "regions": ["Puglia", "Basilicata", "Campania", "Calabria", "Sicilia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Pasta By Hand"]
+}

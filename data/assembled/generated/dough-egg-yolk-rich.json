@@ -1,0 +1,31 @@
+{
+  "slug": "egg-yolk-rich",
+  "name": "Rich Egg Yolk Dough",
+  "description": "A luxurious dough made with egg yolks rather than whole eggs, producing pasta with a deeper golden color, silkier texture, and richer flavor. Marc Vetri calls this his basic fresh pasta dough, using a 3-to-1 ratio of tipo 00 to durum flour that gives the dough extra bite and a slightly rough texture perfect for holding sauces. The Encyclopedia of Pasta uses 8 yolks for an especially rich result.",
+  "yield": "About 1 pound (454g)",
+  "time": "Active: 20 min / Total: 50 min (including rest)",
+  "ingredients": [
+    {"item": "00 flour", "amount": "225g", "note": "about 1 1/2 cups; or use all-purpose flour"},
+    {"item": "finely ground durum (semolina) flour", "amount": "75g", "note": "about 1/2 cup; gives the dough extra bite"},
+    {"item": "large egg yolks", "amount": "8"},
+    {"item": "extra-virgin olive oil", "amount": "1 1/2 teaspoons", "note": "7ml"},
+    {"item": "warm water", "amount": "1 to 2 tablespoons", "note": "as needed"}
+  ],
+  "instructions": [
+    "Combine the 00 flour and durum flour on a clean work surface and mix together. Form a wide well in the center.",
+    "Place the egg yolks, olive oil, and 1 tablespoon of warm water into the well. Using a fork, beat the yolks gently while gradually drawing in flour from the inner walls of the well.",
+    "When the mixture becomes too thick for a fork, use your hands and a bench scraper to bring the dough together. If it feels too dry and crumbly, add a bit more warm water, a teaspoon at a time.",
+    "Knead the dough for 8 to 10 minutes, using the heel of your hand to push the dough away from you, then folding it back and rotating. The dough will be stiffer than a whole-egg dough because yolks have less water — keep working it until smooth and supple.",
+    "Shape the dough into a ball, wrap tightly in plastic wrap, and rest at room temperature for at least 30 minutes before rolling.",
+    "After resting, divide the dough into portions and roll out using a pasta machine, starting on the widest setting and working down to your desired thickness. Cut into the desired shape."
+  ],
+  "tips": [
+    "The high proportion of egg yolks makes this dough richer in fat and deeper in color than standard egg dough. The extra fat produces a more tender, silky pasta.",
+    "Vetri's version uses a 3:1 ratio of 00 to durum flour. The durum flour gives the dough extra structure and a slightly rough texture that holds sauce better.",
+    "The Encyclopedia of Pasta's all-yolk version uses 1 1/2 cups all-purpose flour plus 1/3 cup 00 flour with 8 egg yolks — a slightly different balance that works well too.",
+    "For a hybrid approach, Vetri suggests using 3 whole eggs plus 3 egg yolks with 1 teaspoon olive oil — giving both richness and the structural protein of egg whites.",
+    "This dough can be stiffer to work with than whole-egg dough. Be patient during kneading and don't skip the resting time."
+  ],
+  "used_for": ["tagliatelle", "pappardelle", "fettuccine", "tonnarelli", "tajarin", "filled pastas", "lasagne"],
+  "source_books": ["Mastering Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta"]
+}

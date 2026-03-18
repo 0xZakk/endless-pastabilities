@@ -1,0 +1,19 @@
+{
+  "slug": "tortello-sulla-lastra",
+  "name": "Tortello Sulla Lastra",
+  "category": "filled",
+  "description": "A unique filled pasta that is cooked on a sandstone griddle rather than boiled in water. The dough is made with flour and squash cooking water, filled with squash, potatoes, cheese, and lardo, then griddled on both sides.",
+  "instructions": [
+    "Sift flour onto a board and knead with squash cooking water until a firm, smooth dough forms.",
+    "Let the dough rest, then roll out into a thickish sheet.",
+    "Cut large rectangles (about 2 by 4 inches) or 4-inch squares from the sheet.",
+    "Prepare filling from squash, potatoes, flavorful cheese (cacio raviggiolo or pecorino), lardo, and seasonings.",
+    "Place a spoonful of filling on each cutout.",
+    "Fold the pasta in half and carefully seal the edges.",
+    "Cook the tortello on both sides on a hot sandstone griddle (lastra) until golden."
+  ],
+  "history": "The name means literally 'tortello on the slab,' the slab being a sandstone griddle. This is considered a true delicacy of the towns on the Apennine crest separating Tuscany from Romagna, though no written sources for this particular tortello have been found. The griddle preparation recalls the method used in Romagna for making piadina, and is certainly what our ancestors used when they first began grinding flour. Tortello sulla lastra used to be made only when the squash was ripe, from the end of summer through late autumn, but today it is made year-round.",
+  "regions": ["Tuscany", "Emilia-Romagna"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies"]
+}

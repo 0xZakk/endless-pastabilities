@@ -1,0 +1,20 @@
+{
+  "slug": "tortelloni",
+  "name": "Tortelloni",
+  "category": "filled",
+  "description": "Larger cousins of tortellini, tortelloni are generously sized filled pasta typically stuffed with ricotta and greens or other vegetable-based fillings. They are folded into triangles or half-moons and often served with butter and sage.",
+  "instructions": [
+    "Make an egg dough and roll it into a thin sheet.",
+    "Cut the sheet into squares about 3 inches across.",
+    "Place a walnut-sized blob of filling in the center of each square.",
+    "Fold the square diagonally to form a triangle and press edges to seal.",
+    "Optionally, draw the two base corners together to form a larger ring shape.",
+    "Place on a semolina-dusted tray.",
+    "Boil in salted water until they float to the surface, about 3 to 5 minutes.",
+    "Serve with melted butter and sage, or with meat ragu."
+  ],
+  "history": "Tortelloni are the larger version of tortellini, with the -oni suffix indicating their greater size. While tortellini are traditionally filled with a meat mixture and served in broth, tortelloni typically contain ricotta-based or vegetable fillings and are served as pastasciutta with butter, sage, and Parmigiano. They share the same deep roots in Emilia-Romagna's pasta tradition, where homemade stuffed pasta has been a hallmark of feast-day cooking since the Middle Ages. The term tortello, from which both tortellini and tortelloni derive, traces back to the Latin turta, meaning something filled.",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies"]
+}

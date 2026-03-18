@@ -1,0 +1,20 @@
+{
+  "slug": "cappellacci",
+  "name": "Cappellacci",
+  "category": "filled",
+  "description": "Large, hat-shaped filled pasta made by folding squares of thin egg dough around a filling into triangles. The name comes from their resemblance to large floppy hats, and they are most famously filled with pumpkin in the tradition of Ferrara.",
+  "instructions": [
+    "Divide the egg pasta dough into pieces and roll each into a very thin sheet.",
+    "Using a pastry wheel, cut the sheet into 2.5-inch squares.",
+    "Place a generous teaspoon of filling in the center of each square.",
+    "Fold one corner of the square over the filling to create a triangle.",
+    "Press down on the edges firmly to seal, moistening with water if the dough is dry.",
+    "Place on a clean tea towel or flour-dusted tray, ensuring they do not touch.",
+    "Boil in salted water for 2 to 3 minutes if the dough is rolled thin, until they rise to the surface.",
+    "Serve with melted butter and crispy sage leaves, topped with grated Parmesan."
+  ],
+  "history": "Cappellacci are a specialty of Ferrara in Emilia-Romagna, where they are most famously filled with pumpkin (cappellacci di zucca). The extra egg yolk sometimes added to the dough provides richness. The shape gets its name from its resemblance to a large hat. In the province of Rome along the Tiber valley, the name cappellacci is also used for a sort of crespella (crepe) with different fillings, showing how the same name can refer to different preparations across Italy.",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["egg-dough", "egg-yolk-rich"],
+  "source_books": ["Pasta Grannies", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

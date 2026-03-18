@@ -1,0 +1,18 @@
+{
+  "slug": "ravioli-alla-napoletana",
+  "name": "Ravioli Alla Napoletana",
+  "category": "filled",
+  "description": "Neapolitan-style ravioli made with an egg dough, traditionally filled with fresh cheeses (usually mozzarella and ricotta), prosciutto, and spices, and cut into half-moon shapes with a wheel-type pasta cutter.",
+  "instructions": [
+    "Make a dough from flour, eggs, and a little lukewarm water, kneading vigorously until firm and smooth. Wrap in a dish towel and rest.",
+    "Roll out the dough with a rolling pin into a thin sheet.",
+    "Place small balls of filling (mozzarella, ricotta, prosciutto, and spices) well spaced on half of the sheet.",
+    "Fold the other half over to cover the filling. Press the pasta firmly with fingers around each mound of filling.",
+    "Use a wheel-type pasta cutter to cut out half-moon ravioli.",
+    "Boil a few at a time in plenty of salted water until cooked through."
+  ],
+  "history": "Ravioli alla napoletana were historically a feast-day dish for the middle bourgeoisie of Naples -- lawyers, doctors, notaries, and merchants -- who could afford meat-filled ravioli on their tables. For the poor, there were the maccheronai who sold long steaming maccheroni with cheese in the streets. Ippolito Cavalcanti, duke of Buonvicino, described the Neapolitan raviolo in his 1846 work as wrapped in pasta, stuffed with meat and ricotta, and as big as a Neapolitan tari coin. Today, with ravioli alla napoletana on everybody's tables for feast days, the filling has lightened and variations now include fish. They are traditionally served with the famous ragu alla napoletana.",
+  "regions": ["Campania"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "An A-Z of Pasta", "Pasta Grannies"]
+}

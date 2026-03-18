@@ -1,0 +1,16 @@
+{
+  "slug": "casarecce",
+  "name": "Casarecce",
+  "category": "hand-shaped",
+  "description": "A short, twisted pasta shape made from durum wheat and water that looks like a scroll or twist that has folded back on itself, creating a narrow, rolled form with a slight groove running along its length. Its texture and shape make it versatile for catching many types of sauce.",
+  "instructions": [
+    "Casarecce are primarily available as factory-made dried pasta.",
+    "Boil in plenty of well-salted water until al dente.",
+    "Drain or lift directly into the sauce pan.",
+    "Toss and swish so the pasta and sauce come together."
+  ],
+  "history": "Casarecce is a durum wheat and water factory-made dried pasta shape that pairs well with virtually any sauce. As the great pasta scholar Oretta Zanini De Vita observed, 'any sauce goes pretty well with any shape and anyone who says otherwise is probably overthinking.' That said, casarecce's twisted form and grooved surface make it particularly well-suited to chunky vegetable sauces like peperonata (stewed peppers with onion and tomato) and broccoli with anchovies and breadcrumbs, which are among its most traditional pairings in southern Italian cooking.",
+  "regions": ["Sicilia", "Campania"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta"]
+}

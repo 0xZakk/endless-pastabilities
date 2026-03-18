@@ -1,0 +1,20 @@
+{
+  "slug": "sp-tzle",
+  "name": "Sp\u00e4tzle",
+  "category": "dumpling",
+  "description": "Small, irregular dumplings made from a soft, pancake-like batter of flour, eggs, and milk. They are formed by pressing or grating the batter directly into simmering water, where they cook until they float to the surface.",
+  "instructions": [
+    "Combine flour, salt, eggs, and milk in a mixing bowl and stir until the batter becomes somewhat shiny and resembles pancake batter, about 7 to 8 minutes.",
+    "If the batter seems too thick, incorporate more milk, a teaspoon at a time.",
+    "Cover with plastic wrap and let rest at room temperature for 30 minutes to 1 hour.",
+    "Bring a large pot of salted water to a gentle boil and prepare an ice bath.",
+    "Working in batches, press the batter through a sp\u00e4tzle maker, colander, or the large holes of a flat grater into the simmering water.",
+    "Cook until the sp\u00e4tzle float to the surface, about 1 minute.",
+    "Remove with a slotted spoon and transfer to the ice bath.",
+    "Drain and place on paper towels to dry."
+  ],
+  "history": "Sp\u00e4tzle are traditional to the alpine regions of northern Italy, particularly Trentino-Alto Adige, where the dish reflects strong Austrian and Germanic culinary influence. Several devices have been invented over time to form the dough, and there are many ways of extruding this dumpling. A spinach variation called Spinatsp\u00e4tzle is also traditional in the region. The dumplings are typically served as an accompaniment to meat dishes or dressed with butter and cheese.",
+  "regions": ["Trentino-Alto Adige"],
+  "dough_recipes": ["flour-water", "egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Pasta By Hand", "An A-Z of Pasta", "Encyclopedia of Pasta", "Mastering Pasta", "Pasta", "Pasta Grannies"]
+}

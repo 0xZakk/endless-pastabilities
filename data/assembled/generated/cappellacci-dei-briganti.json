@@ -1,0 +1,19 @@
+{
+  "slug": "cappellacci-dei-briganti",
+  "name": "Cappellacci dei Briganti",
+  "category": "hand-shaped",
+  "description": "Small, cone-shaped pasta resembling the pointed hats worn by brigands, made by wrapping a disk of egg dough around a fingertip and folding back one edge to create a brim. Unlike the filled cappellacci of Ferrara, these are unfilled short pasta.",
+  "instructions": [
+    "Sift durum-wheat flour onto a wooden board and knead vigorously with eggs, water, and salt until the dough is firm and smooth.",
+    "Leave the dough to rest, then roll out with a rolling pin into a very thin sheet and let dry for 15 minutes.",
+    "Use a 2-inch ring mold or inverted liqueur glass to cut small disks from the sheet.",
+    "Wrap each disk into a cone around the tip of an index finger, starting about half an inch down from the fingertip, making sure one side overlaps the other.",
+    "Apply pressure to seal where the sides overlap.",
+    "Gently fold up the piece of dough at the bottom to create what resembles the wide brim of a hat.",
+    "Air dry, then boil in plenty of salted water for 2 to 4 minutes until al dente."
+  ],
+  "history": "The name 'cappellacci dei briganti' literally means 'brigands' hats,' referring to the conical hats historically associated with outlaws and bandits of the Italian countryside. This unfilled pasta shape is traditional to Molise and the town of Formello in Lazio. It is typically served as pastasciutta with lamb ragu, reflecting the pastoral traditions of these regions.",
+  "regions": ["Molise", "Lazio"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

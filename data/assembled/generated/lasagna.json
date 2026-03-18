@@ -1,0 +1,22 @@
+{
+  "slug": "lasagna",
+  "name": "Lasagna",
+  "category": "sheet",
+  "description": "Lasagna consists of broad, flat sheets of pasta layered with sauce, cheese, and various fillings, then baked until golden and bubbling. It is one of the most iconic and celebratory pasta dishes in Italian cuisine.",
+  "instructions": [
+    "Make a fresh egg pasta dough with 00 flour and eggs, knead until smooth and elastic, and let it rest for 30 minutes.",
+    "Roll the dough out as thinly as possible, aiming for about 2mm thick, using a rolling pin or pasta machine.",
+    "Cut the sheets into rectangles sized to fit your baking dish.",
+    "Bring a large pan of salted water to the boil and have cold water on standby.",
+    "Cook the pasta sheets a couple at a time for 2-3 minutes, then dunk them in cold water and spread on tea towels to drain.",
+    "Spread a thin layer of sauce across the bottom of your baking dish.",
+    "Layer pasta sheets, sauce (ragu, bechamel, or other), and grated cheese, repeating to create at least 5 layers.",
+    "Top the final layer with sauce, cheese, and dots of butter.",
+    "Bake at 180C (350F) for 30-40 minutes until golden brown on top.",
+    "Remove from oven and let rest for at least 15 minutes before slicing and serving."
+  ],
+  "history": "Lasagna has roots stretching back to ancient Greece and Rome, with the word deriving from the Greek lasanon and Latin lasanum, meaning a cooking pot that gave its name to the pasta cooked within it. A fourteenth-century cookbook, Liber de coquina, describes dough made into fingers, boiled and layered with cheese. By the 1800s, baked lasagne had found form all over Italy, with regional variations including the apple lasagne of the Dolomites, the meatball and mozzarella lasagna di carnevale of Naples, and Bologna's majestic version with ragu, bechamel, and Parmesan. The most famous remain lasagne alla bolognese, which require homemade egg pasta rolled paper-thin and layered with true Bolognese ragu.",
+  "regions": ["Emilia-Romagna", "Campania", "Lazio", "Marche", "Sicily", "Veneto", "Trentino-Alto Adige"],
+  "dough_recipes": ["egg-dough", "spinach"],
+  "source_books": ["Pasta Grannies", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Encyclopedia of Pasta"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "anolini",
+  "name": "Anolini",
+  "category": "filled",
+  "description": "Small, round filled pasta from Emilia-Romagna, made by cutting disks from a thin egg pasta sheet and filling them with stracotto (braised beef) and Parmigiano. Unlike tortellini which start from a square, anolini start from a disk and are traditionally served in rich capon broth.",
+  "instructions": [
+    "Sift type 0 wheat flour onto a wooden board and knead with eggs for a long time until the dough is smooth and firm.",
+    "Leave the dough to rest, wrapped in a dish towel.",
+    "Roll out the dough with a rolling pin into a very thin sheet.",
+    "Use a round pasta cutter or inverted liqueur glass to cut out disks about 2 inches (5 cm) in diameter.",
+    "Place a small amount of filling in the center of each disk.",
+    "Top with another disk, or fold the disk into a half-moon shape, pressing edges firmly to seal.",
+    "Gently boil in broth, a few at a time, until they bob to the surface."
+  ],
+  "history": "Anolini have deep roots in the Duchy of Parma, with documentation dating back to the seventeenth century. In 1659, a recipe for anolini appears in a banquet text, and Scappi himself gave a recipe for 'annolini' describing them as 'small as beans or chickpeas with their points joined to form little hats.' The spread of this pasta in Parma is also documented by an eighteenth-century manuscript of Augustinian nuns, who prepared them cooked in capon broth for New Year's Day. The anolini of the Arda valley, particularly those of Castell'Arquato, are characterized by a simpler filling of Parmigiano and dry breadcrumbs without meat.",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "busiate",
+  "name": "Busiate",
+  "category": "hand-shaped",
+  "description": "A long, twisting pasta that is pierced down the middle, formed by wrapping a rope of dough around a thin reed or stick (busa) to create a hollow spiral. Each piece has a distinctive corkscrew shape with a rough surface that catches sauce.",
+  "instructions": [
+    "Make a dough of durum-wheat flour and water, kneading until firm and smooth.",
+    "Let the dough rest for at least 30 minutes.",
+    "Pinch off small pieces and roll each into a rope about 4 inches long.",
+    "Press a busa (stiff reed or thin stick) into the dough rope and roll vigorously on the board so the dough wraps around the reed.",
+    "Gently slip the reed out, leaving a hollow, spiraled tube.",
+    "Transfer to a flour-dusted baking sheet and let dry.",
+    "Boil in salted water for 7 to 8 minutes until al dente."
+  ],
+  "history": "Busiate were born in Sicily around 1000 AD, amidst the overlapping Arab and Norman rule of the island, inheriting characteristics of the pierced pastas of the Arabs. The name comes from 'busa,' a stiff reed used to shape them. Busiate were eaten both fresh and dried, making them ideal for transportation as sailors' food and cargo, dispersed along with dried pasta 'itryya' all over the Mediterranean, most notably to Genoa, which became a center of pasta production. This long shelf life made busiata an extremely valuable pasta and explains its rapid diffusion around the Mediterranean.",
+  "regions": ["Sicilia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

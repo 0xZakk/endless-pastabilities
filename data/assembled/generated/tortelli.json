@@ -1,0 +1,19 @@
+{
+  "slug": "tortelli",
+  "name": "Tortelli",
+  "category": "filled",
+  "description": "Filled pasta squares or half-moons found throughout Italy, with fillings that vary enormously by region. The name traces back to torta, the Latin word for something filled, making these literally 'little filled things.'",
+  "instructions": [
+    "Make an egg dough by kneading flour with eggs until firm and smooth. Let rest.",
+    "Divide the dough into pieces and roll each into a thin sheet.",
+    "Using a pastry wheel, cut the sheet into 2.5-inch squares.",
+    "Place a generous teaspoon of filling in the center of each square.",
+    "Fold each square over the filling to form a triangle or rectangle.",
+    "Press down on the edges to seal, moistening with water if the dough feels dry.",
+    "Boil in salted water until the tortelli rise to the surface."
+  ],
+  "history": "The term tortello can be traced to the Latin root turta, meaning a dish that is stuffed. Tortelli are documented in recipe collections from the fourteenth century onward, when they became differentiated by shape and filling. A 1226 document in the Glossarium of Du Cange mentions tortelli, and Pulci wrote in Il Morgante: 'I believe in the torta and the tortello: the one is the mother, the other the child.' The earliest tortelli were made in various shapes including horseshoes, pins, letters, and animals. Sweet tortelli are still eaten for the feast of Saint Joseph and Carnival.",
+  "regions": ["Emilia-Romagna", "Tuscany", "Lombardy", "Liguria", "Marche"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies", "Pasta By Hand"]
+}

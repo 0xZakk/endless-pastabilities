@@ -1,0 +1,15 @@
+{
+  "slug": "reginette-toscane",
+  "name": "Reginette Toscane",
+  "category": "extruded",
+  "description": "A factory-made flat noodle with one or both edges ruffled, resembling a crown or ribbon. The ruffled edges serve the practical purpose of collecting sauce while evoking the crowns worn by queens and princesses.",
+  "instructions": [
+    "Reginette toscane are a factory-made dried pasta shape, extruded from durum wheat flour and water with ruffled edges.",
+    "They are not typically made by hand at home.",
+    "To cook, boil in abundant salted water until al dente, then dress with sauce."
+  ],
+  "history": "The name reginette toscane means literally \"Tuscan queenlets,\" with the ruffled edges reminiscent of the crowns worn by queens and princesses in the popular imagination. This pasta is particularly common in Tuscany, especially in the Val di Chiana. It is also known by many other names depending on width, including mafaldine, lasagnette, fettuccelle ricche, nastri, and signorine. It is typically served with sauces of hare or rabbit, reflecting the game-rich traditions of Tuscan cuisine.",
+  "regions": ["Tuscany"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "lombrichelli",
+  "name": "Lombrichelli",
+  "category": "hand-cut",
+  "description": "Lombrichelli are thick, irregular, hand-rolled pasta strands resembling earthworms, with a rough, rustic texture. They are the most common type of pasta in the Tuscia area of Lazio, known by many local names across the province of Viterbo.",
+  "instructions": [
+    "Sift flour onto a wooden board and knead vigorously with water until a firm, smooth dough forms.",
+    "Cover the dough and let it rest.",
+    "Roll the dough out into a flat sheet about 1/8-inch thick on a flour-dusted work surface.",
+    "Cut the sheet into 1/8-inch-wide strips.",
+    "Using your hands, roll each strip back and forth on the work surface into a fat, spaghetti-like strand with an uneven, rough surface.",
+    "Place the lombrichelli on parchment-lined baking sheets, making sure they do not touch.",
+    "Boil in plenty of salted water until al dente."
+  ],
+  "history": "The name lombrichelli means literally 'earthworms,' a reference to their long, irregular shape. This is the most common type of pasta in the Tuscia area of Lazio, as evidenced by its extraordinary number of local names around Viterbo, including pici, lilleri, bighi, and many others. In Cerveteri, Umbria, and parts of Lazio, similar rope-like pasta are also called umbricelli, which evokes the image of umbilical cords. They are traditionally served with a simple sauce of tomato, garlic, oil, and chili, but are also commonly dressed all'amatriciana or with a richer meat ragu.",
+  "regions": ["Lazio", "Tuscany", "Umbria"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta By Hand"]
+}

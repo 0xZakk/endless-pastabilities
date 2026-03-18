@@ -1,0 +1,20 @@
+{
+  "slug": "cappellacci-di-zucca",
+  "name": "Cappellacci di Zucca",
+  "category": "filled",
+  "description": "Large, triangular filled pasta from Ferrara, made by folding squares of egg dough around a sweet pumpkin filling enriched with Parmigiano, nutmeg, and sometimes mostarda. They are among the most celebrated filled pastas of Emilia-Romagna.",
+  "instructions": [
+    "Sift flour onto a wooden board and knead vigorously with eggs until a firm, smooth dough forms.",
+    "Wrap the dough in a dish towel and let it rest.",
+    "Roll out the dough into a thin sheet.",
+    "Cut 2 3/4-inch (7 cm) squares from the sheet.",
+    "Place a spoonful of pumpkin filling (roasted squash mashed with Parmigiano, egg, nutmeg, salt, and pepper) in the center of each square.",
+    "Close the square into a triangle and carefully seal the edges to form a large raviolo.",
+    "Boil a few at a time in salted water for about 4 minutes until tender.",
+    "Serve with melted butter and crispy sage leaves, topped generously with grated Parmesan."
+  ],
+  "history": "Cappellacci di zucca are a treasured specialty of the Ferrara region of Emilia-Romagna, where they are made for high days and holidays. The filling uses the mildly sweet yellow squash of the Po Valley, known as zucca barucca in the Veneto, combined with Parmigiano, sugar, savor, nutmeg, and often mostarda. Ferrara's important Jewish community also counts cappellacci di zucca among its ritual dishes, highlighting the pasta's deep cultural significance across communities in the region.",
+  "regions": ["Emilia-Romagna"],
+  "dough_recipes": ["egg-dough", "egg-yolk-rich"],
+  "source_books": ["Encyclopedia of Pasta", "Pasta Grannies", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

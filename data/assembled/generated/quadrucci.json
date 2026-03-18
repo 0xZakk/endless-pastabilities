@@ -1,0 +1,18 @@
+{
+  "slug": "quadrucci",
+  "name": "Quadrucci",
+  "category": "hand-cut",
+  "description": "Tiny squares of fresh egg pasta, traditionally cut from leftover scraps after making other pasta shapes. Their roughly 3/8-by-3/8-inch proportions make them a pastina, served in broth and minestra.",
+  "instructions": [
+    "Make a standard egg pasta dough. Knead until smooth, cover, and rest.",
+    "Roll the dough into a thin sheet by hand or with a pasta machine.",
+    "Cut the sheet into strips about the width of fettuccine.",
+    "Stack or line up the strips and cut across them into small squares, roughly 3/8 inch on each side.",
+    "Dust with flour and spread on a tray to dry before cooking.",
+    "To cook, add to a simmering broth or soup and cook until al dente, 2 to 4 minutes."
+  ],
+  "history": "The name quadrucci means \"little squares.\" While factory-made durum wheat versions exist, quadrucci are traditionally a pasta di recupero, made from the offcuts of fresh egg pasta after making lasagne, cannelloni, ravioli, or fettuccine. In Rome, they are essential for the famous minestra di quadrucci e piselli. In the Marche, quadrucci pelosi (hairy quadrucci) were part of the seven-course harvest meals, served in goose broth at noon. In Umbria, they were the opener at luncheons for communions, confirmations, and weddings, cooked in goose or hen broth.",
+  "regions": ["Lazio", "Emilia-Romagna", "Marche", "Umbria"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

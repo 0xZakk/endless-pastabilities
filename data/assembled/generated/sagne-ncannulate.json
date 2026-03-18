@@ -1,0 +1,19 @@
+{
+  "slug": "sagne-ncannulate",
+  "name": "Sagne Ncannulate",
+  "category": "hand-cut",
+  "description": "Long twisted ribbons of pasta shaped into horseshoe forms, made from durum wheat flour and water. The strips are twisted by rolling them against the board with the palm, or wound around a wooden stick, requiring great dexterity.",
+  "instructions": [
+    "Sift durum wheat flour onto a wooden board and knead vigorously with water and salt until a solid, smooth dough forms.",
+    "Cover the dough with plastic wrap and let it rest at room temperature for 15 minutes.",
+    "Roll out the dough into a very thin sheet (about 1/10 inch thick).",
+    "Cut the sheet into strips about 1/2 inch wide and 10 inches long using a pasta wheel.",
+    "Hold one end of a strip still on the board with one hand, and roll the strip against the board with the palm of the other hand three times to create a twist.",
+    "Dust the sagne with flour, pull the ends in opposite directions to twist them, and bring the ends together so the pasta has a horseshoe shape.",
+    "Place the sagne on a flour-dusted baking sheet and let them dry for 2 to 3 hours."
+  ],
+  "history": "Sagne ncannulate originate from Puglia and require great dexterity to shape. They were historically made by girls in convent-orphanages (conservatori), and the 1811 Statistica del Regno di Napoli records that the pastas made in two such institutions in Foggia, delle Orfane and della Maddalena, were famous. The convents sold their products in neighboring Molise, as making pasta was practically the only labor these institutions could practice to support their good works. Today, the shape is extensively used by industry, usually under the name fusilli.",
+  "regions": ["Puglia"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies", "An A-Z of Pasta", "Pasta By Hand", "Mastering Pasta"]
+}

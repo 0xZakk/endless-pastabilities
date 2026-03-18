@@ -1,0 +1,18 @@
+{
+  "slug": "farfalle",
+  "name": "Farfalle",
+  "category": "hand-cut",
+  "description": "Farfalle are butterfly- or bow-tie-shaped pasta made by pinching rectangles of dough in the center. The pinched middle creates a thicker, chewier center while the flared edges remain thin and delicate.",
+  "instructions": [
+    "Make an egg dough with flour and eggs, knead until smooth, and let it rest.",
+    "Roll the dough out into a thin sheet using a rolling pin or pasta machine.",
+    "Cut the sheet into approximately 2-inch by 1-inch rectangles using a knife or fluted pastry wheel.",
+    "Take each rectangle and pinch it firmly in the center to create the butterfly or bow-tie shape.",
+    "Place the farfalle on a floured baking sheet, making sure they do not touch.",
+    "Boil in plenty of salted water until al dente."
+  ],
+  "history": "The name farfalle means \"butterflies\" in Italian, referring to their winged shape. Homemade farfalle are softer and more delicate than dried versions and pair well with lighter sauces. In Emilia-Romagna, a related shape called stricchetti bolognesi is made similarly. The factory-made version, widely available throughout Italy, has become one of the most recognizable pasta shapes worldwide.",
+  "regions": ["Emilia-Romagna", "Lombardy", "Throughout Italy"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "Mastering Pasta", "Pasta By Hand"]
+}

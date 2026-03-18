@@ -1,0 +1,20 @@
+{
+  "slug": "scialatielli",
+  "name": "Scialatielli",
+  "category": "hand-cut",
+  "description": "Short, flat ribbons of pasta made with an unusual dough that includes milk, basil, and pecorino cheese. The noodles are cut into thick rings from a rolled-up sheet, giving them a distinctive curled appearance.",
+  "instructions": [
+    "Combine semolina flour, milk, egg, finely chopped fresh basil, and grated pecorino in a large bowl and work until it starts to come together.",
+    "Add olive oil and incorporate it into the dough.",
+    "Transfer to a flour-dusted surface and knead energetically until smooth and homogeneous, about 10 minutes.",
+    "Cover with plastic wrap and let rest at room temperature for 30 minutes.",
+    "Divide the dough into 2 pieces.",
+    "Roll each piece into a rectangle about 1/5 inch thick.",
+    "Sprinkle flour over the dough and, working from the long sides, roll up the dough from the edges so they meet in the center.",
+    "Cut the rolled dough into rings about 2/5 inch thick, unroll them, and dust with flour."
+  ],
+  "history": "Scialatielli is a relatively modern pasta from Campania, particularly associated with the Amalfi Coast. The name is thought to derive from the Neapolitan dialect, evoking the idea of enjoying oneself. The inclusion of basil, pecorino, and milk in the dough makes it distinctive among Italian pasta shapes, and it is traditionally paired with seafood sauces.",
+  "regions": ["Campania"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "Pasta Grannies", "An A-Z of Pasta", "Mastering Pasta"]
+}

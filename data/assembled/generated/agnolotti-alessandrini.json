@@ -1,0 +1,19 @@
+{
+  "slug": "agnolotti-alessandrini",
+  "name": "Agnolotti Alessandrini",
+  "category": "filled",
+  "description": "A regional variation of agnolotti from the Alessandria area of Piemonte, distinguished by its rich filling of beef braised overnight in Barbera wine with aromatics, combined with sausage, salami, and escarole.",
+  "instructions": [
+    "Prepare the filling by marinating stew beef in Barbera wine with onion, garlic, carrot, celery, cinnamon stick, juniper berries, and bay leaves for 24 hours.",
+    "Braise the marinated beef with butter, then combine with cooked sausage, salami, and escarole to form the filling.",
+    "Roll out egg pasta dough into thin sheets on a flour-dusted work surface.",
+    "Using a pastry wheel, cut the sheets into 2.5-inch squares.",
+    "Place a generous teaspoon of filling in the center of each square and fold one side over the filling.",
+    "Press down on the edges to seal, moistening with water if the dough feels dry.",
+    "Boil in salted water until they rise to the surface, then toss with the braising ragù and Grana Padano."
+  ],
+  "history": "Agnolotti Alessandrini are a specialty of the Alessandria province in southeastern Piemonte. The recipe reflects the region's love of rich, wine-braised meat fillings, using the local Barbera wine and a combination of beef, sausage, spleen, and salami that speaks to the tradition of using every part of the animal. The dish is finished with Grana Padano, a nod to the region's proximity to the great cheese-producing areas of the Po Valley.",
+  "regions": ["Piemonte"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes"]
+}

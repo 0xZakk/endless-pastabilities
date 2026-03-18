@@ -1,0 +1,19 @@
+{
+  "slug": "pansoti",
+  "name": "Pansoti",
+  "category": "filled",
+  "description": "Pot-bellied triangular filled pasta from Liguria, made with a flour, water, and white wine dough and traditionally stuffed with preboggion (a mixture of wild herbs), ricotta, and Parmigiano.",
+  "instructions": [
+    "Make a dough from flour, water, white wine, and a pinch of salt, kneading vigorously until smooth and elastic. Cover with plastic wrap and refrigerate.",
+    "Roll the dough on a flour-dusted work surface into a thin sheet.",
+    "Using a pastry wheel, cut the sheet into 3-inch squares.",
+    "Place a spoonful of filling (preboggion or mixed greens with ricotta and Parmigiano) in the center of each square.",
+    "Moisten the edges of the square with water. Fold one corner over the filling to create a triangle.",
+    "Press down on the edges to seal. Join the two ends of the base of the triangle together and gently press to seal, creating the characteristic pot-bellied shape.",
+    "Place pansoti on flour-dusted baking sheets. Cook in boiling salted water until al dente, about 8 minutes."
+  ],
+  "history": "Pansoti, meaning \"pot-bellied,\" are typical of Liguria and are traditionally stuffed with preboggion, a mixture of wild herbs and greens gathered from the Ligurian hillsides, combined with ricotta and Parmigiano. The dough is distinctive for its inclusion of white wine alongside flour and water. They are classically served with salsa di noci (walnut sauce), a pairing that reflects the ingredients of the Ligurian landscape.",
+  "regions": ["Liguria"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta"]
+}

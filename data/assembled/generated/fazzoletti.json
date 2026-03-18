@@ -1,0 +1,18 @@
+{
+  "slug": "fazzoletti",
+  "name": "Fazzoletti",
+  "category": "hand-cut",
+  "description": "Fazzoletti are large, thin squares of fresh egg pasta, their name meaning \"handkerchiefs\" in Italian. These delicate sheets can be boiled and sauced, or folded with fillings and baked like ravioli.",
+  "instructions": [
+    "Prepare a classic egg dough (pasta all'uovo) and let it rest for at least 30 minutes.",
+    "Divide the dough into pieces and roll each into a very thin sheet using a rolling pin or pasta machine.",
+    "Cut the sheet into squares, approximately 2.5 to 5 inches on each side depending on the preparation.",
+    "Place the fazzoletti on parchment-lined baking sheets, dust with semolina flour, and let them dry for about 1 hour, turning them over halfway through.",
+    "To cook, boil in plenty of salted water for 2 to 3 minutes until al dente.",
+    "Alternatively, fazzoletti can be filled, folded into triangles, topped with bechamel or cheese, and baked until bubbly."
+  ],
+  "history": "Fazzoletti, meaning \"handkerchiefs,\" are named for their thin, square shape that resembles a draped cloth. They are a versatile fresh pasta found across central and northern Italy. Baked fazzoletti are similar to ravioli, with big squares of fresh pasta spread with filling, folded, and browned in the oven, resulting in crispy pasta edges with a creamy center. They pair beautifully with delicate sauces, vegetables, and seafood.",
+  "regions": ["Liguria", "Tuscany", "Throughout Italy"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta"]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "cjarsons",
+  "name": "Cjarsons",
+  "category": "filled",
+  "description": "A variant spelling of cjalsons, these are filled half-moon pasta from the Carnia mountains of Friuli-Venezia Giulia, characterized by their distinctive sweet-savory fillings that combine herbs, spices, and local cheeses in combinations unique to each valley and household.",
+  "instructions": [
+    "Sift flour onto a wooden board and knead with eggs or water until the dough is smooth and firm.",
+    "Let the dough rest.",
+    "Roll out into a thin sheet.",
+    "Cut the dough into rounds.",
+    "Place a spoonful of the sweet-savory filling in the center of each round.",
+    "Fold the dough over to form half-moons and press the edges firmly to seal.",
+    "Boil in salted water until they float to the surface.",
+    "Serve with melted butter and grated smoked ricotta."
+  ],
+  "history": "Cjarsons are a variant of cjalsons, the iconic filled pasta of Friuli-Venezia Giulia's Carnia region. The spelling reflects dialect differences across the Friulian mountains, where the same pasta can be known as cjalsons, cjarsons, cialzons, or cialcions depending on the specific valley. The fillings are legendarily diverse, with each household guarding its own recipe combining local herbs, spices, dried fruits, chocolate, potatoes, and cheeses in sweet-savory combinations that have no parallel elsewhere in Italian pasta tradition.",
+  "regions": ["Friuli-Venezia Giulia"],
+  "dough_recipes": ["egg-dough", "flour-water"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

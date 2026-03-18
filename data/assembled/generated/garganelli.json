@@ -1,0 +1,20 @@
+{
+  "slug": "garganelli",
+  "name": "Garganelli",
+  "category": "hand-shaped",
+  "description": "Garganelli are ridged, quill-shaped egg pasta tubes, the handmade equivalent of penne. Each piece is formed by rolling a small square of egg dough diagonally around a stick and pressing it across a comb or ridged board to create characteristic grooves.",
+  "instructions": [
+    "Make an egg dough from flour, eggs, grated Parmigiano-Reggiano, and a grating of nutmeg, kneading until smooth and firm.",
+    "Let the dough rest, then roll it out into a thin sheet.",
+    "Cut the sheet into squares, approximately 1.25 to 2.75 inches on each side.",
+    "Position a square on a pettine (weaving comb) or ridged pasta board.",
+    "Place a wooden stick or pencil diagonally at one corner of the square.",
+    "Lift the corner up and around the stick, then roll forward to create a tube or quill shape, pressing to seal and imprint the ridges.",
+    "Slide the garganello off the stick and set aside on a floured surface.",
+    "Cook in plenty of fast-boiling salted water for 3 to 5 minutes."
+  ],
+  "history": "Garganelli are a specialty of Lugo di Romagna in Emilia-Romagna, though they are also found in the Marche and Umbria. The name derives from the dialect word garganel, meaning \"chicken's gullet,\" which the ridged tube resembles. Traditionally, garganelli were rolled along a pettine, a piece of a weaving loom, to create their characteristic ridging that helps trap sauce. They were once cooked only in broth, especially capon broth, but today are more commonly served as pastasciutta dressed with hearty meat ragu. In the Marche, they are known as maccheroni al pettine or fischioni.",
+  "regions": ["Emilia-Romagna", "Marche", "Umbria"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta Grannies"]
+}

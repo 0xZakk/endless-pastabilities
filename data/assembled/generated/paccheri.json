@@ -1,0 +1,15 @@
+{
+  "slug": "paccheri",
+  "name": "Paccheri",
+  "category": "extruded",
+  "description": "Large, wide tubes made from durum wheat and water, generally about 2 1/4 inches long with a 1-inch diameter. When cooked, they become soft sacs that slap and flap when tossed in sauce, then again in your mouth.",
+  "instructions": [
+    "Paccheri are traditionally a factory-made, extruded dried pasta shape made from durum wheat flour and water.",
+    "They are not typically made by hand at home, though they can be made using an extruder with a large tubular die.",
+    "To cook, boil in abundant salted water until al dente, then toss with sauce."
+  ],
+  "history": "Paccheri take their name from the onomatopoeic Neapolitan word paccarià, meaning \"to slap,\" which is exactly what they do when cooked. They are deeply associated with Gragnano, the city of pasta near Naples, where in the eighteenth century there were 22 mills and 97 pasta factories. Gragnano remains home to 23 pasta factories today, many in the Consortium of makers bearing the mark Pasta di Gragnano DOC. Paccheri are one of the most prized shapes for understanding good-quality pasta, with their porous surface, substance, and bite.",
+  "regions": ["Campania"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "Mastering Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

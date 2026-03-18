@@ -1,0 +1,19 @@
+{
+  "slug": "fregula",
+  "name": "Fregula",
+  "category": "hand-shaped",
+  "description": "Fregula is a Sardinian pastina made of tiny, roughly spherical balls of semolina that are toasted to a golden hue, giving them a distinctive nutty character. Their porous surface absorbs flavor beautifully, making them ideal for brothy soups and risotto-style preparations.",
+  "instructions": [
+    "Place durum-wheat semolina flour in a wide, flat-bottomed terracotta or wooden bowl (scivedda).",
+    "Sprinkle saffron-infused water, a little at a time, over the flour.",
+    "Using your fingertips, stir and rub the flour in a rotary movement, rolling the moistened semolina into tiny balls no bigger than a peppercorn to the size of a small chickpea.",
+    "Gradually sift the formed fregula from the remaining flour as the balls form.",
+    "Spread the fregula on a tray or sieve and let them dry.",
+    "Toast the dried fregula in the oven until lightly golden brown.",
+    "Cook in broth, or use in a risotto-style method, adding stock gradually."
+  ],
+  "history": "Fregula is the original Sardinian spelling of what is often Italianized as fregola. First documented in a fourteenth-century statute of the millers of Tempio Pausania, it was already being produced commercially by millers who were the first to make pasta to sell. The name derives from the Latin ferculum, commonly fregolo, meaning \"crumb.\" An old Sardinian proverb says, \"Koiaimi ca sciu fai fregula\" (Give me a husband, because I know how to make fregula), reflecting that the skill of making it was once the most important dowry required of a wife. The technique is the same as North African couscous, but fregula is toasted rather than steamed, and its most celebrated pairing is with arselle (tiny clams) in a brothy soup.",
+  "regions": ["Sardinia"],
+  "dough_recipes": ["semolina-water", "saffron"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta", "Pasta Grannies", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

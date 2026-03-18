@@ -1,0 +1,17 @@
+{
+  "slug": "tubetti",
+  "name": "Tubetti",
+  "category": "extruded",
+  "description": "Small, short tubes of factory-made pasta, irregularly shaped and slightly curved. Tubetti belong to the vast family of short tubular pastas and are primarily used in soups and legume dishes.",
+  "instructions": [
+    "Tubetti are a factory-made pasta produced by extrusion through tubular dies.",
+    "They are not typically made at home.",
+    "To cook, bring salted water or broth to a boil.",
+    "Add the tubetti and cook until al dente.",
+    "Serve in broth, legume soups, or as pastasciutta with sauce."
+  ],
+  "history": "The name tubetti means 'little tubes.' In Puglia, where pasta d'ingegno (machine-made pasta) was widespread by the beginning of the 1800s, these irregularly shaped small curved tubes could be produced with a torchio or appropriate die. The spread of small local pasta makers at the beginning of the 1800s was extensive, especially around Bari, where patent registries show manufacturers of maccheroni 'with ingegno and warehouse.' In Calabria, the related ditali are traditionally served with ca trimma, a sauce of beaten eggs, pecorino, and parsley.",
+  "regions": ["Puglia", "Campania", "Calabria", "Sicily"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Mastering Pasta", "Pasta By Hand", "Pasta Grannies"]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "penne",
+  "name": "Penne",
+  "category": "extruded",
+  "description": "Factory-made tubular pasta characterized by its distinctive oblique cut, reminiscent of a feather tip or the metal nib of a quill dip pen. Available in both smooth (lisce) and ridged (rigate) versions, penne is a doubly good sauce collector, both on its ridges and in its slanted tip.",
+  "instructions": [
+    "Penne is a factory-made dried pasta shape, extruded from durum wheat flour and water through a die and cut on the diagonal.",
+    "It is not typically made by hand at home.",
+    "To cook, boil in abundant salted water until al dente, being careful not to undercook as the form can feel obstinate if too firm."
+  ],
+  "history": "The name penne means \"quills,\" referring to the old metal pen nib that had to be dipped in ink. In 1865, Giovanni Battista Capurro, a pasta maker from San Martino d'Albaro in Genoa, obtained a patent on a diagonal cutting machine that could snip fresh pasta tubes on the bias without flattening the ends, producing perfect quills quickly. Originally, penne were colored with pure saffron, which gave them a distinctive flavor. Today they are Italy's second most sold shape, with a family tree including bigger pennoni and smaller pennette, pennine, and pennettine.",
+  "regions": ["Liguria", "Campania", "Lazio", "Sicily"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

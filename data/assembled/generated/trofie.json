@@ -1,0 +1,20 @@
+{
+  "slug": "trofie",
+  "name": "Trofie",
+  "category": "hand-shaped",
+  "description": "Small, twisted spindle-shaped pasta from Liguria, made from a simple flour and water dough. Each piece is rolled and twisted by hand to create a narrow spiral with tapered ends.",
+  "instructions": [
+    "Combine flour, salt, and water and knead energetically until smooth, about 10 minutes.",
+    "Cover with plastic wrap and let rest for 30 minutes.",
+    "Roll the dough into a thick log and cut into pieces.",
+    "Roll each piece into a long rope about 1/2 inch thick.",
+    "Cut the rope into 1/2-inch pieces and dust with flour.",
+    "Working with one piece at a time, press down with your fingertips and roll it down the palm of your other hand to create a narrow spiral with tapered ends.",
+    "Alternatively, pinch off pea-sized lumps and roll in the hollow of your palm against the board, then drag with a slant to twist.",
+    "Dust with semolina flour and let dry on baking sheets."
+  ],
+  "history": "Trofie are a traditional Ligurian pasta, classically paired with pesto alla genovese, often boiled together with potatoes and green beans. Making trofie requires practice -- the key is rolling and twisting each small piece of dough into a spindle shape. They can also be made with wheat bran for a more rustic, earthy flavor that pairs well with heartier meat sauces. Trofie are also available dried, though the handmade version has a distinctive texture.",
+  "regions": ["Liguria"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Pasta By Hand", "An A-Z of Pasta", "Encyclopedia of Pasta"]
+}

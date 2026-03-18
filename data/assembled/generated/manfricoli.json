@@ -1,0 +1,18 @@
+{
+  "slug": "manfricoli",
+  "name": "Manfricoli",
+  "category": "hand-cut",
+  "description": "Manfricoli are a small, crumbly pastina made by rubbing flour and liquid together with the hands to form tiny irregular granules or pellets. They resemble passatelli in some regions and vary in size and composition across central and northern Italy.",
+  "instructions": [
+    "Sift flour onto a wooden board and make a well in the center.",
+    "Add eggs (or just water in the simplest versions) and begin working the mixture together.",
+    "Using your fingertips, rub and crumble the flour and liquid together with a rotary movement, forming tiny irregular granules or pellets.",
+    "Gradually sift the formed pastina from the remaining loose flour.",
+    "Let the manfricoli dry briefly on a clean surface.",
+    "Cook in broth or boiling salted water until tender."
+  ],
+  "history": "The term manfricoli is ancient, deriving from the Latin manus and fricare (to knead or rub). It appears as manfrigo in the Libro de arte coquinaria of Maestro Martino, who catalogs it as a pasta for soup made with grated stale bread, eggs, and fine flour. The 1811 Napoleonic inquest on customs in the Kingdom of Italy records a tradition in Romagna, especially Forli, where relatives gathered at the home of the deceased after a funeral to consume manfrigoli, the 'lunch of the dead,' though this applied only when an adult died. In Emilia, it was a poor peasant soup: in winter the housewife made this simple, quick pastina with only flour and water, as hens do not lay in the cold months.",
+  "regions": ["Emilia-Romagna", "Marche", "Tuscany", "Umbria", "Lazio", "Liguria"],
+  "dough_recipes": ["flour-water", "egg-dough"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "krafi",
+  "name": "Krafi",
+  "category": "filled",
+  "description": "Krafi are large filled pasta parcels from the Istrian tradition, typically square or half-moon shaped, enclosing a sweet or savory filling. They reflect the culinary overlap between Italian and Central European traditions in the northeastern borderlands.",
+  "instructions": [
+    "Sift wheat flour onto a wooden board and knead with eggs until a firm, smooth dough forms.",
+    "Wrap the dough in a cloth and let it rest for at least 30 minutes.",
+    "Roll the dough out into a thin sheet on a flour-dusted work surface.",
+    "Cut the sheet into squares or use a round cutter to make disks.",
+    "Place a generous amount of filling in the center of each piece.",
+    "Fold the dough over the filling and carefully seal the edges, pressing firmly to prevent opening during cooking.",
+    "Boil the krafi in plenty of salted water until they float and are cooked through."
+  ],
+  "history": "Krafi (also known as crafi de Albona) are a traditional filled pasta from the Istrian borderlands, reflecting the culinary traditions where Italian and Central European cuisines intersect. The name itself has Germanic-Slavic roots, indicating the multicultural origins of this shape. They are typically a feast-day dish, prepared for special occasions and holidays in the region.",
+  "regions": ["Friuli-Venezia Giulia"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

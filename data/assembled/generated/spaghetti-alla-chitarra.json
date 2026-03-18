@@ -1,0 +1,20 @@
+{
+  "slug": "spaghetti-alla-chitarra",
+  "name": "Spaghetti alla Chitarra",
+  "category": "hand-cut",
+  "description": "Long, square-cross-section strands of pasta cut using a special wooden frame strung with metal wires called a chitarra (guitar). The square profile gives these noodles more bite and better sauce-holding ability than round spaghetti.",
+  "instructions": [
+    "Make a dough from flour and water (or eggs, depending on the tradition) and knead until smooth and firm.",
+    "Let the dough rest, covered, for at least 30 minutes.",
+    "Roll the dough into a sheet about 1/8 inch (3 mm) thick, the width and length of your chitarra.",
+    "Generously dust the sheet with flour.",
+    "Lay the pasta sheet lengthwise on the strings of the chitarra.",
+    "Roll a floured rolling pin back and forth over the pasta to press it through the strings.",
+    "If the pasta does not cut all the way through, strum your fingers across the strings to help release the strands.",
+    "Dust the cut strands with flour and place on baking sheets."
+  ],
+  "history": "Spaghetti alla chitarra take their name from the chitarra, a wooden frame with tightly strung metal wires that resembles a guitar. This instrument is traditional to Abruzzo, where the pasta is a beloved regional specialty. The typical sauce in the city of Teramo features tiny meatballs (pallottine) in tomato sauce. The dough is traditionally made with flour and water, though egg versions also exist, and the square cross-section created by the wires gives the pasta a distinctive texture.",
+  "regions": ["Abruzzo"],
+  "dough_recipes": ["semolina-water", "egg-dough"],
+  "source_books": ["An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "Encyclopedia of Pasta", "Pasta By Hand"]
+}

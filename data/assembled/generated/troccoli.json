@@ -1,0 +1,18 @@
+{
+  "slug": "troccoli",
+  "name": "Troccoli",
+  "category": "hand-cut",
+  "description": "Thick, square-sectioned noodles from Puglia, cut using a special grooved rolling pin called a troccolaturo. The grooves on the rolling pin simultaneously cut and texture the pasta, giving it a rough surface that holds sauce well.",
+  "instructions": [
+    "Make a dough from durum wheat flour and eggs (or water), kneading until firm and smooth.",
+    "Let the dough rest, covered, for at least 30 minutes.",
+    "Roll out the dough into a sheet about 1/8 inch thick.",
+    "Roll the troccolaturo (grooved rolling pin) firmly across the sheet to cut and texture the pasta into thick strands.",
+    "Separate the strands and dust with semolina flour.",
+    "Boil in plenty of salted water until al dente."
+  ],
+  "history": "Troccoli take their name from the troccolaturo, a special grooved rolling pin traditionally used in Puglia to cut and texture the pasta in one pass. The tool creates thick, rough-surfaced noodles with a square cross-section that holds sauce beautifully. Troccoli are closely related to the spaghetti alla chitarra of Abruzzo, as both use special tools to cut square-profile noodles, but the troccolaturo creates a distinctly rougher texture. They are traditional to Puglia and are typically served with robust meat sauces or vegetable-based condiments.",
+  "regions": ["Puglia"],
+  "dough_recipes": ["semolina-water", "egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Mastering Pasta", "Pasta By Hand", "Pasta Grannies"]
+}

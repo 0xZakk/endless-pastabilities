@@ -1,0 +1,15 @@
+{
+  "slug": "capellini",
+  "name": "Capellini",
+  "category": "extruded",
+  "description": "An extremely thin, long dried pasta whose name means 'little hairs,' usually paper-thin in diameter. A close relative of capelli d'angelo (angel hair), capellini is one of the finest strands in the pasta family.",
+  "instructions": [
+    "Capellini are factory-made dried pasta and do not require hand-shaping.",
+    "Boil in abundant salted water, watching carefully as they cook very quickly due to their thinness.",
+    "Drain and toss immediately with sauce."
+  ],
+  "history": "Capellini, meaning 'little hairs,' belongs to a family of very fine pastas that includes capelli d'angelo (angel hair). As far back as the sixteenth century, in a town called Campofilone in Le Marche, maccheroncini were described as so thin they resembled angel hair. In Calabria, capelli d'angelo was once a specialty of the nuns known as the Poor Clares. These delicate strands are traditionally paired with fish and light creamy sauces, and capellini spezzati (broken capellini) is a shape in its own right.",
+  "regions": ["Marche", "Calabria", "Liguria"],
+  "dough_recipes": ["semolina-water", "egg-dough"],
+  "source_books": ["An A-Z of Pasta", "Encyclopedia of Pasta"]
+}

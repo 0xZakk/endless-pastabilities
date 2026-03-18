@@ -1,0 +1,31 @@
+{
+  "slug": "egg-dough",
+  "name": "Standard Egg Dough",
+  "description": "The most versatile and widely used fresh pasta dough in Italian cooking. Made with flour and whole eggs, it produces a tender, supple sheet that works for everything from long ribbons like tagliatelle to filled pastas like tortellini. As Marc Vetri writes, a basic recipe of 300 grams flour, 3 eggs, a tablespoon of olive oil, and a tablespoon of water will make great fresh pasta every time.",
+  "yield": "About 1 pound (454g)",
+  "time": "Active: 20 min / Total: 50 min (including rest)",
+  "ingredients": [
+    {"item": "00 flour or all-purpose flour", "amount": "300g", "note": "about 2 1/2 cups"},
+    {"item": "large eggs", "amount": "3"},
+    {"item": "extra-virgin olive oil", "amount": "1 tablespoon", "note": "15ml"},
+    {"item": "water", "amount": "1 tablespoon", "note": "15ml"},
+    {"item": "fine sea salt", "amount": "1 teaspoon", "note": "optional, some cooks omit salt in the dough"}
+  ],
+  "instructions": [
+    "Mound the flour on a clean work surface (wood is ideal because the surface friction helps with kneading) and make a wide well in the center, ensuring the walls are thick enough to contain the eggs.",
+    "Crack the eggs into the well and add the olive oil and water. Using a fork, beat the eggs gently, gradually incorporating flour from the inner walls of the well. Continue until the mixture becomes too thick to stir with a fork.",
+    "Using a bench scraper, fold the remaining flour over the shaggy dough and begin bringing it together with your hands. The dough will feel dry and scraggy at first — this is normal.",
+    "Knead the dough vigorously for 8 to 10 minutes, pushing it away from you with the heel of your hand, folding it back over itself, and rotating it a quarter turn. The dough should become smooth and slightly tacky but not sticky. If it feels too dry, wet your hands slightly; if too sticky, dust with a little flour.",
+    "Shape the dough into a ball, wrap tightly in plastic wrap, and let it rest at room temperature for at least 30 minutes. This allows the gluten to relax, making the dough much easier to roll out.",
+    "After resting, unwrap the dough and roll it out by hand with a rolling pin or feed it through a pasta machine, starting on the widest setting and gradually narrowing. Cut into your desired shape."
+  ],
+  "tips": [
+    "Weather, humidity, the flour, age of eggs, and how dry your hands are all play a huge part in making pasta. Notice how the dough feels and adjust — add a few drops of water if too dry, a dusting of flour if too sticky.",
+    "The egg whites add protein and water to the dough, while the yolks add protein and fat. This combination creates a dough that is both strong and tender.",
+    "There is no single perfect flour for pasta making. Once you get a feel for the dough, experiment with different flours — try freshly milled stone-ground flour from a local mill for a different character.",
+    "Adding salt to the dough (as Pasta Grannies recommends) helps the gluten strands slide along one another, though many Italian cooks leave salt for the cooking water only.",
+    "The dough can be made in a food processor: pulse the flour and eggs together until the mixture resembles coarse crumbs, then turn out and knead by hand."
+  ],
+  "used_for": ["tagliatelle", "fettuccine", "pappardelle", "lasagne", "tortellini", "ravioli", "farfalle", "maltagliati"],
+  "source_books": ["Mastering Pasta", "An A-Z of Pasta", "Pasta Grannies", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "chitarra",
+  "name": "Chitarra",
+  "category": "hand-cut",
+  "description": "Square-profiled noodles cut using a chitarra, a wooden frame strung with metal wires. The pasta is pressed through the wires by rolling a pin over the sheet, producing strands with a distinctive square cross-section and rough texture.",
+  "instructions": [
+    "Make an egg dough (or egg yolk dough for richer versions) and knead until smooth.",
+    "Let the dough rest for at least 30 minutes.",
+    "Roll the dough into sheets about 1/8 inch (3 mm) thick, cut to the length and width of your chitarra.",
+    "Generously dust the sheet with flour.",
+    "Lay the sheet lengthwise on the strings of the chitarra.",
+    "Roll a floured rolling pin back and forth over the pasta to press it through the strings.",
+    "If the pasta does not cut all the way through, strum your fingers across the strings like playing a guitar.",
+    "Dust the cut strands with flour and place on baking sheets."
+  ],
+  "history": "Chitarra pasta takes its name from the Italian word for 'guitar,' referring to the wooden frame with tightly strung metal wires used to cut it. The instrument is traditional to Abruzzo, where chitarra pasta is a regional icon. At Vetri restaurant, chitarra is made with veal shin ragu. The square cross-section created by the wires gives the pasta more texture and sauce-holding ability than round strands. Chitarra can be made with various dough types including egg yolk dough, chestnut dough, and lemon dough, each lending different character to the finished pasta.",
+  "regions": ["Abruzzo", "Lazio"],
+  "dough_recipes": ["egg-dough", "egg-yolk-rich", "chestnut"],
+  "source_books": ["Mastering Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Encyclopedia of Pasta", "Pasta By Hand"]
+}

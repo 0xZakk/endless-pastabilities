@@ -1,0 +1,19 @@
+{
+  "slug": "strozzapreti",
+  "name": "Strozzapreti",
+  "category": "hand-shaped",
+  "description": "Rustic hand-rolled pasta strips twisted between the palms to create a shape resembling a drill bit, with a groove along their length that helps hold sauce. In some regions, strozzapreti are bread-based dumplings rather than pasta.",
+  "instructions": [
+    "Make a dough from flour and water (or with ricotta, spinach, and bread crumbs for the dumpling version).",
+    "Knead until smooth and let rest.",
+    "Roll the dough into a flat sheet about 1/8 inch thick and cut into thin strips.",
+    "Rest a strip in your palms and roll it between your palms to create a rough shape resembling a drill bit.",
+    "Pinch off the spiraled portion in 2.5 to 3 inch lengths.",
+    "Place shaped pieces on a floured baking sheet.",
+    "Dust with flour and use within 4 hours, or refrigerate."
+  ],
+  "history": "The name strozzapreti means 'priest stranglers,' rooted in popular belief in the gluttony of priests. An eighteenth-century tale by Gian Battista Alvino tells of a priest who ate gnocchi with such voracity that it stuck in his throat and he would have suffocated if his servant had not struck him between neck and back. The shape takes wildly different forms across Italy: in Trentino, they are bread-based dumplings with spinach; in Tuscany, ricotta-based gnocchi; in Emilia-Romagna, twisted strips of dough. The Roman poet Gioacchino Belli wrote of them in 1834, and they appear in a Neapolitan manuscript from the Biblioteca Nazionale as strangolaprietij.",
+  "regions": ["Emilia-Romagna", "Trentino-Alto Adige", "Tuscany", "Campania", "Lazio", "Marche", "Calabria"],
+  "dough_recipes": ["flour-water", "egg-dough", "semolina-water"],
+  "source_books": ["Pasta By Hand", "Encyclopedia of Pasta", "Mastering Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta"]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "schlutzkrapfen",
+  "name": "Schlutzkrapfen",
+  "category": "filled",
+  "description": "Half-moon shaped filled pasta from the South Tyrol/Alto Adige region, typically stuffed with spinach and ricotta. They resemble a crescent and are sealed along the curved edge, often served with melted butter and Parmesan.",
+  "instructions": [
+    "Make an egg dough by sifting flour onto a board, making a well, and kneading with eggs until firm and smooth.",
+    "Cover the dough and let it rest for at least 30 minutes.",
+    "Roll the dough out into a thin sheet.",
+    "Cut the dough into rounds about 3 inches in diameter.",
+    "Place a spoonful of spinach and ricotta filling in the center of each round.",
+    "Fold the dough over the filling to form a half-moon shape.",
+    "Press the edges firmly to seal, using the tines of a fork if desired.",
+    "Boil in salted water until they float to the surface."
+  ],
+  "history": "Schlutzkrapfen are a traditional filled pasta of the Trentino-Alto Adige region, reflecting the area's Austrian and Tyrolean culinary heritage. The name comes from the German dialect of South Tyrol. They are closely related to other Alpine filled pastas and are typically filled with spinach, ricotta, or potato mixtures. Traditionally served with melted butter, they represent the cultural crossroads between Italian and Germanic cooking traditions in the Dolomites.",
+  "regions": ["Trentino-Alto Adige"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "Pasta By Hand", "An A-Z of Pasta", "Mastering Pasta", "Pasta Grannies", "Pasta"]
+}

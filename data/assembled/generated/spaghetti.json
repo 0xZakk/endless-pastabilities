@@ -1,0 +1,17 @@
+{
+  "slug": "spaghetti",
+  "name": "Spaghetti",
+  "category": "extruded",
+  "description": "Long, string-shaped dried pasta made from durum wheat flour and water, originally rolled by hand and later extruded through a die. Spaghetti is the most iconic Italian pasta shape and a synonym for 'made in Italy' worldwide.",
+  "instructions": [
+    "Combine durum wheat flour and water in an extruder or pasta press.",
+    "Knead the dough until firm and smooth.",
+    "Extrude the dough through a spaghetti die to form long, thin, round strands.",
+    "Hang the spaghetti on drying racks or sticks to dry.",
+    "Allow to dry slowly in warm, well-ventilated conditions until fully dried."
+  ],
+  "history": "The word spaghetti simply means 'small strings,' describing the first handmade, vaguely irregular strands. Writer Giuseppe Prezzolini declared that 'spaghetti have the same right or more to belong to Italian civilization that Dante has.' The word spaghetti did not enter popular use until the early twentieth century, displacing the older term vermicelli. In 1579, Naples distinguished between maccheroni (pierced) and vermicelli in guild regulations, and the vermicellari launched their official guild statute in 1699, establishing a chapel in the church of Carmine Maggiore.",
+  "regions": ["Campania", "Sicily"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Pasta", "Mastering Pasta", "Pasta Grannies", "Pasta By Hand"]
+}

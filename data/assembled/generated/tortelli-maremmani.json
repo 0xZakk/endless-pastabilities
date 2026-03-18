@@ -1,0 +1,19 @@
+{
+  "slug": "tortelli-maremmani",
+  "name": "Tortelli Maremmani",
+  "category": "filled",
+  "description": "Square filled pasta from the Tuscan Maremma, traditionally filled with spinach or nettles, local cheese, ricotta, and spices. They are cut with a wheel-type pasta cutter into generous squares.",
+  "instructions": [
+    "Sift flour onto a board and knead for a long time with eggs until the dough is firm and smooth. Let rest.",
+    "Roll out the dough into a thin sheet with a rolling pin.",
+    "Cut the sheet into strips about 5 inches (12 cm) wide.",
+    "Place well-spaced hazelnut-sized piles of filling on half of each strip.",
+    "Fold the other half of the strip over the filling and press closed around each mound.",
+    "Use a wheel-type pasta cutter to cut crosswise at intervals of about 2.5 inches to make square ravioli.",
+    "Let dry briefly, then boil a few at a time in salted water."
+  ],
+  "history": "Tortelli maremmani are traditional to the Maremma grossetana, the strip of Grosseto Province near the coast, but also appear in the hills and areas surrounding Monte Amiata. Historically filled with a 'poor' filling of spinach or nettles, ricotta, and local cheese, they were served with hearty meat ragu. In recent years, as economic conditions have improved, the richer meat-filled tortello has become more common, while the traditional vegetable-filled version has slowly declined.",
+  "regions": ["Tuscany"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Pasta Grannies", "Pasta By Hand"]
+}

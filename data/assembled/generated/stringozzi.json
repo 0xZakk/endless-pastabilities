@@ -1,0 +1,19 @@
+{
+  "slug": "stringozzi",
+  "name": "Stringozzi",
+  "category": "hand-cut",
+  "description": "Long, rustic noodles from Umbria made with farro flour, wheat flour, and sometimes eggs. The strips are about 1/8 inch wide and 8 inches long, with a rough surface from the wooden board that helps hold sauce.",
+  "instructions": [
+    "Sift farro flour and type 00 wheat flour together onto a wooden board.",
+    "Knead with eggs and water (or just flour, salt, and water) for a long time until a smooth, solid dough forms.",
+    "Wrap in a dish towel and let rest.",
+    "Roll out the dough on a wooden board into a sheet about 1/8 inch (2 mm) thick.",
+    "Cut the sheet into strips about 1/8 inch (2 mm) wide and 8 inches (20 cm) long.",
+    "The surface must be rough from the wooden board to hold the sauce.",
+    "Boil in plenty of salted water."
+  ],
+  "history": "Stringozzi are synonymous with ciriole, strangozzi, and umbricelli, and are also often called strozzapreti. Some believe the name derives from stringa, meaning 'string' or 'shoelace.' Like other poor pastas, stringozzi were reserved for feast days. In Emilia-Romagna, the related stringotti were always served on Christmas Eve with olive oil, walnuts, and pepper, accompanied by a broth of dried chestnuts and salt cod. The monastery of Santa Croce of Montefalco in Umbria was famous for its strangozzini with tomato and herb sauce.",
+  "regions": ["Umbria", "Emilia-Romagna", "Lazio"],
+  "dough_recipes": ["flour-water", "egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Pasta By Hand", "Mastering Pasta", "Pasta Grannies"]
+}

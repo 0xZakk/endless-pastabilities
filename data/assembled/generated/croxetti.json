@@ -1,0 +1,20 @@
+{
+  "slug": "croxetti",
+  "name": "Croxetti",
+  "category": "hand-shaped",
+  "description": "An alternative name for corzetti, these are flat, round pasta medallions embossed with decorative patterns using a carved wooden stamp. The name croxetti is used interchangeably with corzetti in Liguria and derives from the cross (croce) designs that were historically stamped into them.",
+  "instructions": [
+    "Make a dough of flour, eggs, and a little olive oil, kneading until soft and smooth.",
+    "Let the dough rest.",
+    "Roll out into sheets about 1/8 inch (3mm) thick.",
+    "Cut rounds from the sheet using a ring mold or the stamp's cutter.",
+    "Press each round with a carved wooden croxetti stamp to create a decorative imprint on both sides.",
+    "Dust with flour and let dry briefly.",
+    "Boil in salted water until tender but slightly chewy, about 3 minutes.",
+    "Serve with pesto, pine nut and marjoram sauce, or a creamy sauce."
+  ],
+  "history": "Croxetti (also spelled corzetti) take their name from the small crosses (croci) or family crests that were historically stamped into the pasta using carved wooden presses. The tradition dates to the Renaissance, when Ligurian aristocratic families commissioned stamps bearing their coats of arms. The stamps themselves, made from olive or walnut wood, are both a culinary tool and a piece of folk art. Beautiful antique examples can still be found in Chiavari, a Ligurian town famous for its craftsmanship.",
+  "regions": ["Liguria"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Mastering Pasta", "Pasta Grannies", "Encyclopedia of Pasta"]
+}

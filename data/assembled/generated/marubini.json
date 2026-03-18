@@ -1,0 +1,19 @@
+{
+  "slug": "marubini",
+  "name": "Marubini",
+  "category": "filled",
+  "description": "Marubini are small filled pasta from Cremona, traditionally round with toothed edges, enclosing a generous mound of meat filling. They are a feast-day staple, always served in a rich broth of multiple meats.",
+  "instructions": [
+    "Sift flour onto a wooden board and knead vigorously with eggs until a firm, smooth dough forms.",
+    "Cover the dough and let it rest for at least 30 minutes.",
+    "Roll the dough out with a rolling pin into a thin sheet.",
+    "Using a toothed pasta cutter, cut out disks about 1.5 inches (4 cm) in diameter.",
+    "Place a generous mound of meat filling in the center of half the disks.",
+    "Place a second disk on top of each filled disk and carefully seal the edges, pressing firmly.",
+    "Cook the marubini in rich meat broth (traditionally the 'three brodi' of capon, beef, and salame da pentola) until tender."
+  ],
+  "history": "Marubini are very old ravioli typical of Cremona in Lombardy, appearing as early as in Platina's writings with an almost modern recipe. The term may derive from the Cremonese dialect word maru, meaning chestnut, perhaps referencing the abundant filling that must be generous like a chestnut in its shell. Local tradition connects this pasta to a historic 1414 banquet hosted by the lord of Cremona, Cabrino Fondulo, for the antipope John XXIII and Emperor Sigismond of Luxemburg. In 2000, the region of Lombardy added marubini to its list of traditional agrofood products to be safeguarded, noting the shape exists in round, square, and half-moon forms.",
+  "regions": ["Lombardy"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta"]
+}

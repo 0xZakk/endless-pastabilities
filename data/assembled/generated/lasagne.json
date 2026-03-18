@@ -1,0 +1,22 @@
+{
+  "slug": "lasagne",
+  "name": "Lasagne",
+  "category": "sheet",
+  "description": "Lasagne are broad, flat sheets of pasta that serve as the foundation for layered baked dishes. The shape varies regionally from rectangular to square, and the pasta can be smooth or have ruffled edges.",
+  "instructions": [
+    "Make a fresh egg pasta dough with 00 flour and eggs, knead until smooth and firm, and let it rest covered for 30 minutes.",
+    "Roll the dough out into paper-thin sheets using a rolling pin or pasta machine.",
+    "Cut the sheets into rectangles or squares to fit your baking dish.",
+    "Bring a large pan of salted water to the boil with cold water standing by.",
+    "Cook the pasta sheets a few at a time for 2-3 minutes, then plunge briefly into cold water and spread on tea towels to drain.",
+    "Spread a thin layer of sauce on the bottom of the baking dish.",
+    "Build layers of pasta, ragu, bechamel, and grated Parmesan, repeating for at least 5 layers.",
+    "End with a layer of pasta topped with bechamel, a swirl of ragu, and a generous dusting of cheese.",
+    "Bake at 180C (350F) for 30-40 minutes until golden and bubbling.",
+    "Let the lasagne rest for 15-20 minutes before slicing."
+  ],
+  "history": "The first occurrence of the word lasagna in the Italian vernacular appears in the Memoriali bolognesi, a notarial document from Bologna dated 1282. The shape derives from the early gnocco, which evolved into a thin form of focaccia that was boiled, fried, or cooked on a heated stone. The centuries and local habits have altered the shapes and composition of the dough, with many regions abandoning eggs, varying the flour, and adding ingredients like saffron, spinach, or chard for color. The most famous lasagne are the bolognesi, which require homemade egg pasta rolled paper-thin, true Bolognese ragu, and sparing use of bechamel.",
+  "regions": ["Emilia-Romagna", "Campania", "Lazio", "Marche", "Sicily", "Veneto", "Trentino-Alto Adige", "Basilicata", "Calabria", "Puglia"],
+  "dough_recipes": ["egg-dough", "spinach", "semolina-water"],
+  "source_books": ["Encyclopedia of Pasta", "An A-Z of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies", "Pasta and Noodles: A Global History"]
+}

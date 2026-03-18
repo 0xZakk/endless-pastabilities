@@ -1,0 +1,20 @@
+{
+  "slug": "cannelloni",
+  "name": "Cannelloni",
+  "category": "sheet",
+  "description": "Large tubes formed by rolling sheets of fresh egg pasta around a savory filling, then baking with sauce. From the word 'canna' (cane or tube) plus the suffix '-oni' (signifying largeness), cannelloni are big tubes of pasta meant to be stuffed and baked.",
+  "instructions": [
+    "Make an egg pasta dough, knead until smooth, and let rest.",
+    "Roll the dough into thin sheets and cut into rectangles about 8 by 4 inches.",
+    "Parboil the pasta sheets a few at a time in boiling salted water for 1 minute.",
+    "Transfer to cold water for 20 seconds, then lay on clean tea towels.",
+    "Place a heaped spoonful of filling along one long side of each sheet and roll closed.",
+    "Arrange the cannelloni in a single layer in a buttered baking dish.",
+    "Cover with sauce (béchamel, tomato, or both), sprinkle with grated Parmesan.",
+    "Bake at 400 degrees F for 30 minutes, then let rest for at least 30 minutes before serving."
+  ],
+  "history": "While its ancestor is clearly the first sheets of lagane and lasagne, cannelloni is a relatively recent shape. There are rare mentions in eighteenth-century cookbooks, but even then it is not entirely clear if the cannelloni described would be recognizable today. Twentieth-century post-war cookbooks, such as Ada Boni's 1929 'Il talismano della felicita,' are full of tube recipes, with almost every region having a version, often as a feast-day recipe. The three most common regional styles come from Piemonte (stuffed with spinach and pork), Campania's Sorrento coast (filled with mozzarella and ricotta), and Lazio (with a meat stuffing).",
+  "regions": ["Piemonte", "Campania", "Lazio"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["An A-Z of Pasta"]
+}

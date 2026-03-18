@@ -1,0 +1,19 @@
+{
+  "slug": "trenette",
+  "name": "Trenette",
+  "category": "hand-cut",
+  "description": "Narrow factory-made ribbons similar to linguine, the signature pasta of Genoa and Liguria. Trenette are the traditional partner for pesto alla genovese, classically boiled together with potatoes and green beans.",
+  "instructions": [
+    "Trenette are traditionally a factory-made dried pasta shape.",
+    "They are narrow flat ribbons made from durum wheat flour and water.",
+    "To cook, bring a large pot of salted water to a boil.",
+    "Add diced potatoes and boil for 7 minutes.",
+    "Add trimmed green beans and boil for another 5 minutes.",
+    "Add the trenette and cook until al dente.",
+    "Drain everything together and toss with pesto alla genovese."
+  ],
+  "history": "Trenette are the iconic pasta of Liguria, particularly Genoa, and are classically served with pesto alla genovese, potatoes, and green beans. A variant called trenette avvantaggiate contains some whole-wheat flour, which once made it cheaper than pure white pasta -- the 'advantage' (avvantaggiata) was the lower price for the consumer. The province of La Spezia had trenette a stuffo, served with a bean ragu as a balanced one-dish meal. Pasta avvantaggiata could also contain 20 percent chestnut flour, which accentuated its dark color and further lowered the price.",
+  "regions": ["Liguria"],
+  "dough_recipes": ["semolina-water", "whole-wheat"],
+  "source_books": ["Encyclopedia of Pasta", "The Encyclopedia of Pasta: Over 350 Recipes", "An A-Z of Pasta", "Pasta By Hand", "Mastering Pasta", "Pasta Grannies"]
+}

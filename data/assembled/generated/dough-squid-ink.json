@@ -1,0 +1,32 @@
+{
+  "slug": "squid-ink",
+  "name": "Squid Ink Dough",
+  "description": "A dramatic jet-black dough with a briny, mineral-like taste of the ocean. As Marc Vetri puts it: 'You want black dough? You got it.' The ink produces a striking color that pairs perfectly with seafood sauces, and the subtle saline flavor of the squid ink complements ingredients like uni, crab, and shellfish beautifully.",
+  "yield": "About 1 pound (454g)",
+  "time": "Active: 20 min / Total: 50 min (including rest)",
+  "ingredients": [
+    {"item": "finely ground semolina flour", "amount": "225g", "note": "about 1 1/2 cups"},
+    {"item": "00 flour or all-purpose flour", "amount": "75g", "note": "about 1/2 cup"},
+    {"item": "large eggs", "amount": "3"},
+    {"item": "squid ink", "amount": "2 tablespoons", "note": "about 28g; available jarred or from your fishmonger"},
+    {"item": "extra-virgin olive oil", "amount": "1 tablespoon"},
+    {"item": "fine sea salt", "amount": "1/2 teaspoon"}
+  ],
+  "instructions": [
+    "Combine the semolina flour and 00 flour on a clean work surface and form a well in the center.",
+    "Crack the eggs into the well and add the squid ink, olive oil, and salt. The ink will be very dark — handle it carefully as it stains everything (though the stains are not permanent on most surfaces).",
+    "Using a fork, beat the eggs and ink together until uniformly black, then gradually draw in flour from the inner walls of the well.",
+    "When the dough becomes too thick for a fork, bring it together with your hands. Knead for 8 to 10 minutes until the dough is smooth, elastic, and uniformly jet-black.",
+    "Wrap tightly in plastic wrap and rest for at least 30 minutes at room temperature.",
+    "Roll out using a pasta machine, starting on the widest setting and working down to your desired thickness. Cut into linguine, spaghetti, or other shapes as desired."
+  ],
+  "tips": [
+    "Squid ink stains everything it touches — wear gloves if you prefer, and protect your work surface. The stains wash out with soap and water but can be stubborn on porous surfaces.",
+    "Vetri uses semolina as the primary flour in his squid ink dough, which gives the pasta a sturdier bite that works well with the robust seafood sauces this pasta is typically served with.",
+    "The amount of ink can be adjusted — more ink gives a deeper black and stronger briny flavor. Start with 2 tablespoons and adjust to taste.",
+    "Squid ink is available in small jars or packets at specialty food stores, online, or from a fishmonger who cleans whole squid.",
+    "This dough pairs exceptionally well with uni, crab, clams, mussels, and other shellfish."
+  ],
+  "used_for": ["linguine al nero", "spaghetti al nero di seppia", "tagliolini", "ravioli"],
+  "source_books": ["Mastering Pasta"]
+}

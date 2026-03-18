@@ -1,0 +1,18 @@
+{
+  "slug": "cicatelli",
+  "name": "Cicatelli",
+  "category": "hand-shaped",
+  "description": "Small, hand-shaped pasta closely related to cavatelli, made by dragging pieces of dough across a board with the fingers to create an elongated, curled shape with a rough surface. The name is a regional dialect variant found across southern Italy.",
+  "instructions": [
+    "Make a dough of semolina flour and water, kneading until firm and smooth.",
+    "Let the dough rest.",
+    "Roll the dough into a log and cut into small pieces.",
+    "Press each piece of dough with your fingers, dragging it across the board to create an elongated, curled shape with a hollow center.",
+    "Place finished cicatelli on a floured surface to dry slightly.",
+    "Boil in plenty of salted water until al dente."
+  ],
+  "history": "Cicatelli are part of the large family of hand-shaped pastas that includes cavatelli, strascinati, and orecchiette, all of which share the fundamental technique of pressing and dragging dough across a board. The name appears as a variant spelling across southern Italian dialects, alongside cicatilli and similar forms. Like their close relatives, cicatelli reflect the southern Italian tradition of flour-and-water pastas shaped by skilled hands without the need for eggs, which were a precious commodity in the rural economy.",
+  "regions": ["Puglia", "Basilicata"],
+  "dough_recipes": ["semolina-water"],
+  "source_books": ["Encyclopedia of Pasta"]
+}

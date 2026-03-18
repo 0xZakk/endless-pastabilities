@@ -1,0 +1,19 @@
+{
+  "slug": "malfatti",
+  "name": "Malfatti",
+  "category": "dumpling",
+  "description": "Malfatti are tender, irregularly shaped dumplings made from ricotta and spinach, whose name means 'badly made' in Italian. They can be gently formed into balls and rolled in flour, or simply dropped by the spoonful into simmering water.",
+  "instructions": [
+    "Cook spinach in boiling water until tender, then drain thoroughly and squeeze out as much water as possible.",
+    "Finely chop the spinach and combine it with ricotta cheese, eggs, grated Parmesan, salt, and a pinch of nutmeg.",
+    "Add flour and gently fold with a spatula until the dough is cohesive and has the consistency of thick pancake batter.",
+    "For formed malfatti: gently shape the dough into balls, roll them in semolina flour, and rest them in all-purpose flour so a tender noodle-like layer forms as the moisture dampens the coating.",
+    "For rustic malfatti: using two tablespoons, drop dollops of dough directly into simmering salted water.",
+    "Poach until the malfatti float to the surface, 1 to 3 minutes.",
+    "Remove immediately with a slotted spoon and finish with melted butter, tomato sauce, or your choice of condiment."
+  ],
+  "history": "Malfatti, meaning 'badly made,' are a Tuscan specialty that typifies Italian simplicity: quality ingredients and just a few steps make for a delicious dish. The formed version, where dough is rolled in semolina and rested in flour to create a tender pasta-like layer, is the closest to pasta ripiena (filled pasta like ravioli) found among dumpling shapes. Each ingredient shines through with clarity: the spinach lends earthiness, the eggs create richness, and a coating of melted butter brings soft sweetness. The name malfatti is also used elsewhere in Italy as a synonym for gnudi, the 'naked' ravioli filling served without its pasta wrapper.",
+  "regions": ["Tuscany", "Lombardy"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Pasta By Hand", "Encyclopedia of Pasta"]
+}

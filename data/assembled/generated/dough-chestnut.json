@@ -1,0 +1,33 @@
+{
+  "slug": "chestnut",
+  "name": "Chestnut Flour Dough",
+  "description": "A distinctive, slightly sweet dough made with chestnut flour blended with wheat and semolina flours. Chestnut flour has been used in Italian pasta making for centuries, particularly in the mountainous regions of Lunigiana and Lombardy, where chestnut forests provided an essential food source and helped save on costly wheat flour. The resulting pasta has a dense texture and a subtle, earthy sweetness.",
+  "yield": "About 1 pound",
+  "time": "Active: 15 min / Total: 1 hour (including rest)",
+  "ingredients": [
+    {"item": "chestnut flour", "amount": "155g", "note": "about 1 1/4 cups"},
+    {"item": "00 flour", "amount": "95g", "note": "about 3/4 cup"},
+    {"item": "finely ground semolina flour", "amount": "85g", "note": "about 2/3 cup"},
+    {"item": "fine sea salt", "amount": "1/2 teaspoon"},
+    {"item": "large eggs", "amount": "4"},
+    {"item": "large egg yolks", "amount": "2"},
+    {"item": "extra-virgin olive oil", "amount": "1 tablespoon"}
+  ],
+  "instructions": [
+    "Combine the chestnut flour, 00 flour, semolina flour, and salt on a clean work surface. Mix together well and form a wide well in the center.",
+    "Place the eggs, egg yolks, and olive oil into the well. Using a fork, beat the eggs and gradually draw in the flour from the inner walls.",
+    "When the mixture becomes too thick for a fork, use your hands to bring the dough together. Chestnut flour absorbs moisture differently than wheat flour, so adjust as needed — add a tablespoon of water if the dough is too dry, or a dusting of 00 flour if too sticky.",
+    "Knead for 8 to 10 minutes until smooth. The dough will feel slightly different from standard pasta dough — denser and less elastic due to the chestnut flour's lack of gluten.",
+    "Wrap the ball of dough tightly in plastic wrap and let it rest for 30 minutes before rolling it out.",
+    "Roll out to your desired thickness and cut into the desired shape. Handle with care as the dough is more fragile than pure wheat doughs."
+  ],
+  "tips": [
+    "As Vetri cautions, do not try to make dough with chestnut flour alone — it will be too crumbly because chestnut flour has no gluten. It must be blended with wheat flours.",
+    "The three-flour blend in this recipe (from The Encyclopedia of Pasta) provides a good balance: chestnut for flavor, 00 for elasticity, and semolina for structure.",
+    "The extra eggs (4 whole plus 2 yolks) compensate for the chestnut flour's lack of binding power.",
+    "Chestnut flour varies in freshness and moisture content. Buy from a reputable source and store in the freezer, as it can go rancid quickly.",
+    "In the Lunigiana region, chestnut flour pasta (lasagne bastarde) was the everyday pasta of the poor, who blended lesser flours with what little wheat flour they could afford."
+  ],
+  "used_for": ["lasagne bastarde", "chestnut tagliatelle", "chestnut gnocchi", "chestnut pappardelle"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Mastering Pasta", "Pasta By Hand", "Encyclopedia of Pasta"]
+}

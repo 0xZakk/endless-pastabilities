@@ -1,0 +1,19 @@
+{
+  "slug": "agnolotti",
+  "name": "Agnolotti",
+  "category": "filled",
+  "description": "A rustic filled pasta from Piemonte, shaped as small squares or rectangles of thin egg dough folded around a savory meat filling. When properly formed, they resemble small plump parcels, sometimes compared to Chinese paper lanterns.",
+  "instructions": [
+    "Roll out the pasta dough as thinly as possible into a sheet about 60cm long and 12cm wide.",
+    "Cut the sheet lengthwise in half, then cut across at 6cm intervals to create 6cm squares.",
+    "Place a heaped teaspoon of filling in the middle of each square.",
+    "Brush the edges with a little water.",
+    "Fold one side of the square over the filling and press down on the edges to seal, ensuring no excess air remains inside.",
+    "Place the agnolotti on a floured tray and refrigerate until ready to cook. They can be prepared up to 2 days in advance if the filling is not too wet.",
+    "Boil in salted water until they rise to the surface."
+  ],
+  "history": "Agnolotti is one of the most iconic filled pastas of Piemonte, considered among the easiest filled pastas to make. Traditionally filled with braised meats such as pigeon or beef with porcini, the shape is deeply rooted in Piemontese culinary tradition. The pasta is closely associated with the area of Alessandria and the broader Piemonte region, where it has long been a centerpiece of feast-day meals.",
+  "regions": ["Piemonte"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["Pasta", "The Encyclopedia of Pasta: Over 350 Recipes"]
+}

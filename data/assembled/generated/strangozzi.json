@@ -1,0 +1,19 @@
+{
+  "slug": "strangozzi",
+  "name": "Strangozzi",
+  "category": "hand-cut",
+  "description": "Long, thick, rough-textured noodles from Umbria, cut from a rolled sheet into strips about 1/8 inch wide and 8 inches long. Their rough surface, created by rolling on a wooden board, helps them hold sauce.",
+  "instructions": [
+    "Combine semolina flour and all-purpose flour in a bowl with water and a pinch of salt.",
+    "Knead energetically until smooth and homogeneous, about 10 minutes.",
+    "Cover with plastic wrap and let rest at room temperature for 30 minutes.",
+    "Roll the dough into a very thin sheet (about 1/10 inch thick) on a flour-dusted surface.",
+    "Roll the dough up around the rolling pin, gently slide it off.",
+    "Cut the rolled dough into thin strips about 1/10 inch thick.",
+    "Unroll the strips and place them on a flour-dusted baking sheet."
+  ],
+  "history": "Strangozzi are synonymous with the pasta traditions of Umbria, especially Foligno and Spoleto. Some believe the name derives from stringa, meaning 'string' or 'shoelace,' from the elongated shape that recalls thick shoelaces. Like other so-called poor pastas, strangozzi were reserved for feast days and holidays. The monastery of Santa Croce of Montefalco in Umbria was famous for its strangozzini served with tomato and herb sauce. Today, strangozzi are used extensively on Umbrian tables paired with local products like truffles and porcini mushrooms.",
+  "regions": ["Umbria", "Lazio"],
+  "dough_recipes": ["semolina-water", "flour-water"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta By Hand", "Mastering Pasta", "Pasta Grannies"]
+}

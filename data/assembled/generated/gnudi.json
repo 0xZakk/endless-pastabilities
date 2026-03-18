@@ -1,0 +1,21 @@
+{
+  "slug": "gnudi",
+  "name": "Gnudi",
+  "category": "dumpling",
+  "description": "Gnudi are tender, delicate dumplings made primarily from ricotta cheese, often with spinach or other greens, eggs, and Parmigiano-Reggiano. Their name means \"naked\" in Italian, as they are essentially the filling of ravioli served without the pasta wrapper.",
+  "instructions": [
+    "Drain ricotta cheese thoroughly in a sieve for at least an hour to remove excess moisture.",
+    "If using spinach or greens, cook them, squeeze out as much water as possible, and finely chop.",
+    "Combine the drained ricotta, eggs, Parmigiano-Reggiano, a grating of nutmeg, and chopped greens (if using) in a bowl.",
+    "Add just enough flour to bind the mixture so it can hold its shape; do not add too much or the gnudi will be heavy.",
+    "Using two soupspoons or an ice cream scoop, form the mixture into balls about 2 tablespoons in size.",
+    "For the classic method, drop the balls onto a deep bed of semolina flour on a baking sheet, cover with more semolina, and refrigerate for at least 8 hours (flipping halfway through) to form a thin crust.",
+    "Cook in gently simmering (not boiling) salted water until they float to the surface, 1 to 5 minutes depending on the method.",
+    "Remove very gently with a slotted spoon, as gnudi are extremely delicate.",
+    "Sauce in the serving bowl rather than tossing in a pan."
+  ],
+  "history": "Gnudi, meaning \"naked,\" are thought to be naked because they are without the pasta that surrounds the filling of a stuffed pasta such as ravioli. They are typical of Tuscany, where the Martelli pasta-making family has its factory. The baked version of gnudi is thought to have resulted from a cook's unsuccessful attempt at simmering them: an overly loose dough simply disintegrated in the water, so the fix was to bake it with tomato sauce, meat ragu, or bechamel. Traditionally, gnudi are paired with pesto, tomato sauce, or brown butter with sage, and rabbit or beef ragu also pairs beautifully.",
+  "regions": ["Tuscany"],
+  "dough_recipes": ["flour-water"],
+  "source_books": ["Pasta By Hand", "The Encyclopedia of Pasta: Over 350 Recipes", "Pasta Grannies", "Encyclopedia of Pasta", "An A-Z of Pasta"]
+}

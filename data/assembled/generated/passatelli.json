@@ -1,0 +1,19 @@
+{
+  "slug": "passatelli",
+  "name": "Passatelli",
+  "category": "hand-shaped",
+  "description": "Short, worm-like strands made not from traditional pasta dough but from a mixture of bread crumbs, Parmigiano-Reggiano, eggs, and nutmeg, pressed through a special tool or spatzle maker into broth.",
+  "instructions": [
+    "Combine very fine bread crumbs, grated Parmesan cheese, melted butter, chopped parsley, eggs, nutmeg, salt, and white pepper in a large bowl.",
+    "Work the mixture until it comes together as a firm, slightly tacky dough. If too wet, add more bread crumbs a tablespoon at a time.",
+    "Cover with plastic wrap and rest at room temperature for 15 minutes.",
+    "Test the dough by forming a pinch into a ball and dropping it in boiling water. If it falls apart, add another egg.",
+    "Working in batches, press handfuls of dough through a spatzle maker or a potato ricer to squeeze out thick ropes of dough.",
+    "Cut the ropes into 1 1/2-inch pieces.",
+    "Cook in boiling salted water or broth in small batches. The passatelli will float to the surface; cook 1 more minute, then remove."
+  ],
+  "history": "Passatelli are a traditional pasta of Emilia-Romagna, particularly associated with the Romagna side of the region and also the Marche. Unlike most pasta, they are made from bread crumbs, Parmigiano-Reggiano, and eggs rather than flour, giving them a uniquely tender, crumbly texture. They are traditionally served in a rich meat broth, especially capon broth, and were historically a celebratory dish. In the Marche, a variant called passatelli marchigiani exists with slight regional differences in seasoning.",
+  "regions": ["Emilia-Romagna", "Marche"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "Mastering Pasta", "Pasta By Hand", "An A-Z of Pasta"]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "tortelli-di-zucca",
+  "name": "Tortelli di Zucca",
+  "category": "filled",
+  "description": "Large filled pasta from Mantova with a distinctive sweet-savory filling of roasted pumpkin, amaretti cookies, mostarda di Cremona, and Parmigiano. The tortello is shaped like a Napoleonic hat and served with sage butter.",
+  "instructions": [
+    "Make an egg dough and roll it into a thin sheet.",
+    "Cut 4-inch squares or disks from the sheet.",
+    "Prepare the filling: roast pumpkin until tender, mash smooth, and mix with grated Grana Padano, crumbled amaretti, minced mostarda, salt, and nutmeg.",
+    "Place a walnut-sized bit of filling on each square.",
+    "Fold into a rectangle or half-moon and carefully seal the edges.",
+    "Boil a few at a time in salted water until they rise to the surface.",
+    "Serve with sage butter and a generous amount of Grana Padano."
+  ],
+  "history": "Tortelli di zucca were traditionally served in Mantova for Christmas Eve. The sweet-and-sour filling is a legacy of the sumptuous Renaissance court cuisine of the Este and Gonzaga families. The Po Valley squash used for the filling has a very high sugar content, owed not only to the terrain but also to the light fog that protects it from the burning summer sun. In times of scarcity, this squash was even used as a sweetener. The vernacular poet Ettore Berni described the shape as resembling a hat of a Mantuan wine bearer.",
+  "regions": ["Lombardy", "Emilia-Romagna"],
+  "dough_recipes": ["egg-dough"],
+  "source_books": ["The Encyclopedia of Pasta: Over 350 Recipes", "Encyclopedia of Pasta", "An A-Z of Pasta", "Pasta Grannies", "Pasta By Hand"]
+}
