@@ -1,0 +1,157 @@
+---
+import Base from "../layouts/Base.astro";
+import { getShapes } from "../data/helpers";
+
+const shapes = getShapes();
+
+const categories = [
+  { id: "hand-shaped", label: "Hand-Shaped" },
+  { id: "hand-cut", label: "Hand-Cut" },
+  { id: "filled", label: "Filled" },
+  { id: "extruded", label: "Extruded" },
+  { id: "sheet", label: "Sheet" },
+  { id: "dumpling", label: "Dumpling" },
+  { id: "small/soup", label: "Small & Soup" },
+  { id: null, label: "Other" },
+];
+
+function getShapesByCategory(catId: string | null) {
+  return shapes.filter((s: any) =>
+    catId === null ? !s.category : s.category === catId
+  );
+}
+
+const totalShapes = shapes.length;
+---
+
+<Base title="Endless Pastabilities — An Encyclopedia of Pasta Shapes">
+  <section class="hero">
+    <div class="container text-center">
+      <h1 class="hero-title">Endless Pastabilities</h1>
+      <p class="hero-subtitle">
+        An encyclopedia of <strong>{totalShapes}</strong> pasta shapes,<br />
+        sourced from the world's finest pasta books.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="shapes-section">
+    <div class="container container--wide">
+      <div id="shapes-list">
+        {categories.map(({ id, label }) => {
+          const catShapes = getShapesByCategory(id);
+          if (catShapes.length === 0) return null;
+          return (
+            <div class="category-group" data-category={id || "other"}>
+              <h2 class="category-heading">{label}</h2>
+              <div class="shapes-grid">
+                {catShapes.map((shape: any) => (
+                  <a
+                    href={`/pasta/${shape.slug}`}
+                    class="shape-card"
+                    data-name={shape.name.toLowerCase()}
+                    data-aliases={(shape.aliases || []).join(" ").toLowerCase()}
+                  >
+                    <span class="shape-name">{shape.name}</span>
+                    {shape.regions?.length > 0 && (
+                      <span class="shape-region">{shape.regions[0]}</span>
+                    )}
+                  </a>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+</Base>
+
+
+<style>
+  .hero {
+    padding: var(--space-2xl) 0 var(--space-lg);
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-sm);
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    color: var(--color-ink-light);
+    line-height: 1.8;
+  }
+
+  .hero-subtitle strong {
+    color: var(--color-ink);
+    font-weight: 400;
+  }
+
+
+  .shapes-section {
+    padding-bottom: var(--space-xl);
+  }
+
+  .category-group {
+    margin-bottom: var(--space-lg);
+  }
+
+  .category-heading {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.7rem;
+    color: var(--color-ink-muted);
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--color-rule);
+    margin-bottom: var(--space-sm);
+  }
+
+  .shapes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1px;
+  }
+
+  .shape-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8em 0;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+
+  .shape-card:hover {
+    border-bottom-color: var(--color-accent);
+  }
+
+  .shape-name {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    color: var(--color-ink);
+  }
+
+  .shape-region {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    color: var(--color-ink-muted);
+    margin-top: 0.15em;
+  }
+
+  @media (max-width: 600px) {
+    .hero-title {
+      font-size: 2.2rem;
+    }
+
+    .shapes-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,240 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getShapes } from "../../data/helpers";
+
+export function getStaticPaths() {
+  return getShapes().map((shape: any) => ({
+    params: { slug: shape.slug },
+    props: { shape },
+  }));
+}
+
+const { shape } = Astro.props;
+
+const doughNames: Record<string, string> = {
+  "egg-dough": "Standard Egg Dough",
+  "egg-yolk-rich": "Rich Egg Yolk Dough",
+  "semolina-water": "Semolina & Water Dough",
+  "flour-water": "Flour & Water Dough",
+  "buckwheat": "Buckwheat Dough",
+  "chestnut": "Chestnut Flour Dough",
+  "spinach": "Spinach Dough",
+  "squid-ink": "Squid Ink Dough",
+  "saffron": "Saffron Dough",
+  "whole-wheat": "Whole Wheat Dough",
+};
+
+const categoryLabels: Record<string, string> = {
+  "hand-shaped": "Hand-Shaped",
+  "hand-cut": "Hand-Cut",
+  "filled": "Filled",
+  "extruded": "Extruded",
+  "sheet": "Sheet",
+  "dumpling": "Dumpling",
+  "small/soup": "Small & Soup",
+};
+---
+
+<Base title={`${shape.name} — Endless Pastabilities`} description={shape.description || `Learn about ${shape.name} pasta.`}>
+  <article class="shape-page">
+    <div class="container">
+      <header class="shape-header">
+        <a href="/" class="back-link">&larr; All Shapes</a>
+
+        <h1 class="shape-title">{shape.name}</h1>
+
+        <div class="shape-meta">
+          {shape.category && (
+            <span class="tag">{categoryLabels[shape.category] || shape.category}</span>
+          )}
+          {shape.regions?.length > 0 && (
+            <span class="meta-region">{shape.regions.slice(0, 3).join(", ")}</span>
+          )}
+        </div>
+
+        {shape.aliases?.length > 0 && (
+          <p class="shape-aliases">
+            Also known as: <em>{shape.aliases.join(", ")}</em>
+          </p>
+        )}
+      </header>
+
+      {shape.description && (
+        <section class="section">
+          <p class="shape-description">{shape.description}</p>
+        </section>
+      )}
+
+      {shape.dough_recipes?.length > 0 && (
+        <section class="section">
+          <h3>Dough</h3>
+          <div class="dough-links">
+            {shape.dough_recipes.map((slug: string) => (
+              <a href={`/dough/${slug}`} class="dough-link">
+                {doughNames[slug] || slug}
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {shape.instructions?.length > 0 && (
+        <section class="section">
+          <h3>How to Make</h3>
+          <ol class="instructions-list">
+            {shape.instructions.map((step: string) => (
+              <li>{step}</li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {shape.history && (
+        <section class="section">
+          <h3>History & Tradition</h3>
+          <div class="narrative">
+            <p>{shape.history}</p>
+          </div>
+        </section>
+      )}
+
+      {!shape.history && shape.narrative?.length > 0 && (
+        <section class="section">
+          <h3>History & Tradition</h3>
+          <div class="narrative">
+            {shape.narrative.map((passage: string) => (
+              <p>{passage}</p>
+            ))}
+          </div>
+        </section>
+      )}
+
+    </div>
+  </article>
+</Base>
+
+<style>
+  .shape-page {
+    padding: var(--space-lg) 0 var(--space-xl);
+  }
+
+  .back-link {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: var(--space-lg);
+    transition: color 0.2s;
+  }
+
+  .back-link:hover {
+    color: var(--color-ink);
+  }
+
+  .shape-header {
+    margin-bottom: var(--space-md);
+  }
+
+  .shape-title {
+    font-size: 3rem;
+    margin-bottom: var(--space-xs);
+  }
+
+  .shape-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-xs);
+  }
+
+  .meta-region {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-ink-light);
+  }
+
+  .shape-aliases {
+    font-size: 0.9rem;
+    color: var(--color-ink-muted);
+  }
+
+  .shape-description {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--color-ink-light);
+  }
+
+  .dough-links {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+
+  .dough-link {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-rule);
+    padding-bottom: 2px;
+    transition: border-color 0.2s;
+  }
+
+  .dough-link:hover {
+    border-bottom-color: var(--color-accent);
+  }
+
+  .instructions-list {
+    list-style: none;
+    counter-reset: step;
+    padding: 0;
+  }
+
+  .instructions-list li {
+    counter-increment: step;
+    padding: 0.8em 0;
+    padding-left: 2.5em;
+    position: relative;
+    border-bottom: 1px solid var(--color-rule);
+    line-height: 1.7;
+  }
+
+  .instructions-list li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    top: 0.95em;
+    width: 1.8em;
+    text-align: right;
+  }
+
+  .narrative p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--color-ink-light);
+    margin-bottom: 1.2em;
+  }
+
+  .narrative p:first-child::first-letter {
+    font-size: 2em;
+    float: left;
+    line-height: 1;
+    margin-right: 0.08em;
+    margin-top: 0.05em;
+    color: var(--color-ink);
+  }
+
+
+  @media (max-width: 600px) {
+    .shape-title {
+      font-size: 2rem;
+    }
+  }
+</style>
