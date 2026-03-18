@@ -1,0 +1,240 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getDoughs, getShapesForDough } from "../../data/helpers";
+
+export function getStaticPaths() {
+  return getDoughs().map((dough: any) => ({
+    params: { slug: dough.slug },
+    props: { dough },
+  }));
+}
+
+const { dough } = Astro.props;
+const shapes = getShapesForDough(dough.slug);
+
+// Also check used_for field from dough itself
+const usedFor = dough.used_for || [];
+---
+
+<Base title={`${dough.name} — Endless Pastabilities`} description={dough.description}>
+  <article class="dough-page">
+    <div class="container">
+      <header class="page-header">
+        <a href="/dough" class="back-link">&larr; All Doughs</a>
+        <h1>{dough.name}</h1>
+        {dough.yield && dough.time && (
+          <div class="recipe-meta">
+            <span class="meta-item">{dough.yield}</span>
+            <span class="meta-divider">&middot;</span>
+            <span class="meta-item">{dough.time}</span>
+          </div>
+        )}
+      </header>
+
+      {dough.description && (
+        <section class="section">
+          <p class="dough-description">{dough.description}</p>
+        </section>
+      )}
+
+      {dough.ingredients?.length > 0 && (
+        <section class="section">
+          <h3>Ingredients</h3>
+          <ul class="ingredients-list">
+            {dough.ingredients.map((ing: any) => (
+              <li>
+                <span class="ing-amount">{ing.amount}</span>
+                <span class="ing-item">{ing.item}</span>
+                {ing.note && <span class="ing-note">({ing.note})</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {dough.instructions?.length > 0 && (
+        <section class="section">
+          <h3>Method</h3>
+          <ol class="instructions-list">
+            {dough.instructions.map((step: string) => (
+              <li>{step}</li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {dough.tips?.length > 0 && (
+        <section class="section">
+          <h3>Tips</h3>
+          <ul class="tips-list">
+            {dough.tips.map((tip: string) => (
+              <li>{tip}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {(shapes.length > 0 || usedFor.length > 0) && (
+        <section class="section">
+          <h3>Used For</h3>
+          <div class="shape-tags">
+            {shapes.map((s: any) => (
+              <a href={`/pasta/${s.slug}`} class="tag">{s.name}</a>
+            ))}
+            {usedFor.filter((name: string) => !shapes.find((s: any) => s.name.toLowerCase() === name.toLowerCase())).map((name: string) => (
+              <span class="tag">{name}</span>
+            ))}
+          </div>
+        </section>
+      )}
+
+    </div>
+  </article>
+</Base>
+
+<style>
+  .dough-page {
+    padding: var(--space-lg) 0 var(--space-xl);
+  }
+
+  .page-header {
+    margin-bottom: var(--space-md);
+  }
+
+  .page-header h1 {
+    margin-bottom: var(--space-xs);
+  }
+
+  .back-link {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: var(--space-lg);
+    transition: color 0.2s;
+  }
+
+  .back-link:hover {
+    color: var(--color-ink);
+  }
+
+  .recipe-meta {
+    display: flex;
+    gap: var(--space-xs);
+    align-items: center;
+    margin-top: var(--space-xs);
+  }
+
+  .meta-item {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-ink-muted);
+  }
+
+  .meta-divider {
+    color: var(--color-rule);
+  }
+
+  .dough-description {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--color-ink-light);
+  }
+
+  .ingredients-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .ingredients-list li {
+    padding: 0.6em 0;
+    border-bottom: 1px solid var(--color-rule);
+    display: flex;
+    gap: var(--space-sm);
+    align-items: baseline;
+  }
+
+  .ing-amount {
+    font-weight: 500;
+    min-width: 80px;
+    color: var(--color-ink);
+  }
+
+  .ing-item {
+    color: var(--color-ink-light);
+  }
+
+  .ing-note {
+    font-size: 0.85rem;
+    color: var(--color-ink-muted);
+    font-style: italic;
+  }
+
+  .instructions-list {
+    list-style: none;
+    counter-reset: step;
+    padding: 0;
+  }
+
+  .instructions-list li {
+    counter-increment: step;
+    padding: 0.8em 0;
+    padding-left: 2.5em;
+    position: relative;
+    border-bottom: 1px solid var(--color-rule);
+    line-height: 1.7;
+  }
+
+  .instructions-list li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--color-ink-muted);
+    top: 0.95em;
+    width: 1.8em;
+    text-align: right;
+  }
+
+  .tips-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tips-list li {
+    padding: 0.5em 0;
+    padding-left: 1.2em;
+    position: relative;
+    color: var(--color-ink-light);
+    line-height: 1.7;
+  }
+
+  .tips-list li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: var(--color-ink-muted);
+  }
+
+  .shape-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    margin-top: var(--space-xs);
+  }
+
+  .shape-tags .tag {
+    text-decoration: none;
+  }
+
+  .shape-tags a.tag:hover {
+    border-color: var(--color-accent);
+    color: var(--color-ink);
+  }
+
+</style>

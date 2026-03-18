@@ -1,0 +1,173 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getDoughs, getShapesForDough } from "../../data/helpers";
+
+const doughs = getDoughs();
+
+// For each dough, find shapes that use it
+const shapesByDough: Record<string, any[]> = {};
+for (const dough of doughs) {
+  shapesByDough[(dough as any).slug] = getShapesForDough((dough as any).slug);
+}
+---
+
+<Base title="Dough Recipes — Endless Pastabilities">
+  <section class="dough-page">
+    <div class="container">
+      <header class="page-header">
+        <a href="/" class="back-link">&larr; All Shapes</a>
+        <h1>Dough Recipes</h1>
+        <p class="text-light">
+          The foundation of every pasta shape. {doughs.length} base doughs,
+          each suited to different shapes and traditions.
+        </p>
+      </header>
+
+      {doughs.map((dough: any) => {
+        const shapes = shapesByDough[dough.slug] || [];
+        return (
+          <section class="dough-entry section" id={dough.slug}>
+            <h2><a href={`/dough/${dough.slug}`}>{dough.name}</a></h2>
+            <p class="dough-description">{dough.description}</p>
+            <a href={`/dough/${dough.slug}`} class="view-recipe">View full recipe &rarr;</a>
+
+            {shapes.length > 0 && (
+              <div class="dough-shapes">
+                <h3>Used For</h3>
+                <div class="shape-tags">
+                  {shapes.slice(0, 12).map((s: any) => (
+                    <a href={`/pasta/${s.slug}`} class="tag">{s.name}</a>
+                  ))}
+                  {shapes.length > 12 && (
+                    <span class="tag text-muted">+{shapes.length - 12} more</span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {dough.sample_recipes?.length > 0 && (
+              <div class="dough-sources mt-md">
+                <h3>From the Books</h3>
+                {dough.sample_recipes.slice(0, 2).map((recipe: any) => (
+                  <blockquote class="source-quote">
+                    <p>{recipe.text_preview.slice(0, 300)}...</p>
+                    <cite>— {recipe.author}, <em>{recipe.book}</em></cite>
+                  </blockquote>
+                ))}
+              </div>
+            )}
+          </section>
+        );
+      })}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .dough-page {
+    padding: var(--space-lg) 0 var(--space-xl);
+  }
+
+  .page-header {
+    margin-bottom: var(--space-lg);
+  }
+
+  .page-header h1 {
+    margin-bottom: var(--space-xs);
+  }
+
+  .back-link {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: var(--space-lg);
+    transition: color 0.2s;
+  }
+
+  .back-link:hover {
+    color: var(--color-ink);
+  }
+
+  .dough-entry h2 {
+    font-size: 1.8rem;
+    margin-bottom: var(--space-xs);
+  }
+
+  .dough-entry h2 a {
+    text-decoration: none;
+    color: var(--color-ink);
+  }
+
+  .dough-entry h2 a:hover {
+    color: var(--color-accent);
+  }
+
+  .view-recipe {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-accent);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: var(--space-sm);
+  }
+
+  .view-recipe:hover {
+    color: var(--color-ink);
+  }
+
+  .dough-description {
+    color: var(--color-ink-light);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: var(--space-md);
+  }
+
+  .dough-shapes {
+    margin-bottom: var(--space-sm);
+  }
+
+  .shape-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    margin-top: var(--space-xs);
+  }
+
+  .shape-tags .tag {
+    text-decoration: none;
+  }
+
+  .shape-tags a.tag:hover {
+    border-color: var(--color-accent);
+    color: var(--color-ink);
+  }
+
+  .source-quote {
+    border-left: 2px solid var(--color-rule);
+    padding-left: var(--space-md);
+    margin: var(--space-sm) 0;
+  }
+
+  .source-quote p {
+    font-size: 0.9rem;
+    color: var(--color-ink-light);
+    line-height: 1.7;
+  }
+
+  .source-quote cite {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--color-ink-muted);
+    font-style: normal;
+  }
+
+  .source-quote cite em {
+    font-style: italic;
+  }
+</style>
